@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: font-url('~/assets/fonts/roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: font-url('~/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: font-url('~/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: font-url('~/assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: font-url('~/assets/fonts/roboto/Roboto-Black.ttf') format('truetype');
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-light-blue: #f1f5f9;
+  --color-blue: #cbd5e1;
+  --color-dark-blue: #394454;
+  --color-midnight-blue: #222e3e;
+  --color-orange: #ed630f;
+  --color-black: #0a0a0a;
+
+  --transition-small: 0.1s;
+  --transition-medium: 0.3s;
+
+  --radius-current: 15px;
+
+  --shadow-current: 0px 0px 20px var(--color-blue);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-light-blue);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.max-width-white-section {
+  background: var(--color-white);
+}
+
+.max-width-white-section-content {
+  max-width: 1920px !important;
+  margin: 0 auto;
+  padding: 80px clamp(20px, 5vw, 100px);
+  overflow: hidden;
+}
+
+.max-width-white-section-content h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.max-width-blue-section {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 80px clamp(20px, 5vw, 130px);
+  overflow: hidden;
+}
+
+.max-width-blue-section .subtitle {
+  margin-bottom: 80px;
+}
+
+/* *** Typo *** */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-midnight-blue);
+}
+
+p,
+.subtitle,
+a,
+li {
+  color: var(--color-dark-blue);
+}
+
+h1 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: clamp(2.5rem, 3.5vw, 4rem);
+  line-height: clamp(2.5rem, 4vw, 4rem);
+}
+
+h2 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: clamp(2rem, 3vw, 4rem);
+  line-height: clamp(2rem, 3.5vw, 4rem);
+}
+
+h3 {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: clamp(1.5rem, 1.8vw, 2rem);
+}
+
+h4 {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: clamp(1.5rem, 1.8vw, 2rem);
+}
+
+p,
+li,
+.subtitle {
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.text-bolder {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.text-link {
+  font-family: 'Roboto-Regular', sans-serif;
+  transition: var(--transition-small);
+}
+
+.text-link:hover {
+  color: var(--color-orange);
+}
+
+.text-underline {
+  position: relative;
+}
+
+.text-underline::before {
+  content: '';
+  position: absolute;
+  border-radius: 999px;
+  height: 4px;
+  left: 5px;
+  bottom: 5px;
+  width: 100%;
+  background: var(--color-orange);
+  z-index: -1;
+}
+
+/* *** Components *** */
+
+.button-orange,
+.button-transparent {
+  padding: 10px 30px;
+  border-radius: 999px;
+  border: 3px solid var(--color-orange);
+  cursor: pointer;
+  transition: var(--transition-medium);
+  font-family: 'Roboto-Medium', sans-serif;
+  text-align: center;
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: var(--color-orange);
+}
+
+.button-transparent a {
+  color: var(--color-orange);
+  text-align: center;
+}
+
+.button-transparent:hover {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+.button-orange {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+.button-orange a {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.button-orange:hover {
+  background-color: transparent;
+  color: var(--color-orange);
+}
