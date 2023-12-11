@@ -1,5 +1,5 @@
 <template>
-  <div class="max-width-white-section max-width-clients-section">
+  <div class="max-width-white-section">
     <div class="max-width-white-section-content">
       <h2 class="text-orange">Ils nous font confiance</h2>
 
@@ -100,6 +100,12 @@ export default {};
 </script>
 
 <style scoped>
+
+.max-width-white-section-content {
+  max-width: none !important;
+  padding: 80px 0px;
+}
+
 .wrapperContainerTop {
   padding-top: 40px;
   display: flex;
@@ -115,7 +121,7 @@ export default {};
 }
 
 .wrapperContainerBottom {
-  padding-top: 150px;
+  padding-top: 80px;
   margin-bottom: 65px;
   display: flex;
   align-items: center;

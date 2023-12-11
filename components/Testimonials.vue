@@ -1,52 +1,25 @@
 <template>
-  <div class="max-width-blue-section relative" id="clients">
+  <div class="testimonials relative" id="clients">
     <h2 class="mb-20">Témoignages</h2>
 
-    <!-- Slider Container  -->
-    <div
-      class="slider-testimonials flex gap-10"
-      ref="sliderContainer"
-      :style="slider"
-    >
-      <!-- Card Testimonials Client -->
+    <div class="overflow-x-scroll no-scrollbar slider-padding flex gap-10" ref="sliderContainer" :style="slider">
       <div class="card-testimonial" v-for="(item, i) in items" ref="sliderCard">
-        <NuxtImg
-          loading="lazy"
-           
-          src="/images/logos/quoteLogo.svg"
-          class="quote"
-          alt="checkIcon"
-        />
-        <NuxtImg
-          loading="lazy"
-           
-          :src="item.logo"
-          class="logo-client test"
-          alt="logo des clients"
-        />
+        <NuxtImg loading="lazy" src="/images/logos/quoteLogo.svg" class="quote" alt="checkIcon" />
+        <NuxtImg loading="lazy" :src="item.logo" class="logo-client test" alt="logo des clients" />
         <div class="pl-2 border-l-2 border-blue">
           <p>{{ item.decription }}</p>
         </div>
         <p class="client-sign">
-          <span class="text-bolder">{{ item.client }}</span
-          ><br />{{ item.cabinet }}
+          <span class="text-bolder">{{ item.client }}</span><br />{{ item.cabinet }}
         </p>
       </div>
     </div>
 
     <div class="flex justify-center gap-20 mt-10">
-      <NuxtImg
-        @click="slideLeft()"
-        class="cursor-pointer"
-        src="/images/logos/arrowLeftIcon.svg"
-        alt="fleche de direction slider"
-      />
-      <NuxtImg
-        @click="slideRight()"
-        class="cursor-pointer"
-        src="/images/logos/arrowRightIcon.svg"
-        alt="fleche de direction slider"
-      />
+      <NuxtImg @click="scrollLeft()" class="cursor-pointer h-6" src="/images/logos/arrowLeftIcon.svg"
+        alt="fleche de direction slider" />
+      <NuxtImg @click="scrollRight()" class="cursor-pointer h-6" src="/images/logos/arrowRightIcon.svg"
+        alt="fleche de direction slider" />
     </div>
   </div>
 </template>
@@ -113,44 +86,57 @@ export default {
     };
   },
   methods: {
-    // Function to slide Right
-    slideRight: function () {
-      this.counter++;
-      if (this.counter >= this.$refs.sliderContainer.children.length) {
-        this.counter = 0;
-        this.cardWidth = 0;
-      } else {
-        this.cardWidth = this.$refs.sliderCard[0].offsetWidth;
-        this.cardWidth = (this.cardWidth + 40) * this.counter;
-      }
+    scrollRight() {
+      const container = this.$refs.sliderContainer;
+      this.paddingProjects = 40;
+      container.scrollLeft + container.clientWidth >= container.scrollWidth - 1
+        ? container.scrollTo({
+          behavior: "smooth",
+          left: 0,
+        })
+        : container.scrollTo({
+          behavior: "smooth",
+          left:
+            container.scrollLeft +
+            (this.$refs.sliderCard[0].clientWidth + this.paddingProjects) * 1,
+        });
     },
-    // Function to slide Left
-    slideLeft: function () {
-      this.counter--;
-      if (this.counter <= -1) {
-        this.counter = this.$refs.sliderContainer.children.length;
-        this.cardWidth = this.$refs.sliderCard[0].offsetWidth;
-        this.cardWidth =
-          (this.cardWidth + 40) * this.counter - (this.cardWidth + 40);
-      } else {
-        this.cardWidth = this.$refs.sliderCard[0].offsetWidth;
-        this.cardWidth = (this.cardWidth + 40) * this.counter;
-      }
-    },
-  },
-  computed: {
-    // Style to slide the card
-    slider() {
-      return {
-        transform: `translateX(-${this.cardWidth}px)`,
-        transition: 'transform .5s ease-in-out',
-      };
+    scrollLeft() {
+      const container = this.$refs.sliderContainer;
+      this.paddingProjects = 40;
+      container.scrollLeft <= 1
+        ? container.scrollTo({
+          behavior: "smooth",
+          left: container.scrollWidth - container.clientWidth,
+        })
+        : container.scrollTo({
+          behavior: "smooth",
+          left:
+            container.scrollLeft -
+            (this.$refs.sliderCard[0].clientWidth + this.paddingProjects) * 1,
+        });
     },
   },
 };
 </script>
 
 <style scoped>
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonials {
+  padding: 80px 0;
+}
+
+h2 {
+  padding: 0 clamp(20px, 5vw, 130px)
+}
+
+.slider-padding {
+  padding: 20px clamp(20px, 5vw, 130px)
+}
+
 .card-testimonial {
   flex-shrink: 0;
   width: 38vw;
@@ -161,31 +147,37 @@ export default {
   background-color: var(--color-white);
   box-shadow: var(--shadow-current);
 }
+
 @media screen and (max-width: 1200px) {
   .card-testimonial {
     width: 70%;
     padding: 30px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .card-testimonial {
     width: 90%;
     padding: 30px;
   }
 }
+
 .card-testimonial .logo-client {
   margin-left: 20px;
   margin-bottom: 40px;
   height: 50px;
   border-radius: var(--radius-current);
 }
+
 .card-testimonial .client-sign {
   margin-top: 50px;
   float: right;
 }
+
 .card-testimonial .quote {
   position: absolute;
-  top: -30px;
+  width: 60px;
+  top: -20px;
   right: 10%;
 }
 </style>
