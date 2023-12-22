@@ -31,6 +31,7 @@ export default {
     return {
       counter: 0,
       cardWidth: 0,
+      slider: {},
 
       items: [
         {
@@ -147,24 +148,28 @@ h2 {
   background-color: var(--color-white);
   box-shadow: var(--shadow-current);
 }
+
 @media screen and (max-width: 1200px) {
   .card-testimonial {
     width: 70%;
     padding: 30px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .card-testimonial {
     width: 90%;
     padding: 30px;
   }
 }
+
 .card-testimonial .logo-client {
   margin-left: 20px;
   margin-bottom: 40px;
   height: 50px;
   border-radius: var(--radius-current);
 }
+
 .card-testimonial .client-sign {
   margin-top: 50px;
   float: right;

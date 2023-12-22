@@ -9,25 +9,12 @@
       exigences des cabinets de petites et grandes tailles.
     </p>
 
-    <!-- Card Features Facturation -->
     <div class="md:px-8">
       <div class="card-features">
-        <div
-          ref="popIn1"
-          class="container-image-features"
-          @click="openPopIn('popIn1')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features1.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée facturation"
-          />
+        <div ref="popIn1" class="container-image-features" @click="openPopIn('popIn1')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features1.png" class="image-features"
+            alt="illustration de la fonctionnalitée facturation" />
         </div>
         <div class="card-features-description">
           <h3>
@@ -42,14 +29,11 @@
             mesurer efficacement la rentabilité de vos dossiers ou de vos
             forfaits …
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
     </div>
 
-    <!-- Card Features Phone -->
     <div class="md:px-8">
       <div class="card-features card-features-invert">
         <div class="card-features-description">
@@ -64,54 +48,28 @@
             principaux indicateurs financiers de votre cabinet.
           </p>
           <div class="flex flex-wrap">
-            <a
-              target="_blank"
-              href="https://apps.apple.com/fr/app/zlawyer/id1174916635?mt=8"
-              ><NuxtImg
-                loading="lazy"
-                class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-                src="/images/logos/badgeAppStore.svg"
-                alt="logo de téléchargement vers l'apple store"
-            /></a>
-            <a
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.zelesolution.zlawyer&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-              ><NuxtImg
-                loading="lazy"
-                class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-                src="/images/logos/badgePlayStore.svg"
-                alt="logo de téléchargement vers le play store"
-            /></a>
+            <a target="_blank" href="https://apps.apple.com/fr/app/zlawyer/id1174916635?mt=8">
+              <NuxtImg loading="lazy" class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+                src="/images/logos/badgeAppStore.svg" alt="logo de téléchargement vers l'apple store" />
+            </a>
+            <a target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.zelesolution.zlawyer&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+              <NuxtImg loading="lazy" class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+                src="/images/logos/badgePlayStore.svg" alt="logo de téléchargement vers le play store" />
+            </a>
           </div>
         </div>
-        <NuxtImg
-          loading="lazy"
-          src="/images/features/features2.png"
-          class="image-mobile"
-          alt="illustration de l'application mobile"
-        />
+        <NuxtImg loading="lazy" src="/images/features/features2.png" class="image-mobile"
+          alt="illustration de l'application mobile" />
       </div>
     </div>
 
-    <!-- Card Features Gestion -->
     <div class="md:px-8">
       <div class="card-features">
-        <div
-          ref="popIn3"
-          class="container-image-features"
-          @click="openPopIn('popIn3')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features3.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée gestion"
-          />
+        <div ref="popIn3" class="container-image-features" @click="openPopIn('popIn3')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features3.png" class="image-features"
+            alt="illustration de la fonctionnalitée gestion" />
         </div>
         <div class="card-features-description">
           <h3>
@@ -126,14 +84,11 @@
             se greffer à votre organisation actuelle sans aucun changement.
             (Disponible seulement sous Windows)
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
     </div>
 
-    <!-- Card Features Dossiers -->
     <div class="md:px-8">
       <div class="card-features card-features-invert">
         <div class="card-features-description">
@@ -149,49 +104,22 @@
             etc…), les coordonnées complètes, l’état financier du dossier, les
             factures à relancer.
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <div
-          ref="popIn4"
-          class="container-image-features"
-          @click="openPopIn('popIn4')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features4.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée dossiers"
-          />
+        <div ref="popIn4" class="container-image-features" @click="openPopIn('popIn4')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features4.png" class="image-features"
+            alt="illustration de la fonctionnalitée dossiers" />
         </div>
       </div>
     </div>
 
-    <!-- Card Features Essentiel -->
     <div class="md:px-8">
       <div class="card-features">
-        <div
-          ref="popIn5"
-          class="container-image-features"
-          @click="openPopIn('popIn5')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features5.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée essentiel de l'application"
-          />
+        <div ref="popIn5" class="container-image-features" @click="openPopIn('popIn5')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features5.png" class="image-features"
+            alt="illustration de la fonctionnalitée essentiel de l'application" />
         </div>
         <div class="card-features-description">
           <h3>
@@ -205,14 +133,11 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
     </div>
 
-    <!-- Card Features Capture -->
     <div class="md:px-8">
       <div class="card-features card-features-invert">
         <div class="card-features-description">
@@ -225,49 +150,22 @@
             la solution de gestion de temps zLawyer : consignez bien, facturer
             mieux et gérer votre budget en un seul clic.
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <div
-          ref="popIn6"
-          class="container-image-features"
-          @click="openPopIn('popIn6')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features6.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée timer"
-          />
+        <div ref="popIn6" class="container-image-features" @click="openPopIn('popIn6')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features6.png" class="image-features"
+            alt="illustration de la fonctionnalitée timer" />
         </div>
       </div>
     </div>
 
-    <!-- Card Features Clients -->
     <div class="md:px-8">
       <div class="card-features">
-        <div
-          ref="popIn7"
-          class="container-image-features"
-          @click="openPopIn('popIn7')"
-        >
-          <NuxtImg
-            loading="lazy"
-            src="/images/logos/cross.png"
-            class="close-pop-in"
-          />
-          <NuxtImg
-            loading="lazy"
-            src="/images/features/features7.png"
-            class="image-features"
-            alt="illustration de la fonctionnalitée accès client"
-          />
+        <div ref="popIn7" class="container-image-features" @click="openPopIn('popIn7')">
+          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
+          <NuxtImg loading="lazy" src="/images/features/features7.png" class="image-features"
+            alt="illustration de la fonctionnalitée accès client" />
         </div>
         <div class="card-features-description">
           <h3>
@@ -283,9 +181,7 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent" to="/contact"
-            >Je souhaite une démonstration</NuxtLink
-          >
+          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
     </div>
@@ -320,6 +216,7 @@ export default {
   background: rgba(0, 0, 0, 0.359);
   z-index: 99;
 }
+
 .card-features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -327,32 +224,39 @@ export default {
   align-items: center;
   margin-bottom: 50px;
 }
+
 @media screen and (max-width: 1200px) {
   .card-features {
     grid-template-columns: 1fr;
   }
+
   .card-features.card-features-invert .container-image-features,
   .image-mobile {
     grid-row-start: 1;
   }
 }
+
 .image-features {
   border-radius: var(--radius-current);
   box-shadow: var(--shadow-current);
 }
+
 .card-features .container-image-features {
   z-index: 99;
   cursor: pointer;
 }
+
 .image-mobile {
   z-index: 99;
   /* cursor: pointer; */
 }
+
 .image-mobile:hover,
 .container-image-features:hover {
   transition: 0.3s;
   transform: scale(1.02);
 }
+
 .container-image-features.active {
   transform: scale(1);
   transition: 0s;
@@ -367,16 +271,19 @@ export default {
   align-items: center;
   z-index: 100;
 }
+
 .container-image-features.active .image-features {
   box-shadow: none;
   height: 70vh;
 }
+
 @media screen and (max-width: 1200px) {
   .container-image-features.active .image-features {
     height: auto;
     width: 90%;
   }
 }
+
 .close-pop-in {
   width: 40px;
   height: 40px;
@@ -386,6 +293,7 @@ export default {
   z-index: 9999;
   display: none;
 }
+
 .container-image-features.active .close-pop-in {
   display: block;
 }
@@ -393,6 +301,7 @@ export default {
 .card-features .card-features-description {
   padding: 24px;
 }
+
 .card-features .card-features-description p {
   margin: 40px 0;
 }

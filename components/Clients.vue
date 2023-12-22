@@ -100,7 +100,6 @@ export default {};
 </script>
 
 <style scoped>
-
 .max-width-white-section-content {
   max-width: none !important;
   padding: 80px 0px;

@@ -127,4 +127,5 @@
 
 .cgu-list-circle {
   list-style-type: circle;
-}</style>
+}
+</style>

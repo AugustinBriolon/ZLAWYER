@@ -1,7 +1,9 @@
 <template>
   <div>
     <Hero />
-    <!-- <Reviews /> -->
+    <div class="max-width-blue-section">
+      <div class="elfsight-app-40a72e46-54ca-4289-8839-eef281cb505c"></div>
+    </div>
     <Advantages />
     <Adaptive />
     <Features />
@@ -25,9 +27,9 @@ export default {
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: item,
-          start: "top 50%",
+          start: "top bottom",
           toggleActions: "play none none reverse",
-          end: "bottom top",
+          end: "bottom bottom",
         }
       });
       tl.from(item, {

@@ -68,12 +68,6 @@
 </template>
 
 <script>
-// import Vue from 'vue';
-// import VueAnalytics from 'vue-analytics';
-
-// Vue.use(VueAnalytics, {
-//   id: 'UA-7664894-1',
-// });
 
 export default {
   data() {
