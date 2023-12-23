@@ -8,7 +8,7 @@
       <div class="lg:w-5/6 grid grid-rows-2 md:grid-cols-2 gap-4 items-center">
         <div class="anim-infos h-full sm:w-5/6">
           <div class="flex items-start justify-start max-h-14">
-            <NuxtImg class="pt-2 h-8" loading="lazy" src="/images/logos/infoIcon.svg" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="pt-2 h-8" loading="lazy" alt="iconInfo" />
             <h3 class="ml-4">Y a t-il un engagement ?</h3>
           </div>
 
@@ -22,7 +22,7 @@
 
         <div class="anim-infos h-full sm:w-5/6">
           <div class="flex items-start justify-start max-h-14">
-            <NuxtImg class="pt-2 h-8" loading="lazy" src="/images/logos/infoIcon.svg" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="pt-2 h-8" loading="lazy" alt="iconInfo" />
             <h3 class="ml-4">Comment j’importe mes données ?</h3>
           </div>
 
@@ -36,7 +36,7 @@
 
         <div class="anim-infos h-full sm:w-5/6">
           <div class="flex items-start justify-start max-h-14">
-            <NuxtImg class="pt-2 h-8" loading="lazy" src="/images/logos/infoIcon.svg" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="pt-2 h-8" loading="lazy" alt="iconInfo" />
             <h3 class="ml-4">Puis-je adapter mon abonnement ?</h3>
           </div>
 
@@ -50,7 +50,7 @@
 
         <div class="anim-infos h-full sm:w-5/6">
           <div class="flex items-start justify-start max-h-14">
-            <NuxtImg class="pt-2 h-8" loading="lazy" src="/images/logos/infoIcon.svg" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="pt-2 h-8" loading="lazy" alt="iconInfo" />
             <h3 class="ml-4">Y a t-il des frais cachés ?</h3>
           </div>
 

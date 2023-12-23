@@ -12,8 +12,8 @@
     <div class="md:px-8">
       <div class="card-features">
         <div ref="popIn1" class="container-image-features" @click="openPopIn('popIn1')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features1.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features1.png'" class="image-features"
             alt="illustration de la fonctionnalitée facturation" />
         </div>
         <div class="card-features-description">
@@ -49,26 +49,27 @@
           </p>
           <div class="flex flex-wrap">
             <a target="_blank" href="https://apps.apple.com/fr/app/zlawyer/id1174916635?mt=8">
-              <NuxtImg loading="lazy" class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-                src="/images/logos/badgeAppStore.svg" alt="logo de téléchargement vers l'apple store" />
+              <img :src="'images/logos/badgeAppStore.svg'"
+                class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+                alt="logo de téléchargement vers l'apple store" />
             </a>
             <a target="_blank"
               href="https://play.google.com/store/apps/details?id=com.zelesolution.zlawyer&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-              <NuxtImg loading="lazy" class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-                src="/images/logos/badgePlayStore.svg" alt="logo de téléchargement vers le play store" />
+              <img :src="'images/logos/badgePlayStore.svg'"
+                class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+                alt="logo de téléchargement vers le play store" />
             </a>
           </div>
         </div>
-        <NuxtImg loading="lazy" src="/images/features/features2.png" class="image-mobile"
-          alt="illustration de l'application mobile" />
+        <img :src="'images/features/features2.png'" class="image-mobile" alt="illustration de l'application mobile" />
       </div>
     </div>
 
     <div class="md:px-8">
       <div class="card-features">
         <div ref="popIn3" class="container-image-features" @click="openPopIn('popIn3')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features3.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features3.png'" class="image-features"
             alt="illustration de la fonctionnalitée gestion" />
         </div>
         <div class="card-features-description">
@@ -107,8 +108,8 @@
           <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
         <div ref="popIn4" class="container-image-features" @click="openPopIn('popIn4')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features4.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features4.png'" class="image-features"
             alt="illustration de la fonctionnalitée dossiers" />
         </div>
       </div>
@@ -117,8 +118,8 @@
     <div class="md:px-8">
       <div class="card-features">
         <div ref="popIn5" class="container-image-features" @click="openPopIn('popIn5')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features5.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features5.png'" class="image-features"
             alt="illustration de la fonctionnalitée essentiel de l'application" />
         </div>
         <div class="card-features-description">
@@ -153,8 +154,8 @@
           <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
         <div ref="popIn6" class="container-image-features" @click="openPopIn('popIn6')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features6.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features6.png'" class="image-features"
             alt="illustration de la fonctionnalitée timer" />
         </div>
       </div>
@@ -163,8 +164,8 @@
     <div class="md:px-8">
       <div class="card-features">
         <div ref="popIn7" class="container-image-features" @click="openPopIn('popIn7')">
-          <NuxtImg loading="lazy" src="/images/logos/cross.png" class="close-pop-in" />
-          <NuxtImg loading="lazy" src="/images/features/features7.png" class="image-features"
+          <img :src="'images/logos/cross.png'" class="close-pop-in" />
+          <img :src="'images/features/features7.png'" class="image-features"
             alt="illustration de la fonctionnalitée accès client" />
         </div>
         <div class="card-features-description">
@@ -241,19 +242,14 @@ export default {
   box-shadow: var(--shadow-current);
 }
 
-.card-features .container-image-features {
+.container-image-features, .image-mobile {
+  transition: 0.3s;
   z-index: 99;
   cursor: pointer;
 }
 
-.image-mobile {
-  z-index: 99;
-  /* cursor: pointer; */
-}
-
 .image-mobile:hover,
 .container-image-features:hover {
-  transition: 0.3s;
   transform: scale(1.02);
 }
 

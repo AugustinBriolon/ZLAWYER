@@ -2,7 +2,7 @@
   <div class="header-container fixed border-b border-b-white z-[999] w-screen">
     <div class="header max-w—[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
       <NuxtLink to="/">
-        <NuxtImg src="/images/logos/zeleLogo.png" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
+        <img :src="'images/logos/zeleLogo.png'" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
       </NuxtLink>
 
       <ul class="items-center hidden lg:flex header-nav">

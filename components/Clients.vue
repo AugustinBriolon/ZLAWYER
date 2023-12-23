@@ -5,90 +5,64 @@
 
       <div class="wrapperContainerTop">
         <div class="imagesContainer w-full flex items-center justify-between">
-          <NuxtImg loading="lazy" src="/images/clients/azarmiLogo.webp" alt="Logo Arasmis" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/baroLogo.webp" alt="Logo Baro" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bettoLogo.webp" alt="Logo Betto" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/valtherLogo.webp" alt="Logo Valther" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vinciLogo.webp" alt="Logo Vinci" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vatierLogo.webp" alt="Logo Vatier" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bonifassiLogo.webp" alt="Logo Bonifassi"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/laMartineLogo.webp" alt="Logo Lamartine"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/flichyLogo.webp" alt="Logo Flichy" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/lombardLogo.webp" alt="Logo Lombard" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/navacelleLogo.webp" alt="Logo Navacelle"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/ollynsLogo.webp" alt="Logo Ollyns" class="imageBottom h-24" />
+          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
         </div>
 
         <div class="imagesContainer w-full flex items-center justify-between">
-          <NuxtImg loading="lazy" src="/images/clients/ollynsLogo.webp" alt="Logo Ollyns" class="imageBottom h-24" />
-          <NuxtImg loading="lazy" src="/images/clients/navacelleLogo.webp" alt="Logo Navacelle"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/lombardLogo.webp" alt="Logo Lombard" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/flichyLogo.webp" alt="Logo Flichy" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bonifassiLogo.webp" alt="Logo Bonifassi"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vatierLogo.webp" alt="Logo Vatier" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vinciLogo.webp" alt="Logo Vinci" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/valtherLogo.webp" alt="Logo Valther" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/laMartineLogo.webp" alt="Logo Lamartine"
-            class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bettoLogo.webp" alt="Logo Betto" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/baroLogo.webp" alt="Logo Baro" class="image h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/azarmiLogo.webp" alt="Logo Arasmis" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
+          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="image h-20 sm:h-28" />
+          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="image h-20 sm:h-28" />
         </div>
       </div>
 
       <div class="wrapperContainerBottom">
         <div class="imagesContainerBottom w-full flex items-center justify-between">
-          <NuxtImg loading="lazy" src="/images/clients/lombardLogo.webp" alt="Logo Lombard"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/navacelleLogo.webp" alt="Logo Navacelle"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/ollynsLogo.webp" alt="Logo Ollyns" class="imageBottom h-24" />
-          <NuxtImg loading="lazy" src="/images/clients/azarmiLogo.webp" alt="Logo Arasmis"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/baroLogo.webp" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bettoLogo.webp" alt="Logo Betto"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/valtherLogo.webp" alt="Logo Valther"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vinciLogo.webp" alt="Logo Vinci"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vatierLogo.webp" alt="Logo Vatier"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bonifassiLogo.webp" alt="Logo Bonifassi"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/laMartineLogo.webp" alt="Logo Lamartine"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/flichyLogo.webp" alt="Logo Flichy"
-            class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
+          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="imageBottom h-20 sm:h-28" />
         </div>
 
         <div class="imagesContainerBottom w-full flex items-center justify-between">
-          <NuxtImg loading="lazy" src="/images/clients/lombardLogo.webp" alt="Logo Lombard"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/navacelleLogo.webp" alt="Logo Navacelle"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/flichyLogo.webp" alt="Logo Flichy"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/laMartineLogo.webp" alt="Logo Lamartine"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bettoLogo.webp" alt="Logo Betto"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/valtherLogo.webp" alt="Logo Valther"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vinciLogo.webp" alt="Logo Vinci"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/vatierLogo.webp" alt="Logo Vatier"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/bonifassiLogo.webp" alt="Logo Bonifassi"
-            class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/baroLogo.webp" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
-          <NuxtImg loading="lazy" src="/images/clients/azarmiLogo.webp" alt="Logo Arasmis"
-            class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
+          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="imageBottom h-20 sm:h-28" />
         </div>
       </div>
     </div>

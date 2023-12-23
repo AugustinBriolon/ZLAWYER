@@ -38,8 +38,7 @@
       </div>
 
       <div class="anim-advantages card-advantages">
-        <NuxtImg loading="lazy" src="/images/pandas/pandaTop.png" class="panda-top hidden md:block absolute w-36"
-          alt="panda" />
+        <img :src="'images/pandas/pandaTop.png'" class="panda-top hidden md:block absolute w-36" alt="panda" />
         <div class="card-advantages-head">
           <h3>Service</h3>
           <svg class="logo-advantages" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
@@ -93,8 +92,7 @@
       </div>
 
       <div class="anim-advantages card-advantages">
-        <NuxtImg loading="lazy" src="/images/pandas/pandaSide.png" class="panda-side hidden md:block absolute h-40"
-          alt="panda" />
+        <img :src="'images/pandas/pandaSide.png'" class="panda-side hidden md:block absolute h-40" alt="panda" />
         <div class="card-advantages-head">
           <h3>Évolutif</h3>
           <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"

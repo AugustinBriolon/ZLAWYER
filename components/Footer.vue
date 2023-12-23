@@ -26,13 +26,15 @@
         <h3 class="mb-8">zLawyer App</h3>
         <div class="flex flex-wrap">
           <a target="_blank" href="https://apps.apple.com/fr/app/zlawyer/id1174916635?mt=8">
-            <NuxtImg class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-              src="/images/logos/badgeAppStore.svg" alt="logo de téléchargement vers l'apple store" />
+            <img :src="'images/logos/badgeAppStore.svg'"
+              class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+              alt="logo de téléchargement vers l'apple store" />
           </a>
           <a target="_blank"
             href="https://play.google.com/store/apps/details?id=com.zelesolution.zlawyer&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-            <NuxtImg class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
-              src="/images/logos/badgePlayStore.svg" alt="logo de téléchargement vers le play store" />
+            <img :src="'images/logos/badgePlayStore.svg'"
+              class="hover:opacity-30 duration-150 cursor-pointer w-40 mr-3 mb-3"
+              alt="logo de téléchargement vers le play store" />
           </a>
         </div>
       </div>
@@ -59,7 +61,7 @@
       </div>
 
       <div class="p-8 flex items-center">
-        <NuxtImg src="/images/pandas/panda.png" class="w-28" alt="panda" />
+        <img :src="'images/pandas/panda.png'" class="w-28" alt="panda" />
       </div>
 
       <div class="absolute w-full bottom-5">

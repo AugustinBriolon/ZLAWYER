@@ -14,22 +14,22 @@
 
           <div class="sm:ml-8">
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Facturation</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 sm:w-full w-40 text-clip">Gestion documentaire</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Accès à vos dossiers</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Sans engagements</p>
             </div>
           </div>
@@ -51,26 +51,26 @@
 
           <div class="sm:ml-8">
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Facturation</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 sm:w-full w-40 text-clip">Gestion documentaire</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Accès à vos dossiers</p>
             </div>
 
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Sans engagements</p>
             </div>
             <div class="flex items-center w-full">
-              <NuxtImg loading="lazy" src="/images/logos/checkIcon.svg" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
               <p class="ml-4 w-full text-clip">Intelligence artificielle</p>
             </div>
           </div>

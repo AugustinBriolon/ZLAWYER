@@ -1,13 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  // target: 'static',
-  // ssr: false,
-  // router: {
-  //   base: '/logiciel-avocats/',
-  // },
-  // Global page headers: https://go.nuxtjs.dev/config-head
   app: {
+    // baseURL: '/logiciel-avocats/',
+    baseURL: '/.output/public/',
     head: {
       title: 'Logiciel Avocat accessible et complet | zLawyer',
       htmlAttrs: {
@@ -83,7 +79,6 @@ export default defineNuxtConfig({
     },
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/css/main.css'],
   vite: {
     resolve: {
@@ -101,52 +96,13 @@ export default defineNuxtConfig({
     },
   },
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  // buildModules: [
-  //   // https://go.nuxtjs.dev/tailwindcss
-  //   // '@nuxt/image',
-  //   '@nuxt/image',
-  //   '@nuxtjs/tailwindcss',
-  //   '@nuxtjs/vuetify',
-  //   'nuxt-gsap-module',
-  // ],
-
-  // gsap: {
-  //   extraPlugins: {
-  //     scrollTrigger: true,
-  //   },
-  // },
 
   runtimeConfig: {
     public: {
       gtagId: 'UA-7664894-1',
     },
   },
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/image'],
-
-  // runtimeConfig: {
-  //   recaptcha: {
-  //     hideBadge: false,
-  //     language: 'FR',
-  //     siteKey: '6LeLYOUgAAAAAMLyGgi4_Owoy-HHuvQAgjoElWHN',
-  //     version: 2,
-  //     size: 'normal',
-  //   },
-  // },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  // build: {
-  //   publicPath: 'https://www.zlawyer.fr/logiciel-avocats/',
-  //   extend(config, ctx) {
-  //     config.performance.maxAssetSize = 700 * 1024;
-  //   },
-  // },
 });

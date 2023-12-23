@@ -14,18 +14,12 @@
       </p>
 
       <div class="mt-4 flex flex-wrap items-center justify-center">
-        <NuxtImg loading="lazy" src="/images/adaptative/googleDriveLogo.png" alt="GoogleDrive Logo"
-          class="anim-adaptative mx-2 h-20" />
-        <NuxtImg loading="lazy" src="/images/adaptative/OneDriveLogo.png" alt="oneDrive Logo"
-          class="anim-adaptative mx-2 h-20" />
-        <NuxtImg loading="lazy" src="/images/adaptative/synologyLogo.svg" alt="synology Logo"
-          class="anim-adaptative mx-2 h-20" />
-        <NuxtImg loading="lazy" src="/images/adaptative/dropboxLogo.png" alt="dropbox Logo"
-          class="anim-adaptative mx-2 h-20" />
-        <NuxtImg loading="lazy" src="/images/adaptative/tresoritLogo.png" alt="tresorit Logo"
-          class="anim-adaptative mx-2 h-20" />
-        <NuxtImg loading="lazy" src="/images/adaptative/pcloudLogo.svg" alt="pcloud Logo"
-          class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/googleDriveLogo.png'" alt="GoogleDrive Logo" class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/OneDriveLogo.png'" alt="oneDrive Logo" class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/synologyLogo.svg'" alt="synology Logo" class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/dropboxLogo.png'" alt="dropbox Logo" class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/tresoritLogo.png'" alt="tresorit Logo" class="anim-adaptative mx-2 h-20" />
+        <img :src="'images/adaptative/pcloudLogo.svg'" alt="pcloud Logo" class="anim-adaptative mx-2 h-20" />
       </div>
     </div>
   </div>
