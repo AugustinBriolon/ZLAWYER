@@ -1,6 +1,6 @@
 <template>
   <div class="max-width-blue-section" id="fonctionnalites">
-    <h2>Fonctionnalités</h2>
+    <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
     <p class="subtitle md:w-2/3 xl:w-1/2">
       zLawyer a été conçu en étroite
       <span class="text-bolder">collaboration avec des avocats</span>,
@@ -242,7 +242,8 @@ export default {
   box-shadow: var(--shadow-current);
 }
 
-.container-image-features, .image-mobile {
+.container-image-features,
+.image-mobile {
   transition: 0.3s;
   z-index: 99;
   cursor: pointer;

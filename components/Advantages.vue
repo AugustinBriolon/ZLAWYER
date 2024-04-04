@@ -1,10 +1,10 @@
 <template>
   <div class="max-width-blue-section" id="solutions">
-    <h2>Avantages</h2>
-    <p class="subtitle md:w-2/3 xl:w-1/2">
-      La puissance de zLawyer réside dans son parfait équilibre entre
-      <span class="text-bolder">simplicité d’utilisation, richesse fonctionnelle et la qualité
-        approuvée du service support.</span>
+    <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
+    <p class="subtitle md:w-2/3 ">
+      Pourquoi démarrer avec zLawyer : <span class="text-orange"> Expérimentez le logiciel de facturation le plus
+        intuitif et
+        performant du marché !</span>
     </p>
 
     <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-6 md:px-8">
@@ -20,10 +20,12 @@
           </svg>
         </div>
         <p>
-          Année après année, nos partenaires avocats ont fait évoluer la
-          solution avocat zLawyer pour le rendre tout simplement
-          <span class="text-bolder">complet</span> afin de répondre à l’ensemble
-          de vos besoins : la
+          <span class="text-bolder">La solution de facturation tout-en-un :</span> Parceque zLawyer a été pensé et
+          développé en
+          étroite collaboration avec des
+          avocats,
+          il
+          regroupe toute les fonctionnalités essentielles dont vous avez besoin : la
           <span class="text-bolder">gestion de vos dossiers</span>, de
           <span class="text-bolder">vos temps</span>, la
           <span class="text-bolder">facturation des honoraires</span>, les
@@ -40,7 +42,7 @@
       <div class="anim-advantages card-advantages">
         <img :src="'images/pandas/pandaTop.png'" class="panda-top hidden md:block absolute w-36" alt="panda" />
         <div class="card-advantages-head">
-          <h3>Service</h3>
+          <h3>Service Premium</h3>
           <svg class="logo-advantages" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
             <g id="Groupe_2" data-name="Groupe 2" transform="translate(-0.379)">
               <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" transform="translate(0.379)"
@@ -52,14 +54,14 @@
           </svg>
         </div>
         <p>
-          De la formation à l’outil en passant par la hotline, un seul mot
-          d’ordre: chaque utilisateur a chez nous le statut
-          <span class="text-bolder">Premium</span>. VOTRE besoin est notre ADN.
-          Voilà pourquoi <span class="text-bolder">disponibilité</span>,
-          <span class="text-bolder">rapidité</span>,
-          <span class="text-bolder">amabilité</span> et
-          <span class="text-bolder">efficacité</span> sont devenues les
-          maîtres-mots de notre solution .
+          <span class="text-bolder">zLawyer vous accompagne étape par étape.</span>
+          zLawyer c’est aussi une culture axée sur <span class="text-bolder">le service et l’écoute</span>. Nous avons
+          construit notre réputation sur
+          notre <span class="text-bolder">réactivité</span> et notre efficacité à vous répondre.
+          <br>
+          zLawyer c’est une équipe de support <span class="text-bolder">disponible</span>, proche de vous, qui vous
+          accompagne au <span class="text-bolder">quotidien</span> et ce sans
+          surcoût.
         </p>
       </div>
 
@@ -75,26 +77,25 @@
           </svg>
         </div>
         <p>
-          Sous la tutelle des utilisateurs eux-mêmes et afin de leur faire
-          <span class="text-bolder">gagner du temps</span>, TOUT a été pensé
-          dans cette solution pour avocat zLawyer pour être
-          <span class="text-bolder">ultra simple d’utilisation</span> et
-          <span class="text-bolder">intuitif</span>. De la saisie des temps en
-          passant par la gestion des dossiers et évidemment l’émission de
-          factures de la plus simple à la plus complexe, on comprend que ce sont
-          les avocats eux-mêmes qui ont pensé l’outil pour leurs cabinets.
-          <br />
-          L’outil est <span class="text-bolder">personnalisable</span> afin de
-          répondre à votre propre besoin et aller droit au but
-          <span class="text-bolder">rapidement</span> et
-          <span class="text-bolder">facilement</span>.
+          <span class="text-bolder">D'utilisation</span> : une prise en main ultra-rapide de notre logicile de
+          facturation. De la saisie des temps en
+          passant par la gestion des dossiers et évidemment l’émission de factures de la plus simple à la plus complexe,
+          Tout a été pensé dans cette solution de facturation pour avocats pour être simple d’utilisation et intuitif.
+          <br>
+          <span class="text-bolder">De paramétrage :</span> L’outil est personnalisable afin de répondre à votre propre
+          besoin et aller droit au but rapidement et facilement.
+          <br>
+          <span class="text-bolder">De souscription : </span> Pas d’engagement et Pas de frais caché.
+          <br>
+          <span class="text-bolder">De mise en place : </span> Le logiciel sur votre poste dès souscription avec
+          l’import de vos données offert.
         </p>
       </div>
 
       <div class="anim-advantages card-advantages">
         <img :src="'images/pandas/pandaSide.png'" class="panda-side hidden md:block absolute h-40" alt="panda" />
         <div class="card-advantages-head">
-          <h3>Évolutif</h3>
+          <h3>Évolutif - Innovant</h3>
           <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
             height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
@@ -104,15 +105,14 @@
           </svg>
         </div>
         <p>
-          zLawyer est la simple
-          <span class="text-bolder">traduction des besoins exprimés par les avocats</span>
-          eux-mêmes. Conçu dès 2006 avec un pool d’avocats testeurs, zLawyer n’a
-          été commercialisé qu’après 2 ans et ½ de
-          <span class="text-bolder">Recherche et Développement</span> visant à
-          vous fournir un
-          <span class="text-bolder">software naturellement utile et en constante évolution</span>. Vous bénéficiez de
-          nouvelles fonctionnalités régulièrement et sans
-          impactes budgétaires sur votre abonnement.
+          <span class="text-bolder">Une solution de facturation innovante : </span> Notre approche innovante garantit
+          une solution
+          constamment évolutive, performante et intuitive. Grâce à notre expertise dans l'évaluation de vos besoins et
+          notre agilité en R&D, nous anticipons efficacement vos attentes spécifiques.
+          <br>
+          Ainsi vous bénéficiez régulièrement de nouvelles fonctionnalités sans incidence sur votre abonnement, tout en
+          maintenant notre engagement envers la
+          simplicité et l'ergonomie.
         </p>
       </div>
     </div>
