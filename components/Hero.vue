@@ -2,7 +2,8 @@
   <div class="hero max-width-blue-section grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
     <div class="flex flex-col items-center lg:block row-start-2 lg:row-start-1 md:px-8">
       <h1 class="anim-hero text-center lg:text-left mb-14">
-        La solution de gestion de cabinets d’avocats <br /><span class="text-orange">simple, <br />ergonomique, <br />sans
+        Le logiciel de facturation pour cabinet d'avocat <br /><span class="text-orange">simple, <br />ergonomique,
+          <br />sans
           engagement !</span>
       </h1>
       <NuxtLink to="/contact" class="anim-hero button-orange w-max">Je souhaite une démonstration</NuxtLink>

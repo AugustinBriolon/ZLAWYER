@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     // baseURL: '/logiciel-avocats/',
     // baseURL: '/.output/public/',
     head: {
-      title: 'Logiciel Avocat accessible et complet | zLawyer',
+      title: ' Logiciel facturation avocat : Solution de gestion cabinets d’avocats',
       htmlAttrs: {
         lang: 'fr',
       },
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         {
           hid: 'title',
           name: 'title',
-          content: 'Logiciel Avocat accessible et complet | zLawyer',
+          content: ' Logiciel facturation avocat : Solution de gestion cabinets d’avocats',
         },
         {
           hid: 'description',
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
-          content: 'Logiciel Avocat accessible et complet | zLawyer',
+          content: ' Logiciel facturation avocat : Solution de gestion cabinets d’avocats',
         },
         {
           name: 'twitter:description',
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
         {
           hid: 'og-title',
           property: 'og:title',
-          content: 'Logiciel Avocat accessible et complet | zLawyer',
+          content: ' Logiciel facturation avocat : Solution de gestion cabinets d’avocats',
         },
         {
           hid: 'og-desc',
