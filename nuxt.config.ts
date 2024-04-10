@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     // baseURL: '/logiciel-avocats/',
-    baseURL: '/.output/public/',
+    // baseURL: '/.output/public/',
     head: {
       title: 'Logiciel Avocat accessible et complet | zLawyer',
       htmlAttrs: {
