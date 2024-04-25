@@ -3,7 +3,7 @@
     <h2 class="mb-20">Témoignages</h2>
 
     <div class="overflow-x-scroll no-scrollbar slider-padding flex gap-10" ref="sliderContainer" :style="slider">
-      <div class="card-testimonial" v-for="(item, i) in items" ref="sliderCard">
+      <div class="card-testimonial" v-for="(item, i) in items" :key="i" ref="sliderCard">
         <img :src="'images/logos/quoteLogo.svg'" class="quote" alt="checkIcon" />
         <img :src="item.logo" class="logo-client test" alt="logo des clients" />
         <div class="pl-2 border-l-2 border-blue">

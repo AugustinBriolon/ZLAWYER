@@ -103,24 +103,24 @@ li {
 
 h1 {
   font-family: 'Roboto-Bold', sans-serif;
-  font-size: clamp(2.5rem, 3.5vw, 4rem);
+  font-size: clamp(2rem, 3vw, 3.5rem);
   line-height: clamp(2.5rem, 4vw, 4rem);
 }
 
 h2 {
   font-family: 'Roboto-Bold', sans-serif;
-  font-size: clamp(2rem, 3vw, 4rem);
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
   line-height: clamp(2rem, 3.5vw, 4rem);
 }
 
 h3 {
   font-family: 'Roboto-Medium', sans-serif;
-  font-size: clamp(1.5rem, 1.8vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2.5rem);
 }
 
 h4 {
   font-family: 'Roboto-Medium', sans-serif;
-  font-size: clamp(1.5rem, 1.8vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 p,
@@ -128,7 +128,7 @@ li,
 .subtitle {
   font-family: 'Roboto-Light', sans-serif;
   font-weight: 200;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .text-bolder {

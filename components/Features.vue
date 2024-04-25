@@ -1,7 +1,7 @@
 <template>
   <div class="max-width-blue-section" id="fonctionnalites">
     <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
-    <p class="subtitle md:w-2/3 xl:w-1/2">
+    <p class="subtitle w-full">
       zLawyer a été conçu en étroite
       <span class="text-bolder">collaboration avec des avocats</span>,
       garantissant des <span class="text-bolder">fonctionnalités</span> et une
@@ -33,6 +33,9 @@
         </div>
       </div>
     </div>
+
+    <!-- https://qa.client.zlawyer.fr/dossiers/89/synthese-financiere -->
+    <!-- https://qa.client.zlawyer.fr/suivi-financier/gestion-facture/2023.0445 -->
 
     <div class="md:px-8">
       <div class="card-features card-features-invert">

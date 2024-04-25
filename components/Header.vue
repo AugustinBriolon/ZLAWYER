@@ -1,61 +1,55 @@
 <template>
-  <div class="header-container fixed border-b border-b-white z-[999] w-screen">
+  <div class="backdrop-blur-lg fixed border-b border-b-white z-[999] w-screen">
     <div class="header max-w—[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
       <NuxtLink to="/">
         <img :src="'images/logos/zeleLogo.png'" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
       </NuxtLink>
 
-      <ul class="items-center hidden lg:flex header-nav">
-        <li class="ml-10">
+      <ul class="items-center hidden lg:flex gap-8 header-nav">
+        <li>
           <a class="text-link" href="/#solutions">Avantages</a>
         </li>
-        <li class="ml-10">
+        <li>
           <a class="text-link" href="/#fonctionnalites">Fonctionnalités</a>
         </li>
-        <li class="ml-10">
+        <li>
           <a class="text-link" href="/#clients">Témoignages</a>
         </li>
-        <li class="ml-10">
+        <li>
           <a class="text-link" href="/#tarif">Tarif</a>
         </li>
-        <li class="ml-10">
-          <NuxtLink class="text-link" to="/contact">Contact</NuxtLink>
-        </li>
-        <li class="ml-10">
+        <li>
           <a class="text-link" href="https://client.zlawyer.fr/sign-in" target="_blank">Accès Client</a>
         </li>
-        <li class="ml-10">
+        <li class="hidden xl:block">
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
-        <li class="ml-10">
+        <li>
           <NuxtLink to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
         </li>
       </ul>
 
       <ul
-        :class="['items-center justify-center flex-col flex fixed top-0 left-0 w-screen h-screen transition-all duration-300 bg-white', isActive ? '-translate-y-0' : '-translate-y-[100vh]']">
-        <li class="mt-6">
-          <a @click="isActive = !isActive" class="text-link" href="/#solutions">Avantages</a>
+        :class="['items-center justify-center flex-col gap-8 flex fixed top-0 left-0 w-screen h-screen transition-all duration-300 bg-white', isActive ? '-translate-y-0' : '-translate-y-[100vh]']">
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#solutions">Avantages</a>
         </li>
-        <li class="mt-6">
-          <a @click="isActive = !isActive" class="text-link" href="/#fonctionnalites">Fonctionnalités</a>
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#fonctionnalites">Fonctionnalités</a>
         </li>
-        <li class="mt-6">
-          <a @click="isActive = !isActive" class="text-link" href="/#clients">Témoignages</a>
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#clients">Témoignages</a>
         </li>
-        <li class="mt-6">
-          <a @click="isActive = !isActive" class="text-link" href="/#tarif">Tarif</a>
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#tarif">Tarif</a>
         </li>
-        <li class="mt-6">
-          <NuxtLink class="text-link" to="/contact">Contact</NuxtLink>
-        </li>
-        <li class="mt-6">
-          <a @click="isActive = !isActive" class="text-link" href="https://client.zlawyer.fr/sign-in"
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="https://client.zlawyer.fr/sign-in"
             target="_blank">Accès Client</a>
         </li>
-        <li class="mt-10">
-          <a @click="isActive = !isActive" href="tel:330184257027" class="button-orange text-link font-normal">01 84 25
-            70 27</a>
+        <li @click="isActive = !isActive" class="flex flex-col gap-4">
+          <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
+          <NuxtLink to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
         </li>
       </ul>
 

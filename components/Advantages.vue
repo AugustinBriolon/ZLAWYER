@@ -1,14 +1,16 @@
 <template>
-  <div class="max-width-blue-section" id="solutions">
-    <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
-    <p class="subtitle md:w-2/3 ">
-      Pourquoi démarrer avec zLawyer : <span class="text-orange"> Expérimentez le logiciel de facturation le plus
-        intuitif et
-        performant du marché !</span>
-    </p>
+  <div class="max-width-blue-section flex flex-col items-center gap-20" id="solutions">
+    <div class="w-full flex flex-col items-start">
+      <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
+      <p class="">
+        Pourquoi démarrer avec zLawyer : <span class="text-orange"> Expérimentez le logiciel de facturation le plus
+          intuitif et performant du marché !</span>
+      </p>
+    </div>
 
-    <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-6 md:px-8">
-      <div class="anim-advantages card-advantages">
+    <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <div class="anim-advantages card-advantages flex flex-col gap-4">
         <div class="card-advantages-head">
           <h3>Exhaustivité</h3>
           <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
@@ -19,28 +21,101 @@
               transform="translate(10.755 10.629)" fill="#fff" />
           </svg>
         </div>
-        <p>
-          <span class="text-bolder">La solution de facturation tout-en-un :</span> Parceque zLawyer a été pensé et
-          développé en
-          étroite collaboration avec des
-          avocats,
-          il
-          regroupe toute les fonctionnalités essentielles dont vous avez besoin : la
-          <span class="text-bolder">gestion de vos dossiers</span>, de
-          <span class="text-bolder">vos temps</span>, la
-          <span class="text-bolder">facturation des honoraires</span>, les
-          <span class="text-bolder">frais et des débours</span>, le
-          <span class="text-bolder">suivi</span>,
-          <span class="text-bolder">relance automatique des impayés</span>, la
-          <span class="text-bolder">gestion documentaire</span>, l’<span class="text-bolder">agenda</span>, les <span
-            class="text-bolder">tâches</span>,
-          <span class="text-bolder">export comptable</span>,
-          <span class="text-bolder">tableau de bord</span>, etc …
-        </p>
+        <div class="flex flex-col gap-2">
+          <p>
+            <span class="text-bolder">La solution de facturation tout-en-un :</span> Parce que zLawyer a été pensé et
+            développé
+            en étroite collaboration avec
+            des avocats, il regroupe toute les fonctionnalités essentielles dont vous avez besoin.
+          </p>
+          <div class="w-full grid grid-cols-2 gap-2">
+
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Gestion des dossiers, de temps</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Gestion documentaire</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Suivi du reste à facturer/dossier</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Relance des impayés</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Suivi du reste à facturer/dossier</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Classement emails</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Export comptable</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Agenda des tâ ches</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Suivi du reste à facturer/dossier</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Facturation des honoraires au temps passé ou au forfait, des frais et des débours</p>
+            </div>
+
+          </div>
+
+        </div>
       </div>
 
-      <div class="anim-advantages card-advantages">
+      <div class="anim-advantages card-advantages flex flex-col gap-4">
         <img :src="'images/pandas/pandaTop.png'" class="panda-top hidden md:block absolute w-36" alt="panda" />
+        <div class="card-advantages-head">
+          <h3>Facilité</h3>
+          <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
+            height="54" viewBox="0 0 54 54">
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
+            <path id="Icon_material-thumb-up" data-name="Icon material-thumb-up"
+              d="M1.5,24.288H6.058V10.615H1.5ZM26.567,11.755a2.286,2.286,0,0,0-2.279-2.279H17.1l1.082-5.207.034-.365a1.715,1.715,0,0,0-.5-1.208L16.506,1.5l-7.5,7.509a2.228,2.228,0,0,0-.672,1.607V22.009a2.286,2.286,0,0,0,2.279,2.279H20.87a2.263,2.263,0,0,0,2.1-1.39l3.441-8.033a2.251,2.251,0,0,0,.16-.832V11.857l-.011-.011Z"
+              transform="translate(12.967 14.106)" fill="#fff" />
+          </svg>
+        </div>
+        <div class="w-full flex flex-col gap-1">
+
+          <div class="flex flex-col items-start justify-start gap-1">
+            <p><span class="font-bold">D’utilisation :</span>
+              Une prise en main ultra-rapide. De la saisie des temps en passant par la
+              gestion des dossiers et évidemment l’émission de factures de la plus simple à la plus
+              complexe, Tout a été pensé dans cette solution de facturation pour avocats pour être simple
+              d’utilisation et intuitif.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-start justify-start gap-1">
+            <p><span class="font-bold">De paramétrage :</span>
+              L’outil est personnalisable afin de répondre à votre propre besoin et aller
+              droit au but rapidement et facilement.
+            </p>
+          </div>
+          <div class="flex flex-col items-start justify-start gap-1">
+            <p><span class="font-bold">De souscription :</span>
+              Sans engagement, le nombre d'utilisateurs est ajustable à tout moment avec un tarif appliqué en fonction
+              du nombre d'abonnés, et sans frais cachés : un seul tarif pour l'ensemble des fonctionnalités zLawyer.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="anim-advantages card-advantages flex flex-col gap-4">
         <div class="card-advantages-head">
           <h3>Service Premium</h3>
           <svg class="logo-advantages" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
@@ -54,45 +129,14 @@
           </svg>
         </div>
         <p>
-          <span class="text-bolder">zLawyer vous accompagne étape par étape.</span>
-          zLawyer c’est aussi une culture axée sur <span class="text-bolder">le service et l’écoute</span>. Nous avons
-          construit notre réputation sur
-          notre <span class="text-bolder">réactivité</span> et notre efficacité à vous répondre.
-          <br>
-          zLawyer c’est une équipe de support <span class="text-bolder">disponible</span>, proche de vous, qui vous
-          accompagne au <span class="text-bolder">quotidien</span> et ce sans
-          surcoût.
+          zLawyer c’est aussi une culture axée sur le service et l’écoute. Nous avons construit notre
+          réputation sur notre réactivité et notre efficacité à vous répondre.
         </p>
+        <p> zLawyer c’est une équipe de support disponible, proche de vous, qui vous accompagne au
+          quotidien et ce sans surcoût.</p>
       </div>
 
-      <div class="anim-advantages card-advantages">
-        <div class="card-advantages-head">
-          <h3>Facilité</h3>
-          <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
-            height="54" viewBox="0 0 54 54">
-            <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
-            <path id="Icon_material-thumb-up" data-name="Icon material-thumb-up"
-              d="M1.5,24.288H6.058V10.615H1.5ZM26.567,11.755a2.286,2.286,0,0,0-2.279-2.279H17.1l1.082-5.207.034-.365a1.715,1.715,0,0,0-.5-1.208L16.506,1.5l-7.5,7.509a2.228,2.228,0,0,0-.672,1.607V22.009a2.286,2.286,0,0,0,2.279,2.279H20.87a2.263,2.263,0,0,0,2.1-1.39l3.441-8.033a2.251,2.251,0,0,0,.16-.832V11.857l-.011-.011Z"
-              transform="translate(12.967 14.106)" fill="#fff" />
-          </svg>
-        </div>
-        <p>
-          <span class="text-bolder">D'utilisation</span> : une prise en main ultra-rapide de notre logicile de
-          facturation. De la saisie des temps en
-          passant par la gestion des dossiers et évidemment l’émission de factures de la plus simple à la plus complexe,
-          Tout a été pensé dans cette solution de facturation pour avocats pour être simple d’utilisation et intuitif.
-          <br>
-          <span class="text-bolder">De paramétrage :</span> L’outil est personnalisable afin de répondre à votre propre
-          besoin et aller droit au but rapidement et facilement.
-          <br>
-          <span class="text-bolder">De souscription : </span> Pas d’engagement et Pas de frais caché.
-          <br>
-          <span class="text-bolder">De mise en place : </span> Le logiciel sur votre poste dès souscription avec
-          l’import de vos données offert.
-        </p>
-      </div>
-
-      <div class="anim-advantages card-advantages">
+      <div class="anim-advantages card-advantages flex flex-col gap-4">
         <img :src="'images/pandas/pandaSide.png'" class="panda-side hidden md:block absolute h-40" alt="panda" />
         <div class="card-advantages-head">
           <h3>Évolutif - Innovant</h3>
@@ -105,17 +149,18 @@
           </svg>
         </div>
         <p>
-          <span class="text-bolder">Une solution de facturation innovante : </span> Notre approche innovante garantit
-          une solution
-          constamment évolutive, performante et intuitive. Grâce à notre expertise dans l'évaluation de vos besoins et
-          notre agilité en R&D, nous anticipons efficacement vos attentes spécifiques.
-          <br>
-          Ainsi vous bénéficiez régulièrement de nouvelles fonctionnalités sans incidence sur votre abonnement, tout en
-          maintenant notre engagement envers la
-          simplicité et l'ergonomie.
+          Notre approche centrée sur l’innovation, vous permet de bénéficier d'une
+          <span class="font-bold"> solution en évolution constante, performante et intuitive</span>.
+          Notre expertise dans l'évaluation de vos besoins et notre agilité en matière de développement R&amp;D
+          nous permettent de répondre de manière proactive à toutes vos attentes spécifiques. Vous
+          bénéficiez également de nouvelles fonctionnalités régulièrement et sans impactes budgétaires sur
+          votre abonnement tout en gardant notre objectif :<span class="font-bold"> Simplicité et Ergonomie</span>.
         </p>
       </div>
+
     </div>
+
+    <NuxtLink to="/contact" class="button-orange text-center w-fit">Demandez un démo</NuxtLink>
   </div>
 </template>
 
@@ -158,7 +203,7 @@ export default {
   box-shadow: 0px 0px 20px var(--color-blue);
   background-color: var(--color-white);
   border-radius: var(--radius-current);
-  padding: 80px 50px;
+  padding: 50px;
   position: relative;
 }
 
@@ -169,8 +214,8 @@ export default {
 
 .card-advantages .card-advantages-head {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 425px) {
