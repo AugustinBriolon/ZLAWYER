@@ -15,9 +15,9 @@
     <!-- https://qa.client.zlawyer.fr/suivi-financier/gestion-facture/2023.0445 -->
 
     <div v-if="isActive"
-      class="fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-400/50 p-5 md:p-0"
-      @click="isActive = false">
-      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4"/>
+      class="fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-400/75 p-5 md:p-0"  @click="isActive = false">
+      <img :src="'images/logos/cross.svg'" alt="close modal" class="absolute top-32 lg:top-20 right-5 cursor-pointer text-orange" @click="isActive = false"/>
+      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop=""/>
     </div>
 
     <div class="md:px-8 w-full flex flex-col gap-12 lg:gap-8">
