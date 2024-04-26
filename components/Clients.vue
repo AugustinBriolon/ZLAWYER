@@ -1,155 +1,53 @@
 <template>
   <div class="max-width-white-section">
-    <div class="max-width-white-section-content">
+    <div class="max-width-white-section-content flex flex-col gap-8">
       <h2 class="text-orange">Ils nous font confiance</h2>
 
-      <div class="wrapperContainerTop">
-        <div class="imagesContainer w-full flex items-center justify-between">
-          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
+      <div
+        class="w-full relative overflow-hidden whitespace-nowrap  bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+        <div class="inline-block w-[calc(225px*6)] animate-infinite-slider">
+          <img v-for="(logo, index) in logos" :key="index" :src="logo.src" class="inline-block h-28 w-auto" />
         </div>
-
-        <div class="imagesContainer w-full flex items-center justify-between">
-          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
-          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="image h-20 sm:h-28" />
-          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="image h-20 sm:h-28" />
+        <div class="inline-block w-[calc(225px*6)] animate-infinite-slider">
+          <img v-for="(logo, index) in logos" :key="index" :src="logo.src" class="inline-block h-28 w-auto" />
         </div>
       </div>
 
-      <div class="wrapperContainerBottom">
-        <div class="imagesContainerBottom w-full flex items-center justify-between">
-          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/ollynsLogo.webp'" alt="Logo Ollyns" class="imageBottom h-24" />
-          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="imageBottom h-20 sm:h-28" />
+      <div
+        class="w-full relative overflow-hidden whitespace-nowrap  bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+        <div class="inline-block w-[calc(225px*6)] animate-infinite-slider-reverse">
+          <img v-for="(logo, index) in logos2" :key="index" :src="logo.src" class="inline-block h-28 w-auto" />
         </div>
-
-        <div class="imagesContainerBottom w-full flex items-center justify-between">
-          <img :src="'images/clients/lombardLogo.webp'" alt="Logo Lombard" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/navacelleLogo.webp'" alt="Logo Navacelle" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/flichyLogo.webp'" alt="Logo Flichy" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/laMartineLogo.webp'" alt="Logo Lamartine" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/bettoLogo.webp'" alt="Logo Betto" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/valtherLogo.webp'" alt="Logo Valther" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/vinciLogo.webp'" alt="Logo Vinci" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/vatierLogo.webp'" alt="Logo Vatier" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/bonifassiLogo.webp'" alt="Logo Bonifassi" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/baroLogo.webp'" alt="Logo Baro" class="imageBottom h-20 sm:h-28" />
-          <img :src="'images/clients/azarmiLogo.webp'" alt="Logo Arasmis" class="imageBottom h-20 sm:h-28" />
+        <div class="inline-block w-[calc(225px*6)] animate-infinite-slider-reverse">
+          <img v-for="(logo, index) in logos2" :key="index" :src="logo.src" class="inline-block h-28 w-auto" />
         </div>
       </div>
+
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data: function () {
+    return {
+      logos: [
+        { src: "images/clients/azarmiLogo.webp" },
+        { src: "images/clients/baroLogo.webp" },
+        { src: "images/clients/bettoLogo.webp" },
+        { src: "images/clients/valtherLogo.webp" },
+        { src: "images/clients/vinciLogo.webp" },
+        { src: "images/clients/vatierLogo.webp" }
+      ],
+      logos2: [
+        { src: "images/clients/bonifassiLogo.webp" },
+        { src: "images/clients/laMartineLogo.webp" },
+        { src: "images/clients/flichyLogo.webp" },
+        { src: "images/clients/lombardLogo.webp" },
+        { src: "images/clients/navacelleLogo.webp" },
+        { src: "images/clients/ollynsLogo.webp" }
+      ]
+    }
+  }
+};
 </script>
-
-<style scoped>
-.max-width-white-section-content {
-  max-width: none !important;
-  padding: 80px 0px;
-}
-
-.wrapperContainerTop {
-  padding-top: 40px;
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.wrapperContainerTop .imagesContainer {
-  white-space: nowrap;
-  animation: slideLeft 60s infinite linear;
-}
-
-.wrapperContainerBottom {
-  padding-top: 80px;
-  margin-bottom: 65px;
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.wrapperContainerBottom .imagesContainerBottom {
-  white-space: nowrap;
-  animation: slideLeft 60s infinite linear reverse;
-}
-
-@keyframes slideLeft {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-
-  100% {
-    transform: translate3d(-200%, 0, 0);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrapperContainerBottom .imagesContainerBottom {
-    animation: slideLeft 40s infinite linear reverse;
-  }
-
-  .wrapperContainerTop .imagesContainer {
-    animation: slideLeft 40s infinite linear;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  @keyframes slideLeft {
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-      transform: translate3d(-400%, 0, 0);
-    }
-  }
-
-  .wrapperContainerBottom {
-    padding-top: 80px;
-    margin-bottom: 0;
-  }
-
-  .wrapperContainerBottom .imagesContainerBottom {
-    animation: slideLeft 20s infinite linear reverse;
-  }
-
-  .wrapperContainerTop .imagesContainer {
-    animation: slideLeft 20s infinite linear;
-  }
-}
-</style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="max-width-blue-section flex flex-col items-center gap-20" id="solutions">
-    <div class="w-full flex flex-col items-start">
+  <div class="max-width-blue-section flex flex-col items-center gap-12" id="solutions">
+    <div class="w-full flex flex-col items-start gap-2">
       <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
       <p class="">
         Pourquoi démarrer avec zLawyer : <span class="text-orange"> Expérimentez le logiciel de facturation le plus
@@ -8,12 +8,12 @@
       </p>
     </div>
 
-    <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-4 md:px-8">
 
-      <div class="anim-advantages card-advantages flex flex-col gap-4">
-        <div class="card-advantages-head">
-          <h3>Exhaustivité</h3>
-          <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
+      <div class="anim-advantages card-shadow p-12 flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h3 class="uppercase text-orange">Exhaustivité</h3>
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
             height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_ionic-ios-star" data-name="Icon ionic-ios-star"
@@ -76,11 +76,11 @@
         </div>
       </div>
 
-      <div class="anim-advantages card-advantages flex flex-col gap-4">
+      <div class="anim-advantages card-shadow relative p-12 flex flex-col gap-4">
         <img :src="'images/pandas/pandaTop.png'" class="panda-top hidden md:block absolute w-36" alt="panda" />
-        <div class="card-advantages-head">
-          <h3>Facilité</h3>
-          <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
+        <div class="flex items-center justify-between">
+          <h3 class="uppercase text-orange">Facilité</h3>
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
             height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_material-thumb-up" data-name="Icon material-thumb-up"
@@ -88,7 +88,7 @@
               transform="translate(12.967 14.106)" fill="#fff" />
           </svg>
         </div>
-        <div class="w-full flex flex-col gap-1">
+        <div class="w-full flex flex-col gap-2">
 
           <div class="flex flex-col items-start justify-start gap-1">
             <p><span class="font-bold">D’utilisation :</span>
@@ -115,11 +115,11 @@
         </div>
       </div>
 
-      <div class="anim-advantages card-advantages flex flex-col gap-4">
-        <div class="card-advantages-head">
-          <h3>Service Premium</h3>
-          <svg class="logo-advantages" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-            <g id="Groupe_2" data-name="Groupe 2" transform="translate(-0.379)">
+      <div class="anim-advantages card-shadow p-12 flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h3 class="uppercase text-orange">Service Premium</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+            <g data-name="Groupe 2" transform="translate(-0.379)">
               <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" transform="translate(0.379)"
                 fill="#ed630d" />
               <path id="Icon_awesome-handshake" data-name="Icon awesome-handshake"
@@ -136,11 +136,11 @@
           quotidien et ce sans surcoût.</p>
       </div>
 
-      <div class="anim-advantages card-advantages flex flex-col gap-4">
+      <div class="anim-advantages card-shadow relative p-12 flex flex-col gap-4">
         <img :src="'images/pandas/pandaSide.png'" class="panda-side hidden md:block absolute h-40" alt="panda" />
-        <div class="card-advantages-head">
-          <h3>Évolutif - Innovant</h3>
-          <svg class="logo-advantages" id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
+        <div class="flex items-center justify-between">
+          <h3 class="uppercase text-orange">Évolutif - Innovant</h3>
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
             height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_awesome-balance-scale" data-name="Icon awesome-balance-scale"
@@ -199,38 +199,10 @@ export default {
   transform: translateY(-50px);
 }
 
-.card-advantages {
+.card-shadow {
   box-shadow: 0px 0px 20px var(--color-blue);
   background-color: var(--color-white);
   border-radius: var(--radius-current);
-  padding: 50px;
-  position: relative;
-}
-
-.card-advantages h3 {
-  color: var(--color-orange);
-  text-transform: uppercase;
-}
-
-.card-advantages .card-advantages-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 425px) {
-  .card-advantages {
-    padding: 40px;
-  }
-
-  .card-advantages .card-advantages-head {
-    flex-direction: column-reverse;
-  }
-
-  .logo-advantages {
-    margin-bottom: 30px;
-    align-self: flex-end;
-  }
 }
 
 .panda-side {

@@ -1,14 +1,14 @@
 <template>
-  <div class="max-width-blue-section flex flex-col items-center" id="tarif">
-    <div class="flex flex-col items-center justify-center pb-10">
+  <div class="max-width-blue-section flex flex-col items-center gap-8" id="tarif">
+    <div class="flex flex-col items-center justify-center">
       <h2 class="text-center">Un tarif unique, transparent et accessible</h2>
       <p>Avec zLawyer, pas de mauvaise surprise, 1 logiciel, 1 tarif/utilisateur/mois avec toutes les fonctionnalités
       </p>
     </div>
 
-    <div class="anim-from-top px-10 py-10 lg:py-6  flex flex-col lg:flex-row gap-10 bg-white rounded-radius-current card-pricing">
+    <div class="anim-from-top px-10 py-10 lg:py-6 flex flex-col lg:flex-row gap-10 bg-white rounded-radius-current card-pricing">
 
-      <div class="flex flex-col items-center justify-center px-4">
+      <div class="flex flex-col items-center justify-center px-10">
         <div class="flex flex-col gap-1 items-center">
           <p class="pricingText text-6xl text-center">49€</p>
           <p class="pricingText text-2xl">/mois</p>

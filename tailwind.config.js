@@ -26,6 +26,18 @@ export default {
     maxWidth: {
       'max-width-screen': '1920px',
     },
+    animation: {
+      "infinite-slider": "infiniteSlider 30s linear infinite",
+      "infinite-slider-reverse": "infiniteSlider 30s linear infinite reverse"
+    },
+    keyframes: {
+      infiniteSlider: {
+        "0%": { transform: "translateX(0)" },
+        "100%": {
+          transform: "translateX(-100%)",
+        },
+      },
+    },
   },
   plugins: [],
 };

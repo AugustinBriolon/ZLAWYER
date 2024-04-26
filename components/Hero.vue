@@ -9,7 +9,7 @@
       <NuxtLink to="/contact" class="anim-hero button-orange w-max">Je souhaite une démonstration</NuxtLink>
     </div>
     <div class="container-img">
-      <img :src="'images/hero/illustrationHero.png'" alt="illustration du logiciel" class="w-full img-hero anim-hero" />
+      <img :src="'images/hero/illustrationHero.webp'" alt="illustration du logiciel" class="w-full img-hero anim-hero" />
       <p class="text-replace text-center text-2xl hidden lg:block">
         La solution la mieux notée par vos confrères !
       </p>

@@ -1,22 +1,31 @@
 <template>
-  <div class="max-width-blue-section" id="fonctionnalites">
-    <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
-    <p class="subtitle w-full">
-      zLawyer a été conçu en étroite
-      <span class="text-bolder">collaboration avec des avocats</span>,
-      garantissant des <span class="text-bolder">fonctionnalités</span> et une
-      <span class="text-bolder">ergonomie</span> qui répondent précisément aux
-      exigences des cabinets de petites et grandes tailles.
-    </p>
+  <div class="max-width-blue-section flex flex-col items-center gap-8" id="fonctionnalites">
+    <div class="w-full flex flex-col gap-2 items-start">
+      <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
+      <p class="subtitle w-full">
+        zLawyer a été conçu en étroite
+        <span class="text-bolder">collaboration avec des avocats</span>,
+        garantissant des <span class="text-bolder">fonctionnalités</span> et une
+        <span class="text-bolder">ergonomie</span> qui répondent précisément aux
+        exigences des cabinets de petites et grandes tailles.
+      </p>
+    </div>
 
-    <div class="md:px-8">
-      <div class="card-features">
-        <div ref="popIn1" class="container-image-features" @click="openPopIn('popIn1')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features1.png'" class="image-features"
-            alt="illustration de la fonctionnalitée facturation" />
-        </div>
-        <div class="card-features-description">
+    <!-- https://qa.client.zlawyer.fr/dossiers/89/synthese-financiere -->
+    <!-- https://qa.client.zlawyer.fr/suivi-financier/gestion-facture/2023.0445 -->
+
+    <div v-if="isActive"
+      class="fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-400/50 p-5 md:p-0"
+      @click="isActive = false">
+      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4"/>
+    </div>
+
+    <div class="md:px-8 w-full flex flex-col gap-12 lg:gap-8">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <img :src="'images/features/features1.png'" alt="illustration de la fonctionnalitée facturation"
+          @click="imageModal('images/features/features1.png')" class="hover:scale-[1.02] transition-transform" />
+        <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Facturation</span> <br />
             Arbitrer & gérer la rentabilité
@@ -29,17 +38,12 @@
             mesurer efficacement la rentabilité de vos dossiers ou de vos
             forfaits …
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
-    </div>
 
-    <!-- https://qa.client.zlawyer.fr/dossiers/89/synthese-financiere -->
-    <!-- https://qa.client.zlawyer.fr/suivi-financier/gestion-facture/2023.0445 -->
-
-    <div class="md:px-8">
-      <div class="card-features card-features-invert">
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">L’application</span> zLawyer Iphone et
             Android
@@ -64,18 +68,14 @@
             </a>
           </div>
         </div>
-        <img :src="'images/features/features2.png'" class="image-mobile" alt="illustration de l'application mobile" />
+        <img :src="'images/features/features2.png'" alt="illustration de l'application mobile"
+          @click="imageModal('images/features/features2.png')" class="hover:scale-[1.02] transition-transform" />
       </div>
-    </div>
 
-    <div class="md:px-8">
-      <div class="card-features">
-        <div ref="popIn3" class="container-image-features" @click="openPopIn('popIn3')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features3.png'" class="image-features"
-            alt="illustration de la fonctionnalitée gestion" />
-        </div>
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <img :src="'images/features/features3.png'" alt="illustration de la fonctionnalitée gestion"
+          @click="imageModal('images/features/features3.png')" class="hover:scale-[1.02] transition-transform" />
+        <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
             contrainte
@@ -88,14 +88,12 @@
             se greffer à votre organisation actuelle sans aucun changement.
             (Disponible seulement sous Windows)
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
-    </div>
 
-    <div class="md:px-8">
-      <div class="card-features card-features-invert">
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">Dossiers</span> : l’information à
             portée de main
@@ -108,24 +106,16 @@
             etc…), les coordonnées complètes, l’état financier du dossier, les
             factures à relancer.
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <div ref="popIn4" class="container-image-features" @click="openPopIn('popIn4')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features4.png'" class="image-features"
-            alt="illustration de la fonctionnalitée dossiers" />
-        </div>
+        <img :src="'images/features/features4.png'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.png')" />
       </div>
-    </div>
 
-    <div class="md:px-8">
-      <div class="card-features">
-        <div ref="popIn5" class="container-image-features" @click="openPopIn('popIn5')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features5.png'" class="image-features"
-            alt="illustration de la fonctionnalitée essentiel de l'application" />
-        </div>
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <img :src="'images/features/features5.png'" alt="illustration de la fonctionnalitée essentiel de l'application"
+          @click="imageModal('images/features/features5.png')" class="hover:scale-[1.02] transition-transform" />
+        <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
           </h3>
@@ -137,14 +127,12 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
-    </div>
 
-    <div class="md:px-8">
-      <div class="card-features card-features-invert">
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">La capture</span> du temps qui passe
           </h3>
@@ -154,24 +142,16 @@
             la solution de gestion de temps zLawyer : consignez bien, facturer
             mieux et gérer votre budget en un seul clic.
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <div ref="popIn6" class="container-image-features" @click="openPopIn('popIn6')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features6.png'" class="image-features"
-            alt="illustration de la fonctionnalitée timer" />
-        </div>
+        <img :src="'images/features/features6.png'" alt="illustration de la fonctionnalitée timer"
+          @click="imageModal('images/features/features6.png')" class="hover:scale-[1.02] transition-transform"/>
       </div>
-    </div>
 
-    <div class="md:px-8">
-      <div class="card-features">
-        <div ref="popIn7" class="container-image-features" @click="openPopIn('popIn7')">
-          <img :src="'images/logos/cross.png'" class="close-pop-in" />
-          <img :src="'images/features/features7.png'" class="image-features"
-            alt="illustration de la fonctionnalitée accès client" />
-        </div>
-        <div class="card-features-description">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <img :src="'images/features/features7.png'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.png')" />
+        <div class="flex flex-col gap-4">
           <h3>
             Donnez à vos clients
             <span class="text-underline">un accès à leur dossier</span> sur le
@@ -185,12 +165,11 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
-    </div>
 
-    <div class="background-features"></div>
+    </div>
   </div>
 </template>
 
@@ -198,111 +177,24 @@
 export default {
   data: function () {
     return {
+      imageModalSrc: '',
       isActive: false,
     };
   },
   methods: {
-    openPopIn(popIn) {
-      let popInToOpen = this.$refs[popIn];
-      popInToOpen.classList.toggle('active');
-    },
+    imageModal(src) {
+      this.imageModalSrc = src;
+      this.isActive = true;
+    }
   },
+  watch: {
+    isActive: function (val) {
+      if (val) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = 'auto';
+      }
+    }
+  }
 };
 </script>
-
-<style scoped>
-.background-features .active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.359);
-  z-index: 99;
-}
-
-.card-features {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-@media screen and (max-width: 1200px) {
-  .card-features {
-    grid-template-columns: 1fr;
-  }
-
-  .card-features.card-features-invert .container-image-features,
-  .image-mobile {
-    grid-row-start: 1;
-  }
-}
-
-.image-features {
-  border-radius: var(--radius-current);
-  box-shadow: var(--shadow-current);
-}
-
-.container-image-features,
-.image-mobile {
-  transition: 0.3s;
-  z-index: 99;
-  cursor: pointer;
-}
-
-.image-mobile:hover,
-.container-image-features:hover {
-  transform: scale(1.02);
-}
-
-.container-image-features.active {
-  transform: scale(1);
-  transition: 0s;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.289);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-}
-
-.container-image-features.active .image-features {
-  box-shadow: none;
-  height: 70vh;
-}
-
-@media screen and (max-width: 1200px) {
-  .container-image-features.active .image-features {
-    height: auto;
-    width: 90%;
-  }
-}
-
-.close-pop-in {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  top: 120px;
-  right: 40px;
-  z-index: 9999;
-  display: none;
-}
-
-.container-image-features.active .close-pop-in {
-  display: block;
-}
-
-.card-features .card-features-description {
-  padding: 24px;
-}
-
-.card-features .card-features-description p {
-  margin: 40px 0;
-}
-</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="backdrop-blur-lg fixed border-b border-b-white z-[999] w-screen">
+  <div class="backdrop-blur-lg fixed border-b border-b-white z-10 w-screen">
     <div class="header max-w—[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
       <NuxtLink to="/">
         <img :src="'images/logos/zeleLogo.png'" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
