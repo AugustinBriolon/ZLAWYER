@@ -10,10 +10,10 @@
 
       <div class="flex flex-col items-center justify-center px-10">
         <div class="flex flex-col gap-1 items-center">
-          <p class="pricingText text-6xl text-center">49€</p>
-          <p class="pricingText text-2xl">/mois</p>
-          <p class="pricingText text-2xl">/utilisateur</p>
-          <p class="pricingText text-sm">sans engagement</p>
+          <p class="text-orange font-bold text-6xl text-center">49€</p>
+          <p class="text-orange font-bold text-2xl">/mois</p>
+          <p class="text-orange font-bold text-2xl">/utilisateur</p>
+          <p class="text-orange font-bold text-sm">sans engagement</p>
         </div>
 
         <NuxtLink to="/contact" class="button-orange mt-6 text-center w-full">Demandez un démo</NuxtLink>
@@ -83,11 +83,5 @@ export default {};
 .card-pricing {
   box-shadow: var(--shadow-current);
   border-radius: var(--radius-current);
-}
-
-.pricingText {
-  color: var(--color-orange);
-  font-family: 'Roboto-regular', sans-serif;
-  font-weight: 600;
 }
 </style>

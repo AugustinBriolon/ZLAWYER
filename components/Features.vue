@@ -1,5 +1,5 @@
 <template>
-  <div class="max-width-blue-section flex flex-col items-center gap-8" id="fonctionnalites">
+  <div class="max-width-blue-section flex flex-col items-center gap-12" id="fonctionnalites">
     <div class="w-full flex flex-col gap-2 items-start">
       <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
       <p class="subtitle w-full">
@@ -11,32 +11,83 @@
       </p>
     </div>
 
-    <!-- https://qa.client.zlawyer.fr/dossiers/89/synthese-financiere -->
-    <!-- https://qa.client.zlawyer.fr/suivi-financier/gestion-facture/2023.0445 -->
-
     <div v-if="isActive"
-      class="fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-400/75 p-5 md:p-0"  @click="isActive = false">
-      <img :src="'images/logos/cross.svg'" alt="close modal" class="absolute top-32 lg:top-20 right-5 cursor-pointer text-orange" @click="isActive = false"/>
-      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop=""/>
+      class="fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-400/75 p-5 md:p-0"
+      @click="isActive = false">
+      <img :src="'images/logos/cross.svg'" alt="close modal"
+        class="absolute top-32 lg:top-20 right-5 cursor-pointer text-orange" @click="isActive = false" />
+      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop="" />
     </div>
 
     <div class="md:px-8 w-full flex flex-col gap-12 lg:gap-8">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
+          <h3>
+            <span class="text-underline">Gérer la facturation</span>
+            de votre cabinet d’avocat en toute simplicité.
+          </h3>
+          <p>
+            Emettez vos factures en 2 clics par le suivi du temps ou manuellement. zLawyer vous permet de
+            personnaliser le tarif honoraire par avocat, par dossier, par client et par prestation proposée. Cette
+            fonctionnalité vous garantit une vue globale sur la trésorerie de votre cabinet d&#39;avocats et facilite la
+            relance de vos clients pour éviter les impayés.
+            Un logiciel efficace pour suivre l&#39;état de vos factures et leurs règlements.
+          </p>
+          <div class="flex flex-col gap-1">
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Facturez au temps passé, au forfait ou par abonnement</p>
+            </div>
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Facturez vos frais et débours</p>
+            </div>
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Personnalisez le tarif horaire comme vous le souhaitez</p>
+            </div>
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Gérez les majorations ou minorations</p>
+            </div>
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Envoi direct au client</p>
+            </div>
+
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">Gestion des relances</p>
+            </div>
+            <div class="flex items-center gap-2 w-full">
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <p class="w-full text-clip">...</p>
+            </div>
+          </div>
+
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+        </div>
+        <img :src="'images/features/features9.png'" alt="illustration de la fonctionnalitée facturation"
+          @click="imageModal('images/features/features9.png')" class="hover:scale-[1.02] transition-transform" />
+      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
         <img :src="'images/features/features1.png'" alt="illustration de la fonctionnalitée facturation"
           @click="imageModal('images/features/features1.png')" class="hover:scale-[1.02] transition-transform" />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
-            <span class="text-underline">Facturation</span> <br />
-            Arbitrer & gérer la rentabilité
+            <span class="text-underline">Suivi des performances</span> <br>
+            ZLawyer : Pilotez & maîtrisez vos finances
           </h3>
           <p>
-            Que vous souhaitiez mesurer les temps réels passés, valoriser le
-            coût global réel du dossier, faire vos arbitrages de facturation
-            sans effacer les durées réelles et donc vos coûts réels, notre
-            solution de facturation pour avocat vous offre la possibilité de
-            mesurer efficacement la rentabilité de vos dossiers ou de vos
-            forfaits …
+            Assurez la solidité financière de votre cabinet avec des analyses détaillées et une vision complète
+            et pérenne de vos performances grâce à zLawyer.
+            zLawyer, se positionne comme l&#39;une des meilleures solutions pour suivre vos performances.et obtenir des
+            indicateurs clés pour chaque dossier, offrant ainsi une vision complète de votre activité et de votre santé
+            financière. Avec zLawyer, accédez facilement à vos données, aux rapports financiers détaillés des
+            performances de chaque dossier analysez vos chiffres, vous permettant des analyses précises sur
+            leur rentabilité pour des décisions éclairée.
           </p>
           <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
@@ -145,13 +196,33 @@
           <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
         <img :src="'images/features/features6.png'" alt="illustration de la fonctionnalitée timer"
-          @click="imageModal('images/features/features6.png')" class="hover:scale-[1.02] transition-transform"/>
+          @click="imageModal('images/features/features6.png')" class="hover:scale-[1.02] transition-transform" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
         <img :src="'images/features/features7.png'" class="hover:scale-[1.02] transition-transform"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.png')" />
         <div class="flex flex-col gap-4">
+          <h3>
+            <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre IA
+          </h3>
+          <p>
+            Découvrez l’IA générative chez zLawyer avec notre chatbot Zéphyr, l'IA au service de votre cabinet juridique
+            : Décuplez les capacités de votre cabinet en tirant
+            profit d’une IA intégré dans zLawyer. Zéphyr, notre IA, vous accompagne efficacement dans votre quotidien et
+            gagner en productivité.
+            Conçu pour compléter votre expertise, en faisant par exemple des recherches instantanément des précédents,
+            des cas similaires, ou des références légales. Notre IA Zéphyr facilite votre analyse. Il peut aussi vous
+            apporter de l’aide dans de multiples tâches courantes comme rédiger des emails complexes, rédiger des posts
+            Linkedin, traduire ou synthétiser des documents…
+
+          </p>
+          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+        <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             Donnez à vos clients
             <span class="text-underline">un accès à leur dossier</span> sur le
@@ -167,6 +238,8 @@
           </p>
           <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
+        <img :src="'images/features/features8.png'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.png')" />
       </div>
 
     </div>
