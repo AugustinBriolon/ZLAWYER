@@ -2,14 +2,16 @@
   <div class="hero max-width-blue-section grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
     <div class="flex flex-col items-center lg:block row-start-2 lg:row-start-1 md:px-8">
       <h1 class="anim-hero text-center lg:text-left mb-14">
-        Le logiciel de facturation pour cabinet d'avocat <br /><span class="text-orange">simple, <br />ergonomique,
+        <span class="text-orange">zLawyer</span> Le logiciel de facturation pour cabinet d'avocat <br /><span class="text-orange">simple,
+          <br />ergonomique,
           <br />sans
           engagement !</span>
       </h1>
       <NuxtLink to="/contact" class="anim-hero button-orange w-max">Je souhaite une démonstration</NuxtLink>
     </div>
     <div class="container-img">
-      <img :src="'images/hero/illustrationHero.webp'" alt="illustration du logiciel" class="w-full img-hero anim-hero" />
+      <img :src="'images/hero/illustrationHero.webp'" alt="illustration du logiciel"
+        class="w-full img-hero anim-hero" />
       <p class="text-replace text-center text-2xl hidden lg:block">
         La solution la mieux notée par vos confrères !
       </p>
