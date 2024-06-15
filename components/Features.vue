@@ -204,7 +204,8 @@
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.png')" />
         <div class="flex flex-col gap-4">
           <h3>
-            <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre IA
+            <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre 
+            <span class="text-ai">IA</span>
           </h3>
           <p>
             Découvrez l’IA générative chez zLawyer avec notre chatbot Zéphyr, l'IA au service de votre cabinet juridique

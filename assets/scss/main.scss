@@ -161,6 +161,13 @@ li,
   z-index: -1;
 }
 
+.text-ai {
+background: linear-gradient(#eee -20%, #ed630f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 /* *** Components *** */
 
 .button-orange,
