@@ -66,15 +66,15 @@
             </div>
           </div>
 
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features9.png'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features9.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features9.webp'" alt="illustration de la fonctionnalitée facturation"
+          @click="imageModal('images/features/features9.webp')" class="hover:scale-[1.02] transition-transform" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
-        <img :src="'images/features/features1.png'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features1.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features1.webp'" alt="illustration de la fonctionnalitée facturation"
+          @click="imageModal('images/features/features1.webp')" class="hover:scale-[1.02] transition-transform" />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Suivi des performances</span> <br>
@@ -89,7 +89,7 @@
             performances de chaque dossier analysez vos chiffres, vous permettant des analyses précises sur
             leur rentabilité pour des décisions éclairée.
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
 
@@ -119,13 +119,13 @@
             </a>
           </div>
         </div>
-        <img :src="'images/features/features2.png'" alt="illustration de l'application mobile"
-          @click="imageModal('images/features/features2.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features2.webp'" alt="illustration de l'application mobile"
+          @click="imageModal('images/features/features2.webp')" class="hover:scale-[1.02] transition-transform" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
-        <img :src="'images/features/features3.png'" alt="illustration de la fonctionnalitée gestion"
-          @click="imageModal('images/features/features3.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features3.webp'" alt="illustration de la fonctionnalitée gestion"
+          @click="imageModal('images/features/features3.webp')" class="hover:scale-[1.02] transition-transform" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
@@ -139,7 +139,7 @@
             se greffer à votre organisation actuelle sans aucun changement.
             (Disponible seulement sous Windows)
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
 
@@ -157,15 +157,15 @@
             etc…), les coordonnées complètes, l’état financier du dossier, les
             factures à relancer.
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features4.png'" class="hover:scale-[1.02] transition-transform"
-          alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.png')" />
+        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
-        <img :src="'images/features/features5.png'" alt="illustration de la fonctionnalitée essentiel de l'application"
-          @click="imageModal('images/features/features5.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features5.webp'" alt="illustration de la fonctionnalitée essentiel de l'application"
+          @click="imageModal('images/features/features5.webp')" class="hover:scale-[1.02] transition-transform" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
@@ -178,7 +178,7 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
 
@@ -193,19 +193,19 @@
             la solution de gestion de temps zLawyer : consignez bien, facturer
             mieux et gérer votre budget en un seul clic.
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features6.png'" alt="illustration de la fonctionnalitée timer"
-          @click="imageModal('images/features/features6.png')" class="hover:scale-[1.02] transition-transform" />
+        <img :src="'images/features/features6.webp'" alt="illustration de la fonctionnalitée timer"
+          @click="imageModal('images/features/features6.webp')" class="hover:scale-[1.02] transition-transform" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
-        <img :src="'images/features/features7.png'" class="hover:scale-[1.02] transition-transform"
-          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.png')" />
+        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre 
-            <span class="text-ai">IA</span>
+            <span class="text-ai">IA Zephir</span>
           </h3>
           <p>
             Découvrez l’IA générative chez zLawyer avec notre chatbot Zéphyr, l'IA au service de votre cabinet juridique
@@ -218,7 +218,7 @@
             Linkedin, traduire ou synthétiser des documents…
 
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
       </div>
 
@@ -237,10 +237,10 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features8.png'" class="hover:scale-[1.02] transition-transform"
-          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.png')" />
+        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform"
+          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 
     </div>

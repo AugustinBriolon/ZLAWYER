@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /logiciel-avocats//1000

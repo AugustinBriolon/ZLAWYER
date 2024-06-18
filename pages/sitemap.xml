@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.zlawyer.fr/logiciel-avocats/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Page Contact -->
+    <url>
+        <loc>https://www.zlawyer.fr/logiciel-avocats/contact</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Conditions Générales d'Utilisation -->
+    <url>
+        <loc>https://www.zlawyer.fr/logiciel-avocats/conditions-generales-utilisation</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Politique de Cookies -->
+    <url>
+        <loc>https://www.zlawyer.fr/logiciel-avocats/politique-de-cookies</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Politique de Confidentialité -->
+    <url>
+        <loc>https://www.zlawyer.fr/logiciel-avocats/politques-de-confidentialite</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

@@ -51,11 +51,14 @@
           </div>
 
           <div>
-            <NuxtLink class="block text-link" to="/conditions-generales-utilisation">Conditions générales
+            <NuxtLink title="Page des Conditions générales
+              d'utilisation" class="block text-link" to="/conditions-generales-utilisation">Conditions générales
               d'utilisation</NuxtLink>
-            <NuxtLink class="block text-link" to="/politques-de-confidentialite">Politiques de
+            <NuxtLink title="Page des Politiques de
+              confidentialité" class="block text-link" to="/politques-de-confidentialite">Politiques de
               confidentialité</NuxtLink>
-            <NuxtLink class="block text-link" to="/politique-de-cookies">Politiques de cookies</NuxtLink>
+            <NuxtLink title="Page des Politiques de
+              cookies" class="block text-link" to="/politique-de-cookies">Politiques de cookies</NuxtLink>
           </div>
         </div>
       </div>

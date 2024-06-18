@@ -1,7 +1,7 @@
 <template>
   <div class="backdrop-blur-lg fixed border-b border-b-white z-10 w-screen">
     <div class="header max-w—[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
-      <NuxtLink to="/">
+      <NuxtLink title="Page Home" to="/">
         <img :src="'images/logos/zeleLogo.png'" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
       </NuxtLink>
 
@@ -25,7 +25,7 @@
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
         <li>
-          <NuxtLink to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
         </li>
       </ul>
 
@@ -49,7 +49,7 @@
         </li>
         <li @click="isActive = !isActive" class="flex flex-col gap-4">
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
-          <NuxtLink to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
         </li>
       </ul>
 

@@ -1,10 +1,10 @@
 {
-    "routes": [],
-    "platformErrorOverrides": [
-      {
-       "errorType": "NotFound",
-       "serve": "/200.html",
-       "statusCode": 200
-      }
-    ]
-   }
+  "routes": [],
+  "platformErrorOverrides": [
+    {
+      "errorType": "NotFound",
+      "serve": "/200.html",
+      "statusCode": 200
+    }
+  ]
+}

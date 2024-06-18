@@ -16,7 +16,7 @@
           <p class="text-orange font-bold text-sm">sans engagement</p>
         </div>
 
-        <NuxtLink to="/contact" class="button-orange mt-6 text-center w-full">Demandez un démo</NuxtLink>
+        <NuxtLink title="Page Contact" to="/contact" class="button-orange mt-6 text-center w-full">Demandez un démo</NuxtLink>
       </div>
 
       <div class="flex flex-col gap-2 h-full">

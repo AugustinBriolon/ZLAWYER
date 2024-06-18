@@ -160,7 +160,7 @@
 
     </div>
 
-    <NuxtLink to="/contact" class="button-orange text-center w-fit">Demandez un démo</NuxtLink>
+    <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-fit">Demandez un démo</NuxtLink>
   </div>
 </template>
 
