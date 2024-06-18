@@ -21,7 +21,7 @@
 
     <div class="md:px-8 w-full flex flex-col gap-12 lg:gap-8">
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">Gérer la facturation</span>
@@ -36,32 +36,32 @@
           </p>
           <div class="flex flex-col gap-1">
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Facturez au temps passé, au forfait ou par abonnement</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Facturez vos frais et débours</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Personnalisez le tarif horaire comme vous le souhaitez</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Gérez les majorations ou minorations</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Envoi direct au client</p>
             </div>
 
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">Gestion des relances</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
+              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
               <p class="w-full text-clip">...</p>
             </div>
           </div>
@@ -69,12 +69,12 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
         <img :src="'images/features/features9.webp'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features9.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features9.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features1.webp'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features1.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features1.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Suivi des performances</span> <br>
@@ -93,7 +93,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">L’application</span> zLawyer Iphone et
@@ -120,12 +120,12 @@
           </div>
         </div>
         <img :src="'images/features/features2.webp'" alt="illustration de l'application mobile"
-          @click="imageModal('images/features/features2.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features2.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features3.webp'" alt="illustration de la fonctionnalitée gestion"
-          @click="imageModal('images/features/features3.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features3.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
@@ -143,7 +143,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">Dossiers</span> : l’information à
@@ -159,13 +159,13 @@
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform"
+        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features5.webp'" alt="illustration de la fonctionnalitée essentiel de l'application"
-          @click="imageModal('images/features/features5.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features5.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
@@ -182,7 +182,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">La capture</span> du temps qui passe
@@ -196,11 +196,11 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
         <img :src="'images/features/features6.webp'" alt="illustration de la fonctionnalitée timer"
-          @click="imageModal('images/features/features6.webp')" class="hover:scale-[1.02] transition-transform" />
+          @click="imageModal('images/features/features6.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
-        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform"
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
+        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
         <div class="flex flex-col gap-4">
           <h3>
@@ -222,7 +222,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-4 row-start-2 lg:row-span-1">
           <h3>
             Donnez à vos clients
@@ -239,7 +239,7 @@
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
         </div>
-        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform"
+        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 

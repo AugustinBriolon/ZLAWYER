@@ -8,7 +8,7 @@
       <div class="md:px-8 grid grid-rows-2 md:grid-cols-2 gap-8 items-center">
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img :src="'images/logos/infoIcon.svg'" class="h-6" loading="lazy" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" alt="iconInfo" />
             <h3>Y a t-il un engagement ?</h3>
           </div>
 
@@ -22,7 +22,7 @@
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img :src="'images/logos/infoIcon.svg'" class="h-6" loading="lazy" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" alt="iconInfo" />
             <h3>Y a t-il des frais cachés ?</h3>
           </div>
 
@@ -35,7 +35,7 @@
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img :src="'images/logos/infoIcon.svg'" class="h-6" loading="lazy" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" alt="iconInfo" />
             <h3>Comment j’importe mes données ?</h3>
           </div>
 
@@ -49,7 +49,7 @@
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img :src="'images/logos/infoIcon.svg'" class="h-6" loading="lazy" alt="iconInfo" />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" alt="iconInfo" />
             <h3>Puis-je adapter mon abonnement ?</h3>
           </div>
 
