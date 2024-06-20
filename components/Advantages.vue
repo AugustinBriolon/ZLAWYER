@@ -10,11 +10,10 @@
 
     <div class="container-solutions grid grid-cols-1 md:grid-cols-2 gap-4 md:px-8">
 
-      <div class="anim-advantages card-shadow p-12 flex flex-col gap-4">
+      <div class="anim-advantages card-shadow p-8 md:p-12 flex flex-col gap-4">
         <div class="flex items-center justify-between">
           <h3 class="uppercase text-orange">Exhaustivité</h3>
-          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
-            height="54" viewBox="0 0 54 54">
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_ionic-ios-star" data-name="Icon ionic-ios-star"
               d="M29.179,12.372H19.988L17.2,4.037a1.012,1.012,0,0,0-1.9,0L12.5,12.372H3.25a1,1,0,0,0-1,1,.735.735,0,0,0,.019.169.96.96,0,0,0,.419.706l7.554,5.323L7.342,28a1,1,0,0,0,.344,1.125.967.967,0,0,0,.562.244,1.225,1.225,0,0,0,.625-.225l7.373-5.255,7.373,5.255a1.171,1.171,0,0,0,.625.225.9.9,0,0,0,.556-.244A.99.99,0,0,0,25.143,28l-2.9-8.429L29.735,14.2l.181-.156a1.048,1.048,0,0,0,.325-.669A1.058,1.058,0,0,0,29.179,12.372Z"
@@ -36,19 +35,11 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Gestion documentaire</p>
-            </div>
-            <div class="flex items-start justify-start gap-1">
-              <span class="text-orange">•</span>
-              <p>Suivi du reste à facturer/dossier</p>
-            </div>
-            <div class="flex items-start justify-start gap-1">
-              <span class="text-orange">•</span>
               <p>Relance des impayés</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Suivi du reste à facturer/dossier</p>
+              <p>Gestion documentaire</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -56,11 +47,19 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Export comptable</p>
+              <p>Facturation des honoraires au temps passé, au forfait</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Agenda des tâ ches</p>
+              <p>Agenda des tâches</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Facturation frais et des débours</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Export comptable</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -68,7 +67,11 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Facturation des honoraires au temps passé ou au forfait, des frais et des débours</p>
+              <p>Rapports financiers détaillés</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Et <span class="text-orange font-bold">+</span> encore...</p>
             </div>
 
           </div>
@@ -76,12 +79,11 @@
         </div>
       </div>
 
-      <div class="anim-advantages card-shadow relative p-12 flex flex-col gap-4">
+      <div class="anim-advantages card-shadow relative p-8 md:p-12 flex flex-col gap-4">
         <img :src="'images/pandas/pandaTop.png'" class="panda-top hidden md:block absolute w-36" alt="panda" />
         <div class="flex items-center justify-between">
           <h3 class="uppercase text-orange">Facilité</h3>
-          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
-            height="54" viewBox="0 0 54 54">
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_material-thumb-up" data-name="Icon material-thumb-up"
               d="M1.5,24.288H6.058V10.615H1.5ZM26.567,11.755a2.286,2.286,0,0,0-2.279-2.279H17.1l1.082-5.207.034-.365a1.715,1.715,0,0,0-.5-1.208L16.506,1.5l-7.5,7.509a2.228,2.228,0,0,0-.672,1.607V22.009a2.286,2.286,0,0,0,2.279,2.279H20.87a2.263,2.263,0,0,0,2.1-1.39l3.441-8.033a2.251,2.251,0,0,0,.16-.832V11.857l-.011-.011Z"
@@ -94,7 +96,7 @@
             <p><span class="font-bold">D’utilisation :</span>
               Une prise en main ultra-rapide. De la saisie des temps en passant par la
               gestion des dossiers et évidemment l’émission de factures de la plus simple à la plus
-              complexe, Tout a été pensé dans cette solution de facturation pour avocats pour être simple
+              complexe, tout a été pensé dans cette solution de facturation pour avocats pour être simple
               d’utilisation et intuitif.
             </p>
           </div>
@@ -115,7 +117,7 @@
         </div>
       </div>
 
-      <div class="anim-advantages card-shadow p-12 flex flex-col gap-4">
+      <div class="anim-advantages card-shadow p-8 md:p-12 flex flex-col gap-4">
         <div class="flex items-center justify-between">
           <h3 class="uppercase text-orange">Service Premium</h3>
           <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
@@ -129,19 +131,22 @@
           </svg>
         </div>
         <p>
-          zLawyer c’est aussi une culture axée sur le service et l’écoute. Nous avons construit notre
-          réputation sur notre réactivité et notre efficacité à vous répondre.
+          zLawyer c’est aussi une culture axée sur le <span class="font-bold">service et l’écoute</span>. Notre
+          réputation s’est construite sur
+          notre réactivité et notre efficacité à répondre à vos besoins en temps réel.
         </p>
-        <p> zLawyer c’est une équipe de support disponible, proche de vous, qui vous accompagne au
-          quotidien et ce sans surcoût.</p>
+        <p>
+          zLawyer c’est une équipe de support client premium accessible et proche de vous, qui vous accompagne
+          dans votre quotidien et ce <span class="font-bold">sans surcoût</span>.
+        </p>
+        <p>Notre équipe d&#39;experts est là pour conseiller et garantir votre tranquillité d&#39;esprit.</p>
       </div>
 
-      <div class="anim-advantages card-shadow relative p-12 flex flex-col gap-4">
+      <div class="anim-advantages card-shadow relative p-8 md:p-12 flex flex-col gap-4">
         <img :src="'images/pandas/pandaSide.png'" class="panda-side hidden md:block absolute h-40" alt="panda" />
         <div class="flex items-center justify-between">
           <h3 class="uppercase text-orange">Évolutif - Innovant</h3>
-          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54"
-            height="54" viewBox="0 0 54 54">
+          <svg data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
             <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" fill="#ed630d" />
             <path id="Icon_awesome-balance-scale" data-name="Icon awesome-balance-scale"
               d="M11.466,15.049h0c0-.725.06-.391-3.809-8.13a2.152,2.152,0,0,0-3.846,0C-.092,14.725,0,14.348,0,15.049H0c0,1.979,2.567,3.583,5.733,3.583S11.466,17.028,11.466,15.049ZM5.733,7.883l3.225,6.45H2.508Zm22.932,7.166c0-.725.06-.391-3.809-8.13a2.152,2.152,0,0,0-3.846,0c-3.9,7.805-3.809,7.428-3.809,8.13h0c0,1.979,2.567,3.583,5.733,3.583s5.733-1.6,5.733-3.583Zm-8.957-.717,3.225-6.45,3.225,6.45Zm3.942,5.733H15.766V6.864A3.586,3.586,0,0,0,17.844,4.3h5.805a.716.716,0,0,0,.717-.717V2.15a.716.716,0,0,0-.717-.717H17.183a3.551,3.551,0,0,0-5.7,0H5.016A.716.716,0,0,0,4.3,2.15V3.583a.716.716,0,0,0,.717.717h5.805A3.586,3.586,0,0,0,12.9,6.864v13.2H5.016a.716.716,0,0,0-.717.717v1.433a.716.716,0,0,0,.717.717H23.649a.716.716,0,0,0,.717-.717V20.783A.716.716,0,0,0,23.649,20.066Z"
@@ -149,12 +154,14 @@
           </svg>
         </div>
         <p>
-          Notre approche centrée sur l’innovation, vous permet de bénéficier d'une
-          <span class="font-bold"> solution en évolution constante, performante et intuitive</span>.
+          Notre approche centrée sur l’innovation, vous permet de bénéficier d'un
+          logiciel avocat en <span class="font-bold">évolution constante, performant et intuitif</span>.
           Notre expertise dans l'évaluation de vos besoins et notre agilité en matière de développement R&amp;D
-          nous permettent de répondre de manière proactive à toutes vos attentes spécifiques. Vous
-          bénéficiez également de nouvelles fonctionnalités régulièrement et sans impactes budgétaires sur
-          votre abonnement tout en gardant notre objectif :<span class="font-bold"> Simplicité et Ergonomie</span>.
+          nous permettent de répondre de manière proactive à toutes vos attentes spécifiques.
+        </p>
+        <p>
+          Profitez régulièrement de nouvelles fonctionnalités, sans impact sur votre budget d&#39;abonnement, tout en
+          garantissant <span class="font-bold"> Simplicité et Ergonomie</span>.
         </p>
       </div>
 

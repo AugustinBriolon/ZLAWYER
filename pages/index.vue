@@ -1,7 +1,8 @@
 <template>
   <div>
     <Hero />
-    <div class="max-width-blue-section">
+    <div class="max-width-blue-section flex flex-col gap-4">
+      <p class="text-2xl">La solution la mieux notée par vos confrères</p>
       <div class="elfsight-app-40a72e46-54ca-4289-8839-eef281cb505c"></div>
     </div>
     <Advantages />

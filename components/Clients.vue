@@ -33,8 +33,8 @@ export default {
     return {
       logos: [
         { src: "images/clients/azarmiLogo.webp" },
-        { src: "images/clients/baroLogo.webp" },
-        { src: "images/clients/bettoLogo.webp" },
+        { src: "images/clients/bonifassiLogo.webp" },
+        { src: "images/clients/ollynsLogo.webp" },
         { src: "images/clients/valtherLogo.webp" },
         { src: "images/clients/vinciLogo.webp" },
         { src: "images/clients/vatierLogo.webp" }
@@ -46,6 +46,7 @@ export default {
         { src: "images/clients/lombardLogo.webp" },
         { src: "images/clients/navacelleLogo.webp" },
         { src: "images/clients/ollynsLogo.webp" }
+        
       ]
     }
   }

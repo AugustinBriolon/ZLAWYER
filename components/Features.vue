@@ -3,11 +3,10 @@
     <div class="w-full flex flex-col gap-2 items-start">
       <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
       <p class="subtitle w-full">
-        zLawyer a été conçu en étroite
-        <span class="text-bolder">collaboration avec des avocats</span>,
-        garantissant des <span class="text-bolder">fonctionnalités</span> et une
-        <span class="text-bolder">ergonomie</span> qui répondent précisément aux
-        exigences des cabinets de petites et grandes tailles.
+        zLawyer a été conçu en étroitecollaboration avec des avocats,
+        garantissant des fonctionnalités et une
+        ergonomie spécifiquement adaptées aux exigences des cabinets quelle que soit
+        leur taille.
       </p>
     </div>
 
@@ -25,23 +24,19 @@
         <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">Gérer la facturation</span>
-            de votre cabinet d’avocat en toute simplicité.
+            de votre cabinet d’avocat en toute simplicité
           </h3>
           <p>
-            Emettez vos factures en 2 clics par le suivi du temps ou manuellement. zLawyer vous permet de
-            personnaliser le tarif honoraire par avocat, par dossier, par client et par prestation proposée. Cette
-            fonctionnalité vous garantit une vue globale sur la trésorerie de votre cabinet d&#39;avocats et facilite la
-            relance de vos clients pour éviter les impayés.
-            Un logiciel efficace pour suivre l&#39;état de vos factures et leurs règlements.
+            Facturez vos dossiers en <span class="font-bold">2</span> clics :
           </p>
           <div class="flex flex-col gap-1">
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
-              <p class="w-full text-clip">Facturez au temps passé, au forfait ou par abonnement</p>
+              <p class="w-full text-clip">Facturez au temps passé ou au forfait</p>
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
-              <p class="w-full text-clip">Facturez vos frais et débours</p>
+              <p class="w-full text-clip">Saisissez et Facturez vos frais et débours</p>
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
@@ -53,12 +48,12 @@
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
-              <p class="w-full text-clip">Envoi direct au client</p>
+              <p class="w-full text-clip">Accédez facilement à toutes vos données financières</p>
             </div>
 
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
-              <p class="w-full text-clip">Gestion des relances</p>
+              <p class="w-full text-clip">Relancez les impayés</p>
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
@@ -66,15 +61,18 @@
             </div>
           </div>
 
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
         <img :src="'images/features/features9.webp'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features9.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features9.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features1.webp'" alt="illustration de la fonctionnalitée facturation"
-          @click="imageModal('images/features/features1.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features1.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Suivi des performances</span> <br>
@@ -83,13 +81,19 @@
           <p>
             Assurez la solidité financière de votre cabinet avec des analyses détaillées et une vision complète
             et pérenne de vos performances grâce à zLawyer.
-            zLawyer, se positionne comme l&#39;une des meilleures solutions pour suivre vos performances.et obtenir des
+          </p>
+          <p>
+            zLawyer, se positionne comme la solution idéal pour suivre vos performances.et obtenir des
             indicateurs clés pour chaque dossier, offrant ainsi une vision complète de votre activité et de votre santé
-            financière. Avec zLawyer, accédez facilement à vos données, aux rapports financiers détaillés des
+            financière.
+          </p>
+          <p>
+            Avec zLawyer, accédez facilement à vos données, aux rapports financiers détaillés des
             performances de chaque dossier analysez vos chiffres, vous permettant des analyses précises sur
             leur rentabilité pour des décisions éclairée.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
       </div>
 
@@ -120,12 +124,14 @@
           </div>
         </div>
         <img :src="'images/features/features2.webp'" alt="illustration de l'application mobile"
-          @click="imageModal('images/features/features2.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features2.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features3.webp'" alt="illustration de la fonctionnalitée gestion"
-          @click="imageModal('images/features/features3.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features3.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
@@ -139,7 +145,8 @@
             se greffer à votre organisation actuelle sans aucun changement.
             (Disponible seulement sous Windows)
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
       </div>
 
@@ -157,15 +164,18 @@
             etc…), les coordonnées complètes, l’état financier du dossier, les
             factures à relancer.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
-        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
+        <img :src="'images/features/features4.webp'"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features5.webp'" alt="illustration de la fonctionnalitée essentiel de l'application"
-          @click="imageModal('images/features/features5.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features5.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
@@ -178,7 +188,8 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
       </div>
 
@@ -193,32 +204,41 @@
             la solution de gestion de temps zLawyer : consignez bien, facturer
             mieux et gérer votre budget en un seul clic.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
         <img :src="'images/features/features6.webp'" alt="illustration de la fonctionnalitée timer"
-          @click="imageModal('images/features/features6.webp')" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain" />
+          @click="imageModal('images/features/features6.webp')"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
+        <img :src="'images/features/features7.webp'"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
         <div class="flex flex-col gap-4">
           <h3>
-            <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre 
+            <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre
             <span class="text-ai">IA Zephir</span>
           </h3>
           <p>
-            Découvrez l’IA générative chez zLawyer avec notre chatbot Zéphyr, l'IA au service de votre cabinet juridique
-            : Décuplez les capacités de votre cabinet en tirant
-            profit d’une IA intégré dans zLawyer. Zéphyr, notre IA, vous accompagne efficacement dans votre quotidien et
+            Découvrez <span class="font-bold">l’Intelligence Artificielle</span> générative chez zLawyer avec notre
+            chatbot <span class="font-bold text-orange">Zéphyr</span>.
+          </p>
+          <p>
+            Cette innovation IA, vous accompagne efficacement dans votre quotidien et vous permet de
             gagner en productivité.
             Conçu pour compléter votre expertise, en faisant par exemple des recherches instantanément des précédents,
-            des cas similaires, ou des références légales. Notre IA Zéphyr facilite votre analyse. Il peut aussi vous
-            apporter de l’aide dans de multiples tâches courantes comme rédiger des emails complexes, rédiger des posts
+            des cas similaires, ou des références légales.
+            <br>
+            <span class="text-orange font-bold">Zéphyr</span> facilite votre analyse et vous
+            apporte de l’aide dans de multiples tâches courantes, comme rédiger des emails complexes, rédiger des posts
             Linkedin, traduire ou synthétiser des documents…
-
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <p>Décuplez les capacités de votre cabinet en tirant
+            profit d’une IA intégré dans zLawyer. </p>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
       </div>
 
@@ -237,9 +257,11 @@
             facturer, vos factures à relancer, et la synthèse de vos saisies des
             temps .
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration</NuxtLink>
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          </NuxtLink>
         </div>
-        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform h-96 w-full lg:w-fit object-contain"
+        <img :src="'images/features/features8.webp'"
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 
