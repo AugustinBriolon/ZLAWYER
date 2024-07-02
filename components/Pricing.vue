@@ -2,8 +2,8 @@
   <div class="max-width-blue-section flex flex-col items-center gap-8" id="tarif">
     <div class="flex flex-col items-center justify-center">
       <h2 class="text-center">Un tarif unique, transparent et accessible</h2>
-      <p>Avec zLawyer, pas de mauvaise surprise, 1 logiciel, 1 tarif/utilisateur/mois avec toutes les fonctionnalités
-      </p>
+      <p>Avec zLawyer, pas de mauvaise surprise : 1 logiciel, un tarif par utilisateur par mois avec toutes les
+        fonctionnalités incluses.</p>
     </div>
 
     <div class="anim-from-top p-10 flex flex-col gap-10 bg-white rounded-radius-current card-pricing">
@@ -25,7 +25,8 @@
           <p class="text-orange text-sm">et sans engagement</p>
         </div>
 
-        <NuxtLink title="Page Contact" to="/contact" class="button-orange mt-6 text-center w-full md:w-1/2">Demandez un démo
+        <NuxtLink title="Page Contact" to="/contact" class="button-orange mt-6 text-center w-full md:w-1/2">Demandez un
+          démo
         </NuxtLink>
       </div>
 

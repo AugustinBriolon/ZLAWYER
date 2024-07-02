@@ -6,11 +6,11 @@
           zLawyer s’adapte à votre organisation
         </h2>
         <p class="anim-adaptative w-full md:w-3/4">
-          Que votre cabinet soit équipé d’un <span class="text-bolder">Nas</span>,
-          d’un serveur ou encore d’un <span class="text-bolder">Cloud</span>,
+          Que votre cabinet soit équipé d’un <span class="text-bolder">NAS</span>,
+          d’un serveur ou encore d’un <span class="text-bolder">cloud</span>,
           zLawyer <span class="text-bolder">s'adapte</span> parfaitement à
           <span class="text-bolder">votre organisation</span>. zLawyer est
-          <span class="text-bolder">100% compatible</span> avec les technologies
+          <span class="text-bolder">100 % compatible</span> avec les technologies
           actuelles de stockage.
         </p>
       </div>

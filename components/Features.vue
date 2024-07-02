@@ -3,7 +3,7 @@
     <div class="w-full flex flex-col gap-2 items-start">
       <h2>Fonctionnalités du logiciel de facturation zLawyer</h2>
       <p class="subtitle w-full">
-        zLawyer a été conçu en étroitecollaboration avec des avocats,
+        zLawyer a été conçu en étroite collaboration avec des avocats,
         garantissant des fonctionnalités et une
         ergonomie spécifiquement adaptées aux exigences des cabinets quelle que soit
         leur taille.
@@ -36,7 +36,7 @@
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
-              <p class="w-full text-clip">Saisissez et Facturez vos frais et débours</p>
+              <p class="w-full text-clip">Saisissez et facturez vos frais et débours</p>
             </div>
             <div class="flex items-center gap-2 w-full">
               <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
@@ -83,14 +83,14 @@
             et pérenne de vos performances grâce à zLawyer.
           </p>
           <p>
-            zLawyer, se positionne comme la solution idéal pour suivre vos performances.et obtenir des
+            zLawyer se positionne comme la solution idéale pour suivre vos performances et obtenir des
             indicateurs clés pour chaque dossier, offrant ainsi une vision complète de votre activité et de votre santé
             financière.
           </p>
           <p>
-            Avec zLawyer, accédez facilement à vos données, aux rapports financiers détaillés des
-            performances de chaque dossier analysez vos chiffres, vous permettant des analyses précises sur
-            leur rentabilité pour des décisions éclairée.
+            Avec zLawyer, accédez facilement à vos données et aux rapports financiers détaillés des
+            performances de chaque dossier. Analysez vos chiffres et effectuez des analyses précises sur
+            leur rentabilité pour prendre des décisions éclairées.
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
@@ -105,8 +105,8 @@
           </h3>
           <p>
             Visualisez et saisissez vos temps où que vous soyez depuis votre
-            mobile. L’application gère automatiquement les modes en-ligne et
-            hors-ligne. Si vous êtes un associé, vous aurez aussi accès aux
+            mobile. L’application gère automatiquement les modes en ligne et
+            hors ligne. Si vous êtes associé, vous aurez également accès aux
             principaux indicateurs financiers de votre cabinet.
           </p>
           <div class="flex flex-wrap">
@@ -157,12 +157,10 @@
             portée de main
           </h3>
           <p>
-            Avec notre solution de gestion de dossiers d’avocat, pas besoin de
-            menus complexes ou de longues manipulations pour tout retrouver.
-            Chaque fenêtre de dossiers vous présente les informations
-            essentielles le concernant : intervenants (clients, confrères,
-            etc…), les coordonnées complètes, l’état financier du dossier, les
-            factures à relancer.
+            Avec notre solution de gestion de dossiers d’avocat, pas besoin de menus complexes ou de
+            longues manipulations pour tout retrouver. Chaque fenêtre de dossier vous présente les
+            informations essentielles : intervenants (clients, confrères, etc.), coordonnées complètes,
+            état financier du dossier, factures à relancer, ...
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
@@ -199,10 +197,9 @@
             <span class="text-underline">La capture</span> du temps qui passe
           </h3>
           <p>
-            Appels téléphoniques, rédaction d’actes, rendez-vous, audiences,
-            réunions internes… Que vous facturiez aux temps ou au forfait, avec
-            la solution de gestion de temps zLawyer : consignez bien, facturer
-            mieux et gérer votre budget en un seul clic.
+            Appels téléphoniques, rédaction d’actes, rendez-vous, audiences, réunions internes… Que
+            vous facturiez au temps ou au forfait, avec la solution de gestion de temps zLawyer :
+            consignez bien, facturez mieux et gérez votre budget en un seul clic.
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
@@ -219,24 +216,25 @@
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre
-            <span class="text-ai">IA Zephir</span>
+            <span class="text-ai">IA Zéphyr</span>
           </h3>
           <p>
-            Découvrez <span class="font-bold">l’Intelligence Artificielle</span> générative chez zLawyer avec notre
+            Découvrez <span class="font-bold">l’intelligence artificielle</span> générative chez zLawyer avec notre
             chatbot <span class="font-bold text-orange">Zéphyr</span>.
           </p>
           <p>
-            Cette innovation IA, vous accompagne efficacement dans votre quotidien et vous permet de
+            Cette innovation IA vous accompagne efficacement dans votre quotidien et vous permet de
             gagner en productivité.
-            Conçu pour compléter votre expertise, en faisant par exemple des recherches instantanément des précédents,
+            Conçu pour compléter votre expertise, <span class="font-bold text-orange">Zéphyr</span> peut par exemple
+            effectuer des recherches instantanées de précédents,
             des cas similaires, ou des références légales.
             <br>
             <span class="text-orange font-bold">Zéphyr</span> facilite votre analyse et vous
             apporte de l’aide dans de multiples tâches courantes, comme rédiger des emails complexes, rédiger des posts
-            Linkedin, traduire ou synthétiser des documents…
+            LinkedIn, traduire ou synthétiser des documents…
           </p>
           <p>Décuplez les capacités de votre cabinet en tirant
-            profit d’une IA intégré dans zLawyer. </p>
+            profit d’une IA intégrée dans zLawyer. </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
@@ -250,12 +248,10 @@
             web.
           </h3>
           <p>
-            La fenêtre principale de la solution de cabinet d’avocat zLawyer
-            affiche votre tableau de bord personnel. Cette fenêtre vous permet
-            d’accéder à l’ensemble des informations prioritaires de votre
-            activité en un seul coup d’œil : vos échéances, vos dossiers à
-            facturer, vos factures à relancer, et la synthèse de vos saisies des
-            temps .
+            La fenêtre principale de la solution de cabinet d’avocat zLawyer affiche votre tableau de bord
+            personnel. Cette fenêtre vous permet d’accéder à l’ensemble des informations prioritaires de
+            votre activité en un seul coup d’œil : vos échéances, vos dossiers à facturer, vos factures à
+            relancer, et la synthèse de vos saisies de temps.
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>

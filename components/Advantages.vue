@@ -3,8 +3,7 @@
     <div class="w-full flex flex-col items-start gap-2">
       <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
       <p class="">
-        Pourquoi démarrer avec zLawyer : <span class="text-orange"> Expérimentez le logiciel de facturation le plus
-          intuitif et performant du marché !</span>
+        Pourquoi démarrer avec zLawyer
       </p>
     </div>
 
@@ -25,13 +24,13 @@
             <span class="text-bolder">La solution de facturation tout-en-un :</span> Parce que zLawyer a été pensé et
             développé
             en étroite collaboration avec
-            des avocats, il regroupe toute les fonctionnalités essentielles dont vous avez besoin.
+            des avocats, il regroupe toutes les fonctionnalités essentielles dont vous avez besoin.
           </p>
           <div class="w-full grid grid-cols-2 gap-2">
 
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Gestion des dossiers, de temps</p>
+              <p>Gestion des dossiers et de temps</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -43,11 +42,11 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Classement emails</p>
+              <p>Classement des emails</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Facturation des honoraires au temps passé, au forfait</p>
+              <p>Facturation personnalisée des honoraires</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -55,15 +54,15 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Facturation frais et des débours</p>
+              <p>Facturation des frais et des débours</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Export comptable</p>
+              <p>Export comptable adapté</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Suivi du reste à facturer/dossier</p>
+              <p>Suivi du reste à facturer par dossier</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -71,7 +70,11 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Et <span class="text-orange font-bold">+</span> encore...</p>
+              <p>Suivi et analyse des performances</p>
+            </div>
+            <div class="flex items-start justify-start gap-1">
+              <span class="text-orange">•</span>
+              <p>Et bien <span class="text-orange font-bold">+</span> encore...</p>
             </div>
 
           </div>
@@ -94,23 +97,24 @@
 
           <div class="flex flex-col items-start justify-start gap-1">
             <p><span class="font-bold">D’utilisation :</span>
-              Une prise en main ultra-rapide. De la saisie des temps en passant par la
-              gestion des dossiers et évidemment l’émission de factures de la plus simple à la plus
-              complexe, tout a été pensé dans cette solution de facturation pour avocats pour être simple
-              d’utilisation et intuitif.
+              Une prise en main ultra-rapide. De la saisie des temps en passant par la gestion
+              des dossiers et évidemment l’émission de factures, de la plus simple à la plus complexe, tout a
+              été pensé dans cette solution de facturation pour avocats pour être simple d’utilisation et
+              intuitive.
             </p>
           </div>
 
           <div class="flex flex-col items-start justify-start gap-1">
             <p><span class="font-bold">De paramétrage :</span>
-              L’outil est personnalisable afin de répondre à votre propre besoin et aller
+              L’outil est personnalisable afin de répondre à vos propres besoins et d&#39;aller
               droit au but rapidement et facilement.
             </p>
           </div>
           <div class="flex flex-col items-start justify-start gap-1">
             <p><span class="font-bold">De souscription :</span>
-              Sans engagement, le nombre d'utilisateurs est ajustable à tout moment avec un tarif appliqué en fonction
-              du nombre d'abonnés, et sans frais cachés : un seul tarif pour l'ensemble des fonctionnalités zLawyer.
+              Sans engagement, le nombre d&#39;utilisateurs est ajustable à tout moment avec
+              un tarif appliqué en fonction du nombre d&#39;abonnés, et sans frais cachés : un seul tarif pour
+              l&#39;ensemble des fonctionnalités de zLawyer.
             </p>
           </div>
 
@@ -131,15 +135,15 @@
           </svg>
         </div>
         <p>
-          zLawyer c’est aussi une culture axée sur le <span class="font-bold">service et l’écoute</span>. Notre
+          zLawyer, c’est aussi une culture axée sur le <span class="font-bold">service et l’écoute</span>. Notre
           réputation s’est construite sur
           notre réactivité et notre efficacité à répondre à vos besoins en temps réel.
         </p>
         <p>
-          zLawyer c’est une équipe de support client premium accessible et proche de vous, qui vous accompagne
-          dans votre quotidien et ce <span class="font-bold">sans surcoût</span>.
+          zLawyer, c’est une équipe de support client premium, accessible et proche de vous, qui vous accompagne
+          dans votre quotidien, et ce, <span class="font-bold">sans surcoût</span>.
         </p>
-        <p>Notre équipe d&#39;experts est là pour conseiller et garantir votre tranquillité d&#39;esprit.</p>
+        <p>Notre équipe d&#39;experts est là pour vous conseiller et garantir votre tranquillité d&#39;esprit.</p>
       </div>
 
       <div class="anim-advantages card-shadow relative p-8 md:p-12 flex flex-col gap-4">
@@ -154,8 +158,8 @@
           </svg>
         </div>
         <p>
-          Notre approche centrée sur l’innovation, vous permet de bénéficier d'un
-          logiciel avocat en <span class="font-bold">évolution constante, performant et intuitif</span>.
+          Notre approche centrée sur l’innovation vous permet de bénéficier d'un
+          logiciel pour avocats en <span class="font-bold">évolution constante, performant et intuitif</span>.
           Notre expertise dans l'évaluation de vos besoins et notre agilité en matière de développement R&amp;D
           nous permettent de répondre de manière proactive à toutes vos attentes spécifiques.
         </p>
