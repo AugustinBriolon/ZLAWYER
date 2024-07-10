@@ -47,11 +47,11 @@
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
-            <p class="w-full text-clip">Facturation au temps passé / forfait / provisionss</p>
+            <p class="w-full text-clip">Facturation au temps passé / forfait / provisions</p>
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
-            <p class="w-full text-clip">Modèles personnalisabless</p>
+            <p class="w-full text-clip">Modèles personnalisables</p>
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
@@ -85,12 +85,12 @@
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
-            <p class="w-full text-clip font-bold"><span class="text-orange">(New)</span> Intelligence artificielle
-              Zéphyr</p>
+            <p class="w-full text-clip">Application mobile</p>
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
-            <p class="w-full text-clip">Application mobile</p>
+            <p class="w-full text-clip font-bold"><span class="text-orange">(New)</span> Intelligence artificielle
+              Zéphyr</p>
           </div>
         </div>
 

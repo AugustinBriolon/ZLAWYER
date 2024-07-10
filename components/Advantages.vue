@@ -30,7 +30,7 @@
 
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Gestion des dossiers et de temps</p>
+              <p>Gestion des dossiers et des temps</p>
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
@@ -74,7 +74,7 @@
             </div>
             <div class="flex items-start justify-start gap-1">
               <span class="text-orange">•</span>
-              <p>Et bien <span class="text-orange font-bold">+</span> encore...</p>
+              <p>Et <span class="text-orange font-bold">+</span> encore...</p>
             </div>
 
           </div>
