@@ -3,7 +3,7 @@
     <div class="w-full flex flex-col items-start gap-2">
       <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
       <p class="">
-        Pourquoi démarrer avec zLawyer
+        La puissance de zLawyer réside dans son parfait équilibre entre simplicité d’utilisation, richesse fonctionnelle et la qualité approuvée du service support. 
       </p>
     </div>
 

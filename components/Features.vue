@@ -5,7 +5,7 @@
       <p class="subtitle w-full">
         zLawyer a été conçu en étroite collaboration avec des avocats,
         garantissant des fonctionnalités et une
-        ergonomie spécifiquement adaptées aux exigences des cabinets quelle que soit
+        ergonomie spécifiquement adaptées aux exigences des cabinets quels que soient
         leur taille.
       </p>
     </div>
@@ -18,7 +18,7 @@
       <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop="" />
     </div>
 
-    <div class="md:px-8 w-full flex flex-col gap-12 lg:gap-8">
+    <div class="md:px-8 w-full flex flex-col gap-12 ">
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
@@ -66,13 +66,13 @@
         </div>
         <img :src="'images/features/features9.webp'" alt="illustration de la fonctionnalitée facturation"
           @click="imageModal('images/features/features9.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform w-full border-img" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features1.webp'" alt="illustration de la fonctionnalitée facturation"
           @click="imageModal('images/features/features1.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform w-full border-img" />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Suivi des performances</span> <br>
@@ -131,7 +131,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features3.webp'" alt="illustration de la fonctionnalitée gestion"
           @click="imageModal('images/features/features3.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform w-full border-img" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
@@ -143,7 +143,6 @@
             classement, et ce, sans privatisation puisque les documents restent
             évidemment sur votre serveur / disque actuel. En effet, zLawyer sait
             se greffer à votre organisation actuelle sans aucun changement.
-            (Disponible seulement sous Windows)
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
@@ -166,14 +165,14 @@
           </NuxtLink>
         </div>
         <img :src="'images/features/features4.webp'"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features5.webp'" alt="illustration de la fonctionnalitée essentiel de l'application"
           @click="imageModal('images/features/features5.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform w-full border-img" />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
@@ -206,12 +205,12 @@
         </div>
         <img :src="'images/features/features6.webp'" alt="illustration de la fonctionnalitée timer"
           @click="imageModal('images/features/features6.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform w-full border-img" />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features7.webp'"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
         <div class="flex flex-col gap-4">
           <h3>
@@ -220,16 +219,16 @@
           </h3>
           <p>
             Découvrez <span class="font-bold">l’intelligence artificielle</span> générative chez zLawyer avec notre
-            chatbot <span class="font-bold text-orange">Zéphyr</span>.
+            chatbot <span class="font-bold">Zéphyr</span>..
           </p>
           <p>
             Cette innovation IA vous accompagne efficacement dans votre quotidien et vous permet de
             gagner en productivité.
-            Conçu pour compléter votre expertise, <span class="font-bold text-orange">Zéphyr</span> peut par exemple
+            Conçu pour compléter votre expertise, <span class="font-bold">Zéphyr</span> peut par exemple
             effectuer des recherches instantanées de précédents,
             des cas similaires, ou des références légales.
             <br>
-            <span class="text-orange font-bold">Zéphyr</span> facilite votre analyse et vous
+            <span class="font-bold">Zéphyr</span> facilite votre analyse et vous
             apporte de l’aide dans de multiples tâches courantes, comme rédiger des emails complexes, rédiger des posts
             LinkedIn, traduire ou synthétiser des documents…
           </p>
@@ -248,16 +247,14 @@
             web.
           </h3>
           <p>
-            La fenêtre principale de la solution de cabinet d’avocat zLawyer affiche votre tableau de bord
-            personnel. Cette fenêtre vous permet d’accéder à l’ensemble des informations prioritaires de
-            votre activité en un seul coup d’œil : vos échéances, vos dossiers à facturer, vos factures à
-            relancer, et la synthèse de vos saisies de temps.
+            Ce service vous permet de disposer d’un espace à vos couleurs sur le Web afin de permettre aux clients de
+            votre choix d’accéder à certaines informations de leurs dossiers.
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
         <img :src="'images/features/features8.webp'"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 
@@ -290,3 +287,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.border-img {
+  border-radius: 0.25rem;
+}
+</style>

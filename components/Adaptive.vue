@@ -16,12 +16,12 @@
       </div>
 
       <div class="grid grid-cols-3 md:grid-cols-6 justify-items-center gap-2">
-        <img :src="'images/adaptative/googleDriveLogo.webp'" alt="GoogleDrive Logo" class="anim-adaptative h-20 w-fit" />
-        <img :src="'images/adaptative/OneDriveLogo.webp'" alt="oneDrive Logo" class="anim-adaptative h-20 w-fit" />
-        <img :src="'images/adaptative/synologyLogo.webp'" alt="synology Logo" class="anim-adaptative h-20 w-fit" />
-        <img :src="'images/adaptative/dropboxLogo.webp'" alt="dropbox Logo" class="anim-adaptative h-20 w-fit" />
-        <img :src="'images/adaptative/tresoritLogo.webp'" alt="tresorit Logo" class="anim-adaptative h-20 w-fit" />
-        <img :src="'images/adaptative/pcloudLogo.webp'" alt="pcloud Logo" class="anim-adaptative h-20 w-fit" />
+        <img :src="'images/adaptative/googleDriveLogo.webp'" alt="GoogleDrive Logo" class="anim-adaptative h-20 w-auto object-contain" />
+        <img :src="'images/adaptative/OneDriveLogo.webp'" alt="oneDrive Logo" class="anim-adaptative h-20 w-auto object-contain" />
+        <img :src="'images/adaptative/synologyLogo.webp'" alt="synology Logo" class="anim-adaptative h-20 w-auto object-contain" />
+        <img :src="'images/adaptative/dropboxLogo.webp'" alt="dropbox Logo" class="anim-adaptative h-20 w-auto object-contain" />
+        <img :src="'images/adaptative/tresoritLogo.webp'" alt="tresorit Logo" class="anim-adaptative h-20 w-auto object-contain" />
+        <img :src="'images/adaptative/pcloudLogo.webp'" alt="pcloud Logo" class="anim-adaptative h-20 w-auto object-contain" />
       </div>
     </div>
   </div>
