@@ -18,7 +18,7 @@
       <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop="" />
     </div>
 
-    <div class="md:px-8 w-full flex flex-col gap-12 ">
+    <div class="md:px-8 w-full flex flex-col gap-12 md:gap-20 ">
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center lg:justify-items-end">
         <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
@@ -244,7 +244,7 @@
           <h3>
             Donnez à vos clients
             <span class="text-underline">un accès à leur dossier</span> sur le
-            web.
+            web
           </h3>
           <p>
             Ce service vous permet de disposer d’un espace à vos couleurs sur le Web afin de permettre aux clients de
@@ -290,6 +290,6 @@ export default {
 
 <style scoped>
 .border-img {
-  border-radius: 0.25rem;
+  border-radius: 15px;
 }
 </style>
