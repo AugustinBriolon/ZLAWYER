@@ -15,7 +15,7 @@
       @click="isActive = false">
       <img :src="'images/logos/cross.svg'" alt="close modal"
         class="absolute top-32 lg:top-20 right-5 cursor-pointer text-orange" @click="isActive = false" />
-      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4" @click.stop="" />
+      <img :src="imageModalSrc" alt="image modal" class="w-full md:w-3/4 border-img" @click.stop="" />
     </div>
 
     <div class="md:px-8 w-full flex flex-col gap-12 md:gap-20 ">
