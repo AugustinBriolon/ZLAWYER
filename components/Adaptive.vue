@@ -10,7 +10,7 @@
           d’un serveur ou encore d’un <span class="text-bolder">cloud</span>,
           zLawyer <span class="text-bolder">s'adapte</span> parfaitement à
           <span class="text-bolder">votre organisation</span>. zLawyer est
-          <span class="text-bolder">100 % compatible</span> avec les technologies
+          <span class="text-bolder whitespace-nowrap">100% compatible</span> avec les technologies
           actuelles de stockage.
         </p>
       </div>

@@ -113,7 +113,7 @@
           <div class="flex flex-col items-start justify-start gap-1">
             <p><span class="font-bold">De souscription :</span>
               Sans engagement, le nombre d&#39;utilisateurs est ajustable à tout moment avec
-              un tarif appliqué en fonction du nombre d&#39;abonnés, et sans frais cachés : un seul tarif pour
+              un tarif appliqué en fonction du nombre d&#39;abonnés, et sans frais caché : un seul tarif pour
               l&#39;ensemble des fonctionnalités de zLawyer.
             </p>
           </div>

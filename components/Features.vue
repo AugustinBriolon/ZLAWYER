@@ -24,7 +24,7 @@
         <div class="flex flex-col gap-2 md:gap-4 row-start-2 lg:row-span-1">
           <h3>
             <span class="text-underline">Gérer la facturation</span>
-            de votre cabinet d’avocat en toute simplicité
+            de votre cabinet d’avocats en toute simplicité
           </h3>
           <p>
             Facturez vos dossiers en <span class="font-bold">2</span> clics :
@@ -219,7 +219,7 @@
           </h3>
           <p>
             Découvrez <span class="font-bold">l’intelligence artificielle</span> générative chez zLawyer avec notre
-            chatbot <span class="font-bold">Zéphyr</span>..
+            chatbot <span class="font-bold">Zéphyr</span>.
           </p>
           <p>
             Cette innovation IA vous accompagne efficacement dans votre quotidien et vous permet de
