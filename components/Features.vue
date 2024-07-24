@@ -141,7 +141,7 @@
             Notre solution de gestion de cabinet d’avocat vous aide dans la
             gestion des documents de chaque dossier : modèles, organisation,
             classement, et ce, sans privatisation puisque les documents restent
-            évidemment sur votre serveur / disque actuel. En effet, zLawyer sait
+            évidemment sur votre votre cloud / serveur actuel. En effet, zLawyer sait
             se greffer à votre organisation actuelle sans aucun changement.
           </p>
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
