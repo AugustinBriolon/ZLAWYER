@@ -47,7 +47,8 @@
               href="https://download.teamviewer.com/download/TeamViewerQS.exe">Assistance à distance (Teamviewer)</a>
             <a class="text-link block" target="_blank" href="https://anydesk.com/fr/downloads">Assistance à distance
               (Anydesk)</a>
-            <a class="text-link block" download href="/download/zlawyerstp.exe">Installation zLawyer</a>
+            <p class="hidden">Ce fichier est l'installateur officiel de zLawyer, un logiciel destiné à la facturation pour avocat. Il nécessite Windows et n'altère aucun fichier système sans autorisation explicite.</p>
+            <a class="text-link block" download href="/download/zlawyerstp.exe" rel="noopener noreferrer">Installation zLawyer</a>
           </div>
 
           <div>

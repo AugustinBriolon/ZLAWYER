@@ -1,9 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
+  nitro: {
+    output: {
+      dir: '.output',
+      publicDir: 'static'
+    }
+  },
+  ssr: true,
   app: {
-    // baseURL: '/logiciel-avocats/',
     // baseURL: '/.output/public/',
+    // baseURL: '/logiciel-avocats/',
     head: {
       title:
         ' Logiciel Facturation Avocat : Solution de gestion cabinets d’avocats',
@@ -90,7 +97,7 @@ export default defineNuxtConfig({
           sizes: '16x16',
           href: '/favicon/favicon-16x16.png',
         },
-        { rel: 'manifest', href: '/favicon/site.webmanifest' },
+        { rel: 'manifest', href: '/logiciel-avocats/favicon/site.webmanifest' },
         {
           rel: 'mask-icon',
           href: '/favicon/safari-pinned-tab.svg',
