@@ -164,8 +164,7 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features4.webp'"
-          class="hover:scale-[1.02] transition-transform w-full border-img"
+        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
       </div>
 
@@ -209,8 +208,7 @@
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features7.webp'"
-          class="hover:scale-[1.02] transition-transform w-full border-img"
+        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
         <div class="flex flex-col gap-4">
           <h3>
@@ -250,12 +248,41 @@
             Ce service vous permet de disposer d’un espace à vos couleurs sur le Web afin de permettre aux clients de
             votre choix d’accéder à certaines informations de leurs dossiers.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
+            Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features8.webp'"
-          class="hover:scale-[1.02] transition-transform w-full border-img"
+        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
+        <img :src="'images/features/features10.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
+          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features10.webp')" />
+        <div class="flex flex-col gap-4">
+          <h3>
+            Assurez votre transition vers la facture
+            électronique en toute sérénité en optant pour la
+            solution de zLawyer.
+          </h3>
+          <p>
+            En optant pour zLawyer vous garantissez une totale
+            conformité aux obligations découlant de la réforme
+            sur la facturation électronique. Notre plateforme
+            répond aux exigences d&#39;une PDP  et de l&#39;e-
+            facturation.
+          </p>
+          <p>En intégrant zLawyer à votre système comptable,
+            vous bénéficierez d&#39;une efficacité
+            optimum/renforcée/accrue dans la gestion de vos
+            factures : Envoie , suivi de l&#39;état des factures, etc.
+            Découvrez comment zLawyer peut vous aider à vous
+            connecter au PPF et à vous adapter à la réforme
+            fiscale sur la dématérialisation des factures en France</p>
+          <NuxtLink title="Page Facturation Électronique" class="button-transparent w-fit" to="/facturation-electronique">
+            En savoir plus
+          </NuxtLink>
+        </div>
       </div>
 
     </div>
