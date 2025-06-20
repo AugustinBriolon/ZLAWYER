@@ -13,7 +13,7 @@
           En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de la réforme sur la
           facturation électronique. Notre plateforme répond aux exigences d'une PDP et de l'e-facturation.
         </p>
-        <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
+        <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/facturation-electronique-et-zlawyer">
           En savoir plus
         </NuxtLink>
       </div>
@@ -134,6 +134,20 @@
             secteur, y compris les cabinets d'avocats. Elle concerne aussi bien les émetteurs que les destinataires de
             factures.
           </p>
+        </section>
+
+        <hr class="my-12 border-gray-200">
+
+        <section class="mb-16">
+          <div class="p-8 text-center">
+            <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
+            <p class="text-lg text-gray-700 mb-6">
+              Contactez-nous pour une démo ou un audit gratuit de votre solution actuelle.
+            </p>
+            <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
+              Demander une démonstration
+            </NuxtLink>
+          </div>
         </section>
 
         <hr class="my-12 border-gray-200" id="reforme">
@@ -301,6 +315,20 @@
           <p class="text-lg leading-relaxed text-gray-700 mt-6">
             Gestion centralisée de ces étapes = gain de temps et conformité garantie.
           </p>
+        </section>
+
+        <hr class="my-12 border-gray-200">
+
+        <section class="mb-16">
+          <div class="p-8 text-center">
+            <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
+            <p class="text-lg text-gray-700 mb-6">
+              Contactez-nous pour une démo ou un audit gratuit de votre solution actuelle.
+            </p>
+            <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
+              Demander une démonstration
+            </NuxtLink>
+          </div>
         </section>
       </div>
     </div>
