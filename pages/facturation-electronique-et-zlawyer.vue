@@ -493,45 +493,40 @@
   </div>
 </template>
 
-<script setup>
-import { onMounted, onBeforeUnmount } from 'vue'
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
+<script>
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
-gsap.registerPlugin(ScrollTrigger)
+export default {
+  mounted() {
+    const links = Array.from(document.querySelectorAll('.scroll-link'));
+    const sections = Array.from(document.querySelectorAll('section[id]'));
 
-let triggers = []
+    if (!sections.length || !links.length) return;
 
-onMounted(() => {
-  const sections = Array.from(document.querySelectorAll('section[id]'))
-  const links = Array.from(document.querySelectorAll('.scroll-link'))
+    function setActive(id) {
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${id}`;
+        link.classList.toggle('font-bold', isActive);
+        link.classList.toggle('text-orange', isActive);
+        link.classList.toggle('text-gray-700', !isActive);
+      });
+    }
 
-  const setActive = (id) => {
-    links.forEach(link => {
-      const isActive = link.getAttribute('href') === `#${id}`
-      link.classList.toggle('font-bold', isActive)
-      link.classList.toggle('text-orange', isActive)
-      link.classList.toggle('text-gray-700', !isActive)
-    })
+    sections.forEach(section => {
+      ScrollTrigger.create({
+        trigger: section,
+        start: 'top center',
+        end: 'bottom center',
+        onEnter: () => setActive(section.id),
+        onEnterBack: () => setActive(section.id),
+      });
+    });
+
+    ScrollTrigger.refresh();
   }
-
-  sections.forEach(section => {
-    const trigger = ScrollTrigger.create({
-      trigger: section,
-      start: 'top center',
-      end: 'bottom center',
-      onEnter: () => setActive(section.id),
-      onEnterBack: () => setActive(section.id),
-    })
-    triggers.push(trigger)
-  })
-})
-
-onBeforeUnmount(() => {
-  triggers.forEach(trigger => trigger.kill())
-  triggers = []
-})
-
+};
 </script>
 
 <style scoped>

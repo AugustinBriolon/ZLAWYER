@@ -319,66 +319,40 @@
   </div>
 </template>
 
-<script setup>
-import { onMounted, onBeforeUnmount, nextTick } from 'vue'
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
+<script>
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
-gsap.registerPlugin(ScrollTrigger)
+export default {
+  mounted() {
+    const links = Array.from(document.querySelectorAll('.scroll-link'));
+    const sections = Array.from(document.querySelectorAll('section[id]'));
 
-let triggers = []
+    if (!sections.length || !links.length) return;
 
-onMounted(async () => {
-  await nextTick()
-  setTimeout(() => {
-    initScrollTriggers()
-  }, 100)
-})
+    function setActive(id) {
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${id}`;
+        link.classList.toggle('font-bold', isActive);
+        link.classList.toggle('text-orange', isActive);
+        link.classList.toggle('text-gray-700', !isActive);
+      });
+    }
 
-function initScrollTriggers() {
-  const sections = document.querySelectorAll('section[id]')
-  const links = document.querySelectorAll('.scroll-link')
+    sections.forEach(section => {
+      ScrollTrigger.create({
+        trigger: section,
+        start: 'top center',
+        end: 'bottom center',
+        onEnter: () => setActive(section.id),
+        onEnterBack: () => setActive(section.id),
+      });
+    });
 
-  function setActive(id) {
-    links.forEach(link => {
-      link.classList.remove('font-bold', 'text-orange')
-      link.classList.add('text-gray-700')
-      
-      if (link.getAttribute('href') === `#${id}`) {
-        link.classList.add('font-bold', 'text-orange')
-        link.classList.remove('text-gray-700')
-      }
-    })
+    ScrollTrigger.refresh();
   }
-
-  triggers.forEach(trigger => trigger.kill())
-  triggers = []
-
-  sections.forEach((section, index) => {
-    const trigger = ScrollTrigger.create({
-      trigger: section,
-      start: 'top 150px',
-      end: 'bottom 150px',
-      markers: false,
-      onEnter: () => {
-        setActive(section.id)
-      },
-      onEnterBack: () => {
-        setActive(section.id)
-      },
-    })
-    
-    triggers.push(trigger)
-  })
-  
-  ScrollTrigger.refresh()
-}
-
-onBeforeUnmount(() => {
-  triggers.forEach(trigger => trigger.kill())
-  triggers = []
-  ScrollTrigger.getAll().forEach(trigger => trigger.kill())
-})
+};
 </script>
 
 <style scoped>
