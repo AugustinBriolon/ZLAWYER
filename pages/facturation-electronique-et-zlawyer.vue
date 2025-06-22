@@ -23,7 +23,7 @@
     <div class="mt-32 flex gap-8 w-full">
 
       <aside class="hidden lg:block">
-        <div class="h-80 min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <div class="h-72 min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <h3 class="font-semibold text-lg mb-4 text-orange">Sommaire</h3>
           <ul class="space-y-3">
             <li>
@@ -42,12 +42,6 @@
               <a href="#reponse-zlawyer"
                 class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 La réponse zLawyer
-              </a>
-            </li>
-            <li>
-              <a href="#contact-demo"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Besoin d'en savoir plus ?
               </a>
             </li>
             <li>
@@ -189,7 +183,7 @@
 
         <hr class="my-12 border-gray-200">
 
-        <section class="mb-16" id="contact-demo">
+        <section class="mb-16">
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="text-lg text-gray-700 mb-6">
@@ -380,6 +374,18 @@
           </div>
         </section>
 
+        <section class="mb-16">
+          <div class="p-8 text-center">
+            <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
+            <p class="text-lg text-gray-700 mb-6">
+              Contactez-nous pour une démo ou un audit gratuit de votre solution actuelle.
+            </p>
+            <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
+              Demander une démonstration
+            </NuxtLink>
+          </div>
+        </section>
+
       </div>
     </div>
   </div>
@@ -469,7 +475,7 @@ export default {
     sections.forEach(section => {
       ScrollTrigger.create({
         trigger: section,
-        start: 'top center',
+        start: 'top 125px',
         end: 'bottom center',
         onEnter: () => setActive(section.id),
         onEnterBack: () => setActive(section.id),
@@ -482,9 +488,8 @@ export default {
 </script>
 
 <style scoped>
-section,
-hr {
-  scroll-margin-top: 3rem;
+section {
+  scroll-margin-top: 7rem;
 }
 
 section {

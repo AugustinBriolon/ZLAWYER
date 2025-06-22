@@ -226,23 +226,72 @@
 
         <section id="calendrier" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Calendrier</span> de mise en œuvre</h2>
-          <ul class="space-y-3 text-gray-700">
-            <li class="flex items-start">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <strong class="whitespace-nowrap">1er septembre 2026 :</strong>
-              <ul class="ml-6">
-                <li>Obligation de recevoir des factures électroniques pour TOUTES les entreprises</li>
-                <li>Obligation d'émettre des factures électroniques pour les grandes entreprises et les ETI</li>
-              </ul>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <strong class="whitespace-nowrap">1er septembre 2027 :</strong>
-              <ul class="ml-6">
-                <li>Obligation d'émettre des factures électroniques pour les PME, TPE et microentreprises</li>
-              </ul>
-            </li>
-          </ul>
+          <p class="text-lg leading-relaxed text-gray-700 mb-8">
+            Découvrez les échéances importantes de la réforme :
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="bg-white border-2 border-orange-200 rounded-lg p-4 shadow-sm min-w-48">
+                <div class="text-center">
+                  <div class="text-orange-600 font-bold text-2xl">1er</div>
+                  <div class="text-orange-600 font-semibold text-lg">Septembre</div>
+                  <div class="text-gray-600 font-bold text-xl">2026</div>
+                </div>
+              </div>
+              <div class="ml-6 flex-1">
+                <h4 class="font-semibold text-gray-800 mb-2">Phase 1 : Grandes entreprises et ETI</h4>
+                <ul class="space-y-2 text-gray-700">
+                  <li class="flex items-start">
+                    <span class="text-orange mr-2 mt-1">•</span>
+                    Obligation de recevoir des factures électroniques pour TOUTES les entreprises
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-orange mr-2 mt-1">•</span>
+                    Obligation d'émettre des factures électroniques pour les grandes entreprises et les ETI
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-center">
+              <div class="w-8 h-8 bg-orange-400 rounded-full flex items-center justify-center">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3">
+                  </path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="bg-white border-2 border-orange-200 rounded-lg p-4 shadow-sm min-w-48">
+                <div class="text-center">
+                  <div class="text-orange-600 font-bold text-2xl">1er</div>
+                  <div class="text-orange-600 font-semibold text-lg">Septembre</div>
+                  <div class="text-gray-600 font-bold text-xl">2027</div>
+                </div>
+              </div>
+              <div class="ml-6 flex-1">
+                <h4 class="font-semibold text-gray-800 mb-2">Phase 2 : PME, TPE et microentreprises</h4>
+                <ul class="space-y-2 text-gray-700">
+                  <li class="flex items-start">
+                    <span class="text-orange mr-2 mt-1">•</span>
+                    Obligation d'émettre des factures électroniques pour les PME, TPE et microentreprises
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-orange mr-2 mt-1">•</span>
+                    Généralisation complète de la facturation électronique
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-orange-50 border-l-4 border-orange-400 p-6 rounded-lg mt-8">
+            <p class="text-orange-800 font-medium">
+              ⏰ Préparez-vous dès maintenant pour être conforme à l'échéance qui vous concerne.
+            </p>
+          </div>
         </section>
 
         <section id="obligations" class="mb-16 scroll-mt-32">
@@ -287,18 +336,92 @@
 
         <section id="statuts" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Cycle de vie</span> et statuts</h2>
-          <p class="text-lg leading-relaxed text-gray-700 mb-6">
+          <p class="text-lg leading-relaxed text-gray-700 mb-8">
             Chaque facture passe par des statuts normalisés :
           </p>
-          <ul class="space-y-3 text-gray-700">
-            <li class="flex items-start">
-              <span class="text-orange mr-3">•</span>
-              Émise → Transmise → Reçue → Traitée → Archivée
-            </li>
-          </ul>
-          <p class="text-lg leading-relaxed text-gray-700 mt-6">
-            Gestion centralisée de ces étapes = gain de temps et conformité garantie.
-          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-center">
+              <div
+                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
+                <span class="text-orange-600 font-bold text-sm">1</span>
+              </div>
+              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 class="font-semibold text-gray-800 mb-1">Émise</h4>
+                <p class="text-sm text-gray-600">La facture est générée et transmise à une plateforme agréée.</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
+              <div class="flex-1 h-0.5 bg-orange-200"></div>
+            </div>
+
+            <div class="flex items-center">
+              <div
+                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
+                <span class="text-orange-600 font-bold text-sm">2</span>
+              </div>
+              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 class="font-semibold text-gray-800 mb-1">Transmise</h4>
+                <p class="text-sm text-gray-600">La facture est envoyée au destinataire final.</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
+              <div class="flex-1 h-0.5 bg-orange-200"></div>
+            </div>
+
+            <div class="flex items-center">
+              <div
+                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
+                <span class="text-orange-600 font-bold text-sm">3</span>
+              </div>
+              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 class="font-semibold text-gray-800 mb-1">Reçue</h4>
+                <p class="text-sm text-gray-600">La facture est réceptionnée par le client.</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
+              <div class="flex-1 h-0.5 bg-orange-200"></div>
+            </div>
+
+            <div class="flex items-center">
+              <div
+                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
+                <span class="text-orange-600 font-bold text-sm">4</span>
+              </div>
+              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 class="font-semibold text-gray-800 mb-1">Traitée</h4>
+                <p class="text-sm text-gray-600">La facture est validée et traitée comptablement.</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
+              <div class="flex-1 h-0.5 bg-orange-200"></div>
+            </div>
+
+            <div class="flex items-center">
+              <div
+                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
+                <span class="text-orange-600 font-bold text-sm">5</span>
+              </div>
+              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 class="font-semibold text-gray-800 mb-1">Archivée</h4>
+                <p class="text-sm text-gray-600">La facture est conservée dans un format légalement opposable.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mt-8">
+            <p class="text-blue-800 font-medium">
+              📊 Gestion centralisée de ces étapes = gain de temps et conformité garantie.
+            </p>
+          </div>
         </section>
 
         <div class="my-12">
@@ -343,7 +466,7 @@ export default {
     sections.forEach(section => {
       ScrollTrigger.create({
         trigger: section,
-        start: 'top center',
+        start: 'top 130px',
         end: 'bottom center',
         onEnter: () => setActive(section.id),
         onEnterBack: () => setActive(section.id),
@@ -356,6 +479,10 @@ export default {
 </script>
 
 <style scoped>
+section {
+  scroll-margin-top: 3rem;
+}
+
 .scroll-mt-32 {
   scroll-margin-top: 8rem;
 }
