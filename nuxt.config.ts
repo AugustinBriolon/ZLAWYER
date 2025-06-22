@@ -1,13 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
+
   nitro: {
     output: {
       dir: '.output',
       publicDir: 'static'
     }
   },
+
   ssr: true,
+
   app: {
     // baseURL: '/.output/public/',
     // baseURL: '/logiciel-avocats/',
@@ -121,6 +124,7 @@ export default defineNuxtConfig({
   },
 
   css: ['@/css/main.css'],
+
   vite: {
     resolve: {
       alias: {
@@ -138,7 +142,6 @@ export default defineNuxtConfig({
   },
 
   plugins: [],
-
   components: true,
 
   runtimeConfig: {
@@ -146,4 +149,6 @@ export default defineNuxtConfig({
       gtagId: 'UA-7664894-1',
     },
   },
+
+  compatibilityDate: '2025-06-20',
 });

@@ -1,5 +1,5 @@
 <template>
-  <div class="hero max-width-blue-section relative">
+  <div class="max-width-blue-section relative">
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       <div class="flex flex-col gap-4">
@@ -28,36 +28,37 @@
           <ul class="space-y-3">
             <li>
               <a href="#partenaire-confiance"
-                class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Votre partenaire de confiance
               </a>
             </li>
             <li>
               <a href="#pourquoi-choisir"
-                class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Pourquoi choisir zLawyer ?
               </a>
             </li>
             <li>
               <a href="#reponse-zlawyer"
-                class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 La réponse zLawyer
               </a>
             </li>
             <li>
               <a href="#contact-demo"
-                class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Besoin d'en savoir plus ?
               </a>
             </li>
             <li>
-              <a href="#faq" class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+              <a href="#faq"
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 FAQ - Questions fréquentes
               </a>
             </li>
             <li>
               <a href="#statuts-factures"
-                class="text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Statuts des factures
               </a>
             </li>
@@ -65,9 +66,9 @@
         </div>
       </aside>
 
-      <div class="w-full" id="partenaire-confiance" >
+      <div class="w-full">
 
-        <section class="mb-16">
+        <section class="mb-16" id="partenaire-confiance">
           <h2 class="text-3xl font-bold mb-6">
             <span class="text-underline">zLawyer : </span>Votre partenaire de confiance pour la facturation électronique
           </h2>
@@ -78,10 +79,10 @@
           </p>
         </section>
 
-        <hr class="my-12 border-gray-200" id="pourquoi-choisir" >
+        <hr class="my-12 border-gray-200">
 
 
-        <section class="mb-16">
+        <section class="mb-16" id="pourquoi-choisir">
           <h2 class="text-3xl font-bold mb-6 ">
             <span class="text-underline">Pourquoi choisir</span> zLawyer comme solution de facturation électronique ?
           </h2>
@@ -105,9 +106,9 @@
           </ul>
         </section>
 
-        <hr class="my-12 border-gray-200" id="reponse-zlawyer" >
+        <hr class="my-12 border-gray-200">
 
-        <section class="mb-16">
+        <section class="mb-16" id="reponse-zlawyer">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">La réponse zLawyer</span></h2>
           <p class="text-lg leading-relaxed text-gray-700 mb-6">
             zLawyer, éditeur reconnu de solutions pour cabinets d'avocats, anticipe cette réforme avec des solutions
@@ -186,9 +187,9 @@
           </p>
         </section>
 
-        <hr class="my-12 border-gray-200" id="contact-demo">
+        <hr class="my-12 border-gray-200">
 
-        <section class="mb-16">
+        <section class="mb-16" id="contact-demo">
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="text-lg text-gray-700 mb-6">
@@ -200,9 +201,9 @@
           </div>
         </section>
 
-        <hr class="my-12 border-gray-200" id="faq">
+        <hr class="my-12 border-gray-200">
 
-        <section class="mb-16">
+        <section class="mb-16" id="faq">
           <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Facture Électronique Obligatoire
           </h2>
           <p class="text-lg text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
@@ -426,10 +427,10 @@
           </div>
         </section>
 
-        <hr class="my-12 border-gray-200" id="statuts-factures" >
+        <hr class="my-12 border-gray-200">
 
 
-        <section class="mb-16">
+        <section class="mb-16" id="statuts-factures">
           <h2 class="text-3xl font-bold mb-8 text-gray-800">Les principaux statuts d'une facture qui seront mis en
             place</h2>
           <p class="text-lg text-gray-700 mb-8">
@@ -492,8 +493,58 @@
   </div>
 </template>
 
+<script setup>
+import { onMounted, onBeforeUnmount } from 'vue'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
+let triggers = []
+
+onMounted(() => {
+  const sections = Array.from(document.querySelectorAll('section[id]'))
+  const links = Array.from(document.querySelectorAll('.scroll-link'))
+
+  const setActive = (id) => {
+    links.forEach(link => {
+      const isActive = link.getAttribute('href') === `#${id}`
+      link.classList.toggle('font-bold', isActive)
+      link.classList.toggle('text-orange', isActive)
+      link.classList.toggle('text-gray-700', !isActive)
+    })
+  }
+
+  sections.forEach(section => {
+    const trigger = ScrollTrigger.create({
+      trigger: section,
+      start: 'top center',
+      end: 'bottom center',
+      onEnter: () => setActive(section.id),
+      onEnterBack: () => setActive(section.id),
+    })
+    triggers.push(trigger)
+  })
+})
+
+onBeforeUnmount(() => {
+  triggers.forEach(trigger => trigger.kill())
+  triggers = []
+})
+
+</script>
+
 <style scoped>
-section, hr {
+section,
+hr {
   scroll-margin-top: 3rem;
+}
+
+section {
+  min-height: 100px;
+}
+
+.scroll-mt-32 {
+  scroll-margin-top: 8rem;
 }
 </style>

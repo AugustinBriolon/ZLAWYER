@@ -25,7 +25,7 @@
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
         <li>
-          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez une démo</NuxtLink>
         </li>
       </ul>
 
