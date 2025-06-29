@@ -258,30 +258,33 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
         <img :src="'images/features/features10.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
-          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features10.webp')" />
+          alt="illustration de la fonctionnalitée accès client"
+          @click="imageModal('images/features/features10.webp')" />
         <div class="flex flex-col gap-4">
-          <h3>
-            Assurez votre transition vers la facture
-            électronique en toute sérénité en optant pour la
-            solution de zLawyer.
+          <h3 class="text-pretty">
+            Assurez votre transition <span class="text-underline">vers la facture électronique</span> en toute sérénité
+            grâçe à zLawyer
           </h3>
-          <p>
-            En optant pour zLawyer vous garantissez une totale
-            conformité aux obligations découlant de la réforme
-            sur la facturation électronique. Notre plateforme
-            répond aux exigences d&#39;une PDP  et de l&#39;e-
-            facturation.
+          <p>En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de
+            la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
+            <span class="font-bold">PDP</span> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
+              to="/facturation-electronique-et-zlawyer#faq" class="text-orange">l'e-facturation</NuxtLink>
           </p>
-          <p>En intégrant zLawyer à votre système comptable,
-            vous bénéficierez d&#39;une efficacité
-            optimum/renforcée/accrue dans la gestion de vos
-            factures : Envoie , suivi de l&#39;état des factures, etc.
-            Découvrez comment zLawyer peut vous aider à vous
-            connecter au PPF et à vous adapter à la réforme
-            fiscale sur la dématérialisation des factures en France</p>
-          <NuxtLink title="Page Facturation Électronique" class="button-transparent w-fit" to="/facturation-electronique">
-            En savoir plus
-          </NuxtLink>
+
+          <p>La facturation électronique est entièrement intégrée à notre solution, ce qui vous permet de
+            rester dans votre environnement de travail habituel tout en respectant les obligations légales.
+            Vous bénéficiez ainsi d’une expérience fluide et continue, via une interface unique pour gérer
+            à la fois vos dossiers juridiques et vos processus financiers.</p>
+          <div class="flex items-center justify-start gap-4">
+            <NuxtLink title="Page Facturation Électronique" class="button-orange w-fit whitespace-nowrap"
+              to="/facturation-electronique-et-zlawyer">
+            Notre solution à la réforme
+            </NuxtLink>
+            <NuxtLink title="Page Facturation Électronique" class="button-transparent w-fit whitespace-nowrap"
+              to="/facturation-electronique">
+              Comprendre la réforme
+            </NuxtLink>
+          </div>
         </div>
       </div>
 

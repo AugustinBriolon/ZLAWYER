@@ -4,14 +4,19 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       <div class="flex flex-col gap-4">
         <h1 class="anim-hero text-left">
-          Pourquoi choisir zLawyer comme solution de facturation électronique ?
+          <span class="text-underline">zLawyer : </span>Votre partenaire de confiance pour la facturation électronique
         </h1>
+
         <p>
-          Interface intuitive et conviviale adaptée aux besoins des cabinets d'avocats.
-          Gestion automatisée des factures conformes aux normes légales en vigueur.
-          Sécurisation des échanges de données grâce à des protocoles de sécurité avancés.
-          Service client réactif et personnalisé pour vous accompagner dans l'utilisation de zLawyer
+          La réforme de la facturation électronique, effective dès le 1er septembre 2026, impose à
+          toutes les entreprises assujetties à la TVA en France d&#39;émettre et de recevoir des factures
+          électroniques via des plateformes agréées (PDP)
         </p>
+        <p>Pour les cabinets d’avocats, cette transformation réglementaire peut représenter un enjeu
+          complexe si elle n’est pas anticipée avec les bons outils.</p>
+        <p>zLawyer, conçu spécifiquement pour les cabinets d&#39;avocats, intègre cette
+          fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
+          travail.</p>
         <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
           Je souhaite une démonstration
         </NuxtLink>
@@ -63,14 +68,15 @@
       <div class="w-full">
 
         <section class="mb-16" id="partenaire-confiance">
-          <h2 class="text-3xl font-bold mb-6">
-            <span class="text-underline">zLawyer : </span>Votre partenaire de confiance pour la facturation électronique
+          <h2 class="text-3xl font-bold mb-6 ">
+            <span class="text-underline">Pourquoi choisir</span> zLawyer comme solution de facturation électronique ?
           </h2>
           <p class="text-lg leading-relaxed text-gray-700">
-            Le logiciel zLawyer est conçu pour répondre aux exigences de la facturation électronique, y compris la
-            facture X. En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en
-            bénéficiant d'une solution performante et sécurisée.
+            zLawyer, éditeur reconnu de solutions pour cabinets d&#39;avocats, anticipe cette réforme avec
+            des solutions spécifiques à votre activité.
           </p>
+          <p>Nous sommes PDP compliant, ce qui signifie que la solution zLawyer est conçue pour
+            répondre aux exigences de la facturation électronique.</p>
         </section>
 
         <hr class="my-12 border-gray-200">
@@ -78,24 +84,49 @@
 
         <section class="mb-16" id="pourquoi-choisir">
           <h2 class="text-3xl font-bold mb-6 ">
-            <span class="text-underline">Pourquoi choisir</span> zLawyer comme solution de facturation électronique ?
+            Une solution <span class="text-underline">tout-en-un</span>, 100 % conforme
           </h2>
-          <ul class="space-y-3 text-gray-700">
+          <p><span class="font-bold">PDP compliant,</span> zLawyer intègre la facturation électronique directement dans
+            votre interface
+            métier. Vous gérez vos dossiers juridiques, vos temps, vos factures et leur transmission
+            électronique dans un seul environnement unifié.</p>
+          <ul class="mt-5 space-y-3 text-gray-700">
+            <p class="font-bold">Principaux atouts :</p>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              Interface intuitive et conviviale adaptée aux besoins des cabinets d'avocats.
+              <p>
+                <span class="font-bold mr-1">Conformité intégrée :</span> respect total de la réforme (formats exigés,
+                transmission via PDP , obligations légales).
+              </p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              Gestion automatisée des factures conformes aux normes légales en vigueur.
+              <p>
+                <span class="font-bold mr-1 whitespace-nowrap">Zéro rupture dans l’usage :</span> la facturation
+                électronique est intégrée à
+                notre solution,
+                vous permettant de gérer à la fois vos dossiers juridiques et le processus de
+                facturation depuis une interface unique, sans changer d’environnement.
+              </p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              Sécurisation des échanges de données grâce à des protocoles de sécurité avancés.
+              <p> <span class="font-bold mr-1">Aucune double saisie :</span> les données issues de vos dossiers sont
+                automatiquement repprises dans vos factures.</p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              Service client réactif et personnalisé pour vous accompagner dans l'utilisation de zLawyer.
+              <p>
+                <span class="font-bold mr-1">Un suivi temps réel </span> du cycle de vie de vos factures,
+              </p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              <p>
+                <span class="font-bold mr-1">Connexion fluide à l’administration fiscale :</span> grâce aux connecteurs
+                zLawyer avec
+                les plateformes agréées.
+              </p>
             </li>
           </ul>
         </section>
@@ -103,14 +134,11 @@
         <hr class="my-12 border-gray-200">
 
         <section class="mb-16" id="reponse-zlawyer">
-          <h2 class="text-3xl font-bold mb-6"><span class="text-underline">La réponse zLawyer</span></h2>
+          <h2 class="text-3xl font-bold mb-6">Une expérience utilisateur pensée<span class="text-underline"> pour les
+              cabinets</span> d’avocats</h2>
           <p class="text-lg leading-relaxed text-gray-700 mb-6">
-            zLawyer, éditeur reconnu de solutions pour cabinets d'avocats, anticipe cette réforme avec des solutions
-            spécifiques à votre activité.
-          </p>
-          <p class="text-lg leading-relaxed text-gray-700 mb-6">
-            Le logiciel zLawyer est conçu pour répondre aux exigences de la facturation électronique, y compris la
-            facture X.
+            zLawyer n’est pas un logiciel de gestion générique. Il a été conçu sur mesure pour les
+            professionnels du droit.
           </p>
 
           <div class="p-6 mb-6">
@@ -146,11 +174,11 @@
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                <span class="text-bolder">Expertise dédiée aux cabinets d'avocats,</span>
+                <span class="text-bolder">Une expertise dédiée aux cabinets d'avocats,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                <span class="text-bolder">Outil conforme, prêt pour 2026,</span>
+                <span class="text-bolder">Un outil conforme, prêt pour 2026,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
@@ -158,19 +186,20 @@
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                Interface intuitive et conviviale adaptée aux besoins des cabinets d'avocats,
+                Une <span class="text-bolder ml-1">interface intuitive </span>, pensée pour un usage quotidien fluide,
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                Gestion automatisée des factures conformes aux normes légales en vigueur,
+                Une <span class="text-bolder ml-1">gestion centralisée des dossiers, temps, factures et
+                  règlements</span>,
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                Sécurisation des échanges de données grâce à des protocoles de sécurité avancés,
+                Une Sécurisation des échanges de données grâce à des protocoles de sécurité avancés,
               </li>
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
-                Service client réactif et personnalisé pour vous accompagner dans l'utilisation de zLawyer.
+                Un accompagnement personnalisé à chaque étape.
               </li>
             </ul>
           </div>
@@ -187,7 +216,7 @@
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="text-lg text-gray-700 mb-6">
-              Contactez-nous pour une démo ou un audit gratuit de votre solution actuelle.
+              Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
               Demander une démonstration
@@ -218,7 +247,7 @@
                   </svg>
                 </div>
               </button>
-              <transition name="faq" appear>
+              <transition name="transition-div" appear>
                 <div v-show="openFaq === idx" class="overflow-hidden">
                   <div
                     class="px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
@@ -240,129 +269,30 @@
             Une facture peut passer par plusieurs statuts normalisés tout au long de son cycle :
           </p>
 
-          <div class="space-y-4">
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">1</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Émise</h4>
-                <p class="text-sm text-gray-600">La facture est générée et transmise à une plateforme agréée.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">2</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Déposée</h4>
-                <p class="text-sm text-gray-600">La facture est enregistrée sur la plateforme (PDP, OD ou PPF).</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">3</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Transmise</h4>
-                <p class="text-sm text-gray-600">La facture est envoyée au destinataire final.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">4</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Reçue</h4>
-                <p class="text-sm text-gray-600">La facture est réceptionnée par le client.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">5</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Rejetée (le cas échéant)</h4>
-                <p class="text-sm text-gray-600">Le client ou la plateforme refuse la facture pour non-conformité.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">6</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Acceptée</h4>
-                <p class="text-sm text-gray-600">Le client valide la facture pour traitement comptable.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">7</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Payée</h4>
-                <p class="text-sm text-gray-600">La facture est réglée et le paiement est enregistré.</p>
-              </div>
-            </div>
-
-            <div class="flex items-center">
-              <div class="w-4 h-4 bg-orange-400 rounded-full mx-auto"></div>
-              <div class="flex-1 h-0.5 bg-orange-200"></div>
-            </div>
-
-            <div class="flex items-center">
-              <div
-                class="bg-white border-2 border-orange-200 rounded-full w-10 h-10 flex items-center justify-center shadow-sm">
-                <span class="text-orange-600 font-bold text-sm">8</span>
-              </div>
-              <div class="ml-4 flex-1 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-                <h4 class="font-semibold text-gray-800 mb-1">Archivée</h4>
-                <p class="text-sm text-gray-600">La facture est conservée dans un format légalement opposable pendant 10
-                  ans.</p>
-              </div>
+          <div class="space-y-3">
+            <div v-for="(item, idx) in statutsList" :key="idx"
+              class="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
+              <button
+                class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
+                @click="toggleStatuts(idx)">
+                <span class="font-semibold text-gray-800 text-lg pr-4">{{ item.q }}</span>
+                <div class="flex-shrink-0">
+                  <svg
+                    :class="['transition-all duration-500 ease-in-out transform', openStatuts === idx ? 'rotate-180 text-orange scale-110' : 'text-gray-400 group-hover:text-orange']"
+                    width="20" height="20" fill="none" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </button>
+              <transition name="transition-div" appear>
+                <div v-show="openStatuts === idx" class="overflow-hidden">
+                  <div
+                    class="px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
+                    <div v-html="item.a" class="pt-4"></div>
+                  </div>
+                </div>
+              </transition>
             </div>
           </div>
 
@@ -378,7 +308,7 @@
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="text-lg text-gray-700 mb-6">
-              Contactez-nous pour une démo ou un audit gratuit de votre solution actuelle.
+              Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
               Demander une démonstration
@@ -400,6 +330,7 @@ export default {
   data() {
     return {
       openFaq: null,
+      openStatuts: null,
       faqList: [
         {
           q: "1. Qu'est-ce qu'une facture électronique au sens de la réforme ?",
@@ -449,12 +380,49 @@ export default {
           q: "12. Je travaille pour des entreprises en Europe mais aussi pour la Russie. Devrai-je émettre des factures électroniques pour ces clients ?",
           a: "Non, pas pour ces clients. Le e-invoicing ne s'applique qu'aux transactions B2B domestiques (France/France).<br>En revanche, vous devrez effectuer du e-reporting pour vos clients étrangers, y compris européens ou hors UE (comme la Russie), afin de transmettre les données à l'administration fiscale française."
         }
+      ],
+      statutsList: [
+        {
+          q: "1. Émise",
+          a: "La facture est générée et transmise à une plateforme agréée."
+        },
+        {
+          q: "2. Déposée",
+          a: "La facture est enregistrée sur la plateforme (PDP, OD ou PPF)."
+        },
+        {
+          q: "3. Transmise",
+          a: "La facture est envoyée au destinataire final."
+        },
+        {
+          q: "4. Reçue",
+          a: "La facture est réceptionnée par le client."
+        },
+        {
+          q: "5. Rejetée (le cas échéant)",
+          a: "Le client ou la plateforme refuse la facture pour non-conformité."
+        },
+        {
+          q: "6. Acceptée",
+          a: "Le client valide la facture pour traitement comptable."
+        },
+        {
+          q: "7. Payée",
+          a: "La facture est réglée et le paiement est enregistré."
+        },
+        {
+          q: "8. Archivée",
+          a: "La facture est conservée dans un format légalement opposable pendant 10 ans."
+        }
       ]
     }
   },
   methods: {
     toggleFaq(idx) {
       this.openFaq = this.openFaq === idx ? null : idx;
+    },
+    toggleStatuts(idx) {
+      this.openStatuts = this.openStatuts === idx ? null : idx;
     }
   },
   mounted() {
@@ -500,28 +468,28 @@ section {
   scroll-margin-top: 8rem;
 }
 
-.faq-enter-active {
+.transition-div-enter-active {
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.faq-leave-active {
+.transition-div-leave-active {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.faq-enter-from {
+.transition-div-enter-from {
   opacity: 0;
   transform: translateY(-10px);
   max-height: 0;
 }
 
-.faq-leave-to {
+.transition-div-leave-to {
   opacity: 0;
   transform: translateY(-5px);
   max-height: 0;
 }
 
-.faq-enter-to,
-.faq-leave-from {
+.transition-div-enter-to,
+.transition-div-leave-from {
   opacity: 1;
   transform: translateY(0);
   max-height: 1000px;
