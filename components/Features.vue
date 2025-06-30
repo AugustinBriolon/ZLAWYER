@@ -262,13 +262,15 @@
           @click="imageModal('images/features/features10.webp')" />
         <div class="flex flex-col gap-4">
           <h3 class="text-pretty">
-            Assurez votre transition <span class="text-underline">vers la facture électronique</span> en toute sérénité
+            Assurez votre transition <span class="text-underline">vers la facture </span> <br> <span
+              class="text-underline"> électronique</span> en toute sérénité
             grâçe à zLawyer
           </h3>
           <p>En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de
             la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
             <span class="font-bold">PDP</span> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
-              to="/facturation-electronique-et-zlawyer#faq" class="text-orange">l'e-facturation</NuxtLink>
+              to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation
+            </NuxtLink>
           </p>
 
           <p>La facturation électronique est entièrement intégrée à notre solution, ce qui vous permet de
@@ -278,7 +280,7 @@
           <div class="flex items-center justify-start gap-4">
             <NuxtLink title="Page Facturation Électronique" class="button-orange w-fit whitespace-nowrap"
               to="/facturation-electronique-et-zlawyer">
-            Notre solution à la réforme
+              Notre solution à la réforme
             </NuxtLink>
             <NuxtLink title="Page Facturation Électronique" class="button-transparent w-fit whitespace-nowrap"
               to="/facturation-electronique">

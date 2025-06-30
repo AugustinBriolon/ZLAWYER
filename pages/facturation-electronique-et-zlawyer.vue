@@ -4,7 +4,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       <div class="flex flex-col gap-4">
         <h1 class="anim-hero text-left">
-          <span class="text-underline">zLawyer : </span>Votre partenaire de confiance pour la facturation électronique
+          zLawyer : <span class="text-underline">Votre partenaire de</span> <br> <span class="text-underline">
+            confiance</span> pour la facturation électronique
         </h1>
 
         <p>
@@ -18,7 +19,7 @@
           fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
           travail.</p>
         <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
-          Je souhaite une démonstration
+          Je souhaite être contacté
         </NuxtLink>
       </div>
       <img :src="'images/features/features10.webp'" alt="illustration du logiciel"
@@ -28,25 +29,13 @@
     <div class="mt-32 flex gap-8 w-full">
 
       <aside class="hidden lg:block">
-        <div class="h-72 min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <div class="h-fit min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <h3 class="font-semibold text-lg mb-4 text-orange">Sommaire</h3>
           <ul class="space-y-3">
-            <li>
-              <a href="#partenaire-confiance"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Votre partenaire de confiance
-              </a>
-            </li>
             <li>
               <a href="#pourquoi-choisir"
                 class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Pourquoi choisir zLawyer ?
-              </a>
-            </li>
-            <li>
-              <a href="#reponse-zlawyer"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                La réponse zLawyer
               </a>
             </li>
             <li>
@@ -67,25 +56,21 @@
 
       <div class="w-full">
 
-        <section class="mb-16" id="partenaire-confiance">
-          <h2 class="text-3xl font-bold mb-6 ">
-            <span class="text-underline">Pourquoi choisir</span> zLawyer comme solution de facturation électronique ?
-          </h2>
-          <p class="text-lg leading-relaxed text-gray-700">
-            zLawyer, éditeur reconnu de solutions pour cabinets d&#39;avocats, anticipe cette réforme avec
-            des solutions spécifiques à votre activité.
-          </p>
-          <p>Nous sommes PDP compliant, ce qui signifie que la solution zLawyer est conçue pour
-            répondre aux exigences de la facturation électronique.</p>
-        </section>
-
-        <hr class="my-12 border-gray-200">
-
-
         <section class="mb-16" id="pourquoi-choisir">
           <h2 class="text-3xl font-bold mb-6 ">
-            Une solution <span class="text-underline">tout-en-un</span>, 100 % conforme
+            Pourquoi <span class="text-underline">choisir zLawyer comme solution</span> de facturation électronique ?
           </h2>
+          <p class="text-lg leading-relaxed text-gray-700">
+            zLawyer, éditeur de logiciel reconnu pour les cabinets d&#39;avocats, anticipe cette réforme avec
+            des solutions spécifiques à votre activité.
+          </p>
+          <p>Nous sommes <span class="font-bold">PDP compliant</span>, ce qui signifie que la solution zLawyer est
+            conçue pour
+            répondre aux exigences légales de la facturation électronique.</p>
+        </section>
+
+        <div class="p-6 mb-6">
+          <h3 class="text-xl font-semibold mb-4 text-orange">Une solution tout-en-un, 100% conforme</h3>
           <p><span class="font-bold">PDP compliant,</span> zLawyer intègre la facturation électronique directement dans
             votre interface
             métier. Vous gérez vos dossiers juridiques, vos temps, vos factures et leur transmission
@@ -129,20 +114,18 @@
               </p>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <hr class="my-12 border-gray-200">
-
-        <section class="mb-16" id="reponse-zlawyer">
-          <h2 class="text-3xl font-bold mb-6">Une expérience utilisateur pensée<span class="text-underline"> pour les
-              cabinets</span> d’avocats</h2>
+        <div class="p-6 mb-6">
+          <h2 class="text-xl font-semibold mb-4 text-orange">Une expérience utilisateur pensée pour les
+            cabinets d’avocats</h2>
           <p class="text-lg leading-relaxed text-gray-700 mb-6">
             zLawyer n’est pas un logiciel de gestion générique. Il a été conçu sur mesure pour les
             professionnels du droit.
           </p>
 
           <div class="p-6 mb-6">
-            <h3 class="text-xl font-semibold mb-4 text-orange">Notre position</h3>
+            <h3 class="text-xl font-semibold mb-4">Notre position</h3>
             <p class="text-gray-700 mb-4">Nous sommes PDP compliant et enrichissons notre logiciel avec :</p>
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
@@ -169,8 +152,7 @@
           </div>
 
           <div class="p-6">
-            <h3 class="text-xl font-semibold mb-4 text-orange">Pourquoi choisir zLawyer comme solution de facturation
-              électronique ?</h3>
+            <h2 class="text-xl font-semibold mb-4">Vous bénéficiez :</h2>
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
@@ -208,7 +190,7 @@
             En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
             d'une solution performante et sécurisée.
           </p>
-        </section>
+        </div>
 
         <hr class="my-12 border-gray-200">
 
@@ -219,7 +201,7 @@
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
-              Demander une démonstration
+              Demander à être contacté
             </NuxtLink>
           </div>
         </section>
@@ -311,7 +293,7 @@
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
-              Demander une démonstration
+              Demander à être contacté
             </NuxtLink>
           </div>
         </section>
