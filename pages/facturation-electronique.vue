@@ -23,7 +23,7 @@
 
     <div class="mt-32 flex gap-8 w-full">
       <aside class="hidden lg:block">
-        <div class="min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <div class="w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <h3 class="font-semibold text-lg mb-4 text-orange">Sommaire</h3>
           <ul class="space-y-3">
             <li>

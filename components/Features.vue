@@ -268,7 +268,7 @@
           </h3>
           <p>En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de
             la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
-            <span class="font-bold">PDP</span> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
+            <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PDP</NuxtLink> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
               to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation
             </NuxtLink>
           </p>

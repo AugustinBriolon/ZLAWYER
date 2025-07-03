@@ -27,15 +27,26 @@
     </div>
 
     <div class="mt-32 flex gap-8 w-full">
-
       <aside class="hidden lg:block">
-        <div class="h-fit min-w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <div class="h-fit w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <h3 class="font-semibold text-lg mb-4 text-orange">Sommaire</h3>
           <ul class="space-y-3">
             <li>
               <a href="#pourquoi-choisir"
                 class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Pourquoi choisir zLawyer ?
+              </a>
+            </li>
+            <li>
+              <a href="#solution-tout-en-un"
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Une solution tout-en-un
+              </a>
+            </li>
+            <li>
+              <a href="#experience-utilisateur"
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Une expérience pensée pour les cabinets
               </a>
             </li>
             <li>
@@ -56,7 +67,7 @@
 
       <div class="w-full">
 
-        <section class="mb-16" id="pourquoi-choisir">
+        <section class="mb-6" id="pourquoi-choisir">
           <h2 class="text-3xl font-bold mb-6 ">
             Pourquoi <span class="text-underline">choisir zLawyer comme solution</span> de facturation électronique ?
           </h2>
@@ -69,7 +80,7 @@
             répondre aux exigences légales de la facturation électronique.</p>
         </section>
 
-        <div class="p-6 mb-6">
+        <section class="p-6 mb-6" id="solution-tout-en-un">
           <h3 class="text-xl font-semibold mb-4 text-orange">Une solution tout-en-un, 100% conforme</h3>
           <p><span class="font-bold">PDP compliant,</span> zLawyer intègre la facturation électronique directement dans
             votre interface
@@ -97,7 +108,7 @@
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
               <p> <span class="font-bold mr-1">Aucune double saisie :</span> les données issues de vos dossiers sont
-                automatiquement repprises dans vos factures.</p>
+                automatiquement reprises dans vos factures.</p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -114,9 +125,9 @@
               </p>
             </li>
           </ul>
-        </div>
+        </section>
 
-        <div class="p-6 mb-6">
+        <section class="p-6 mb-6" id="experience-utilisateur">
           <h2 class="text-xl font-semibold mb-4 text-orange">Une expérience utilisateur pensée pour les
             cabinets d’avocats</h2>
           <p class="text-lg leading-relaxed text-gray-700 mb-6">
@@ -124,35 +135,8 @@
             professionnels du droit.
           </p>
 
-          <div class="p-6 mb-6">
-            <h3 class="text-xl font-semibold mb-4">Notre position</h3>
-            <p class="text-gray-700 mb-4">Nous sommes PDP compliant et enrichissons notre logiciel avec :</p>
-            <ul class="space-y-2 text-gray-700">
-              <li class="flex items-start">
-                <span class="text-orange mr-3 mt-1">✓</span>
-                Des connecteurs directs aux plateformes agréées.
-              </li>
-              <li class="flex items-start">
-                <span class="text-orange mr-3 mt-1">✓</span>
-                Un suivi temps réel du cycle de vie de vos factures.
-              </li>
-              <li class="flex items-start">
-                <span class="text-orange mr-3 mt-1">✓</span>
-                Des formats 100 % compatibles avec la réforme.
-              </li>
-              <li class="flex items-start">
-                <span class="text-orange mr-3 mt-1">✓</span>
-                Des tableaux de bord clairs pour la gestion et le reporting.
-              </li>
-              <li class="flex items-start">
-                <span class="text-orange mr-3 mt-1">✓</span>
-                Un accompagnement personnalisé à chaque étape.
-              </li>
-            </ul>
-          </div>
-
-          <div class="p-6">
-            <h2 class="text-xl font-semibold mb-4">Vous bénéficiez :</h2>
+          <div class="px-6 py-3">
+            <h2 class="text-xl font-semibold mb-4">Vous bénéficiez d' :</h2>
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
@@ -185,12 +169,25 @@
               </li>
             </ul>
           </div>
+        </section>
 
-          <p class="text-lg leading-relaxed text-gray-700 mt-6">
-            En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
-            d'une solution performante et sécurisée.
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-4 text-orange">Prêt pour 2026, prêt pour demain</h2>
+          <p class="text-lg leading-relaxed text-gray-700 mb-6">
+            Choisir zLawyer, c’est anticiper la réforme sans stress, tout en renforçant l’efficacité de la
+            gestion de votre cabinet au quotidien. <br>
+            Vous vous concentrez sur votre cœur de métier pendant que nous assurons votre conformité
+            technique et réglementaire.
           </p>
         </div>
+
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg">
+            <p class="text-blue-800 font-bold">
+              En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
+              d'une solution performante et sécurisée.
+            </p>
+          </div>
+
 
         <hr class="my-12 border-gray-200">
 
@@ -201,7 +198,7 @@
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
-              Demander à être contacté
+              Je souhaite être contacté
             </NuxtLink>
           </div>
         </section>
@@ -209,7 +206,8 @@
         <hr class="my-12 border-gray-200">
 
         <section class="mb-16" id="faq">
-          <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Facture Électronique Obligatoire
+          <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Facture Électronique
+            Obligatoire
           </h2>
           <p class="text-lg text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
 
