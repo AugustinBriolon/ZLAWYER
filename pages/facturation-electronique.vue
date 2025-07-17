@@ -184,7 +184,7 @@
         </section>
 
         <section id="e-invoicing" class="mb-16 scroll-mt-32">
-          <h2 class="text-3xl font-bold mb-6">Qu'est-ce que le <span class="text-underline">E-invoicing</span> ?</h2>
+          <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-invoicing</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
             Le <span class="font-bold">e-invoicing</span> s'applique aux <span class="font-bold">transactions B2B
               domestiques</span> (entre entreprises françaises soumises à la TVA).
@@ -236,7 +236,7 @@
         </section>
 
         <section id="e-reporting" class="mb-16 scroll-mt-32">
-          <h2 class="text-3xl font-bold mb-6">Qu'est-ce que le <span class="text-underline">E-reporting</span> ?</h2>
+          <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-reporting</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
             Le e-reporting concerne toutes les opérations <span class="font-bold">non couvertes par le
               e-invoicing</span>, notamment :
@@ -581,8 +581,8 @@
             la réforme sur la facturation électronique tout en bénéficiant d&#39;une solution performante et
             sécurisée.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
-            Je souhaite être contacté
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/facturation-electronique-et-zlawyer">
+            Notre solution à la réforme
           </NuxtLink>
         </section>
 
