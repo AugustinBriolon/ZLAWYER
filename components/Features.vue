@@ -264,12 +264,12 @@
           <h3 class="text-pretty">
             Assurez votre transition <span class="text-underline">vers la facture </span> <br> <span
               class="text-underline"> électronique</span> en toute sérénité
-            grâçe à zLawyer
+            grâce à zLawyer
           </h3>
           <p>En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de
             la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
             <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PDP</NuxtLink> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
-              to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation
+              to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation.
             </NuxtLink>
           </p>
 

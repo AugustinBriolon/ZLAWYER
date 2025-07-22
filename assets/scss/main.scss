@@ -77,6 +77,10 @@ a {
   padding: 80px clamp(20px, 5vw, 130px);
 }
 
+.rounded-full {
+  border-radius: 999px;
+}
+
 // .max-width-blue-section .subtitle {
 //   margin-bottom: 80px;
 // }

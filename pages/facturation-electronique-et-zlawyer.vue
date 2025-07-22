@@ -18,9 +18,6 @@
         <p>zLawyer, conçu spécifiquement pour les cabinets d&#39;avocats, intègre cette
           fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
           travail.</p>
-        <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
-          Je souhaite être contacté
-        </NuxtLink>
       </div>
       <img :src="'images/features/features10.webp'" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
@@ -71,7 +68,7 @@
           <h2 class="text-3xl font-bold mb-6 ">
             Pourquoi <span class="text-underline">choisir zLawyer comme solution</span> de facturation électronique ?
           </h2>
-          <p class="text-lg leading-relaxed text-gray-700">
+          <p class="leading-relaxed text-gray-700">
             zLawyer, éditeur de logiciel reconnu pour les cabinets d&#39;avocats, anticipe cette réforme avec
             des solutions spécifiques à votre activité.
           </p>
@@ -80,12 +77,10 @@
             répondre aux exigences légales de la facturation électronique.</p>
         </section>
 
-        <section class="p-6 mb-6" id="solution-tout-en-un">
+        <section class="p-6" id="solution-tout-en-un">
           <h3 class="text-xl font-semibold mb-4 text-orange">Une solution tout-en-un, 100% conforme</h3>
           <p><span class="font-bold">PDP compliant,</span> zLawyer intègre la facturation électronique directement dans
-            votre interface
-            métier. Vous gérez vos dossiers juridiques, vos temps, vos factures et leur transmission
-            électronique dans un seul environnement unifié.</p>
+            votre interface métier.</p>
           <ul class="mt-5 space-y-3 text-gray-700">
             <p class="font-bold">Principaux atouts :</p>
             <li class="flex items-start">
@@ -114,14 +109,6 @@
               <span class="text-orange mr-3 mt-1">•</span>
               <p>
                 <span class="font-bold mr-1">Un suivi temps réel </span> du cycle de vie de vos factures,
-              </p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <p>
-                <span class="font-bold mr-1">Connexion fluide à l’administration fiscale :</span> grâce aux connecteurs
-                zLawyer avec
-                les plateformes agréées.
               </p>
             </li>
           </ul>
@@ -206,8 +193,7 @@
         <hr class="my-12 border-gray-200">
 
         <section class="mb-16" id="faq">
-          <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Facture Électronique
-            Obligatoire
+          <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Questions fréquentes
           </h2>
           <p class="text-lg text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
 
@@ -333,12 +319,12 @@ export default {
           a: "Non, jusqu'à la date d'entrée en vigueur de l'obligation (selon la taille de l'entreprise), vous ne pouvez pas exiger une facture électronique.<br>Avant 2026-2027, une PME peut encore vous envoyer une facture PDF ou papier, et vous devez l'accepter tant qu'elle respecte la réglementation actuelle."
         },
         {
-          q: "6. Vais-je pouvoir continuer à faire mes factures PDF comme aujourd'hui ?",
+          q: "6. Vais-je pouvoir envoyer mes factures au format PDF par email ?",
           a: "Non. Dès l'entrée en vigueur de la réforme (à partir de 2026), les factures PDF envoyées par e-mail ne seront plus valides.<br>Vous devrez utiliser un format structuré ou hybride (Factur-X, UBL, CII) et passer par une plateforme agréée pour les émettre."
         },
         {
           q: "7. Dois-je choisir une plateforme spécifique ?",
-          a: "Oui. Vous devrez passer par :<ul class='list-disc ml-6'><li>une PDP agréée,</li><li>un OD (Opérateur de Dématérialisation),</li><li>ou le Portail Public de Facturation (PPF) de l'État.</li></ul><div class='bg-green-50 border-l-4 border-green-400 p-4 rounded mt-2'><p class='text-green-800 font-medium'>Avec zLawyer, vous êtes automatiquement connecté à la bonne plateforme.</p></div>"
+          a: "Oui. Vous devrez passer par :<ul class='list-disc ml-6'><li>une PDP agréée,</li><li>ou un OD (Opérateur de Dématérialisation).</li></ul>"
         },
         {
           q: "8. Quels formats de factures seront autorisés ?",
@@ -357,8 +343,8 @@ export default {
           a: "<ul class='list-disc ml-6'><li>Logiciel conforme à la réforme 2026 et PDP compliant.</li><li>Émission et réception des factures 100 % automatisées.</li><li>Suivi des statuts, alertes et tableaux de bord.</li><li>Formation et support dédiés aux cabinets d'avocats.</li></ul>"
         },
         {
-          q: "12. Je travaille pour des entreprises en Europe mais aussi pour la Russie. Devrai-je émettre des factures électroniques pour ces clients ?",
-          a: "Non, pas pour ces clients. Le e-invoicing ne s'applique qu'aux transactions B2B domestiques (France/France).<br>En revanche, vous devrez effectuer du e-reporting pour vos clients étrangers, y compris européens ou hors UE (comme la Russie), afin de transmettre les données à l'administration fiscale française."
+          q: "12. Je travaille pour des entreprises en Europe. Devrai-je émettre des factures électroniques pour ces clients ?",
+          a: "Non, pas pour ces clients. Le e-invoicing ne s'applique qu'aux transactions B2B domestiques (France/France).<br>En revanche, vous devrez effectuer du e-reporting pour vos clients étrangers, y compris européens ou hors UE, afin de transmettre les données à l'administration fiscale française."
         }
       ],
       statutsList: [

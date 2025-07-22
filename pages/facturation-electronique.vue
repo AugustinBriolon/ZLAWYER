@@ -6,12 +6,9 @@
           La Facture Électronique Obligatoire: Ce qu'il faut savoir
         </h1>
         <p>
-          Tout ce que vous devez savoir sur la future réforme fiscale sur la facturation électronique en
-          France, quels changements attendre et comment s’y préparer.
+          Tout ce que vous devez savoir sur la future réforme fiscale liée à la facturation électronique en
+          France : quels changements attendre et comment s’y préparer.
         </p>
-        <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/facturation-electronique-et-zlawyer">
-          En savoir plus
-        </NuxtLink>
       </div>
       <img :src="'images/features/features10.webp'" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
@@ -139,12 +136,17 @@
               <span class="text-orange mr-3 mt-1">•</span>
               <span class="font-bold">Factur-X </span> : format hybride contenant à la fois un PDF lisible et des
               données XML lisibles par les systèmes.
+              Ce format a pour particularité, et avantage, d’être autant lisible par l’humain, que par l’ordinateur et
+              s’annonce comme <span class="font-bold">le format le plus utilisé à l’avenir</span>. Il est délivré via un
+              fichier PDF (normé PDF/A-3) :
+              celui-ci comprend des informations lisibles ainsi que les données structurées et d’éventuelles pièces
+              jointes.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">UBL ou CII </span>: formats XML uniquement, lisibles automatiquement par les
-              logiciels comptables mais non
-              lisibles par l'humain.
+              <span class="font-bold">UBL ou CII </span>: formats structurés XML lisibles uniquement les logiciels mais
+              non lisibles par l'humain . Ces formats seront vraisemblablement peu, voire pas utilisés par les TPE /
+              PME.
             </li>
           </ul>
           <p class="leading-relaxed text-gray-700 my-6">
@@ -186,7 +188,7 @@
         <section id="e-invoicing" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-invoicing</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
-            Le <span class="font-bold">e-invoicing</span> s'applique aux <span class="font-bold">transactions B2B
+            L'<span class="font-bold">e-invoicing</span> s'applique aux <span class="font-bold">transactions B2B
               domestiques</span> (entre entreprises françaises soumises à la TVA).
           </p>
           <p class="leading-relaxed text-gray-700 mb-6">
@@ -199,28 +201,6 @@
             cette réforme en assurant la conformité et la sécurisation des échanges de factures
             électroniques.
           </p>
-          <p class="leading-relaxed text-gray-700 mb-6">
-            Les formats autorisés sont :
-          </p>
-          <ul class="space-y-3 text-gray-700">
-            <li class="leading-relaxed text-gray-700 mb-6">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">UBL</span> et <span class="font-bold">CII</span> (formats structurés lisibles par
-              les logiciels). Ces formats seront
-              vraisemblablement peu, voire pas utilisés par les TPE / PME, car non lisibles par
-              l’humain.
-            </li>
-            <li class="leading-relaxed text-gray-700 mb-6">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Factur-X</span> (format hybride avec un PDF lisible + données XML intégrées). Ce
-              format a
-              pour particularité, et avantage, d’être autant lisible par l’humain, que par l’ordinateur
-              et s’annonce comme <span class="font-bold">le format le plus utilisé à l’avenir</span>. Il est délivré via
-              un fichier
-              PDF (normé PDF/A-3) : celui-ci comprend des informations lisibles ainsi que les
-              données structurées et d’éventuelles pièces jointes.
-            </li>
-          </ul>
           <div class="bg-orange-50 border-l-4 border-orange p-4 rounded mt-6">
             <p class="text-orange-800 font-medium">
               Important : l'envoi de factures en simple PDF ne sera plus conforme à partir de 2026.
@@ -229,22 +209,24 @@
           <p class="leading-relaxed text-gray-700 my-6">Assurez votre conformité à la réforme fiscale sur la
             facturation électronique en optant pour la
             solution de zLawyer.</p>
-
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
-            Je souhaite être contacté
-          </NuxtLink>
         </section>
 
         <section id="e-reporting" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-reporting</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
-            Le e-reporting concerne toutes les opérations <span class="font-bold">non couvertes par le
-              e-invoicing</span>, notamment :
+            <span class="font-bold">E-reporting</span> : concerne <span class="font-bold">les transactions hors
+              champ du e-invoicing</span>, mais pour lesquelles l’administration veut <span class="font-bold">suivre la
+              TVA et les flux
+              économiques</span>. On envoie <span class="font-bold">un relevé de transaction</span>, pas la facture.
+          </p>
+          <p class="leading-relaxed text-gray-700 mb-3">
+            Les transactions concernées sont :
           </p>
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Transactions <span class="font-bold">B2C</span> (avec des particuliers)
+              Transactions <span class="font-bold">B2C</span> (avec des particuliers).
+              Exemple : une entreprise française vend à un consommateur final en France ou à l’étranger.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -253,25 +235,41 @@
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
               <span class="font-bold">Acquisitions intracommunautaires</span>
+              Exemple : une entreprise française vend ou achète à une entreprise en Allemagne, aux États-Unis, etc
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
               <span class="font-bold">Services rendus hors UE</span>
             </li>
-            <li class="leading-relaxed text-gray-700">
+            <li class="leading-relaxed text-gray-700 space-y-4">
               <span class="text-orange mr-3 mt-1">•</span>
               Et les <span class="font-bold">encaissements</span> soumis à TVA
+              <ul class="space-y-2 pl-4">
+                <li class="leading-relaxed text-gray-700"><span class="text-black mr-3 mt-1">•</span>L’entreprise envoie
+                  régulièrement (périodicité imposée : quotidien, hebdo ou mensuel selon les cas) des <span
+                    class="font-bold">données de transactions</span> à l’administration fiscale.</li>
+                <li class="leading-relaxed text-gray-700"><span class="text-black mr-3 mt-1">•</span>Cela peut passer
+                  par :
+                  <ul class="space-y-4 pl-4 pt-4">
+                    <li class="leading-relaxed text-gray-700"><span
+                        class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                      <span class="font-bold">Le Portail Public de Facturation (PPF)</span> ;
+                    </li>
+                    <li class="leading-relaxed text-gray-700"><span
+                        class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                      Ou une <span class="font-bold">Plateforme de Dématérialisation Partenaire (PDP)</span> connectée à
+                      zLawyer ou autre
+                      solution métier.</li>
+                  </ul>
+                </li>
+              </ul>
             </li>
           </ul>
-          <p class="leading-relaxed text-gray-700 my-6">Cette transmission se fait de manière dématérialisée et
-            régulière via une PDP.</p>
-          <p class="leading-relaxed text-gray-700 mb-6">Pour les cabinets d’avocats, l’e-reporting permet de
-            rester en conformité avec les nouvelles
-            obligations fiscales tout en assurant la traçabilité et la transparence des opérations.</p>
-          <p class="leading-relaxed text-gray-700 mb-6"><span class="font-bold">Le e-reporting suivra le même
-              calendrier</span> que celui de la
-            facture électronique.
-            électronique, via leur plateforme.</p>
+          <p class="leading-relaxed text-gray-700 my-6">Pour les cabinets d’avocats, l’e-reporting via zLawyer permet de
+            rester en conformité avec les nouvelles obligations fiscales tout en assurant la traçabilité et la
+            transparence des opérations.</p>
+          <p class="leading-relaxed text-gray-700 mb-6"><span class="font-bold">Le e-reporting suivra le même calendrier
+            </span> que celui de la facture électronique. électronique, via leur plateforme.</p>
         </section>
 
         <section id="calendrier" class="mb-16 scroll-mt-32">
@@ -375,7 +373,7 @@
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Réduction des coûts</span> liés au papier, à l’impression et à l’acheminement.
+              Réduction des coûts liés au papier, à l’impression et à l’acheminement.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -383,19 +381,19 @@
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Lutte contre la fraude à la TVA</span>, en permettant un meilleur contrôle par
+              Lutte contre la fraude à la TVA, en permettant un meilleur contrôle par
               l’administration
               fiscale.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Renforcer la traçabilité et la transparence</span>, grâce à des échanges
+              Renforcer la traçabilité et la transparence, grâce à des échanges
               numériques
               sécurisés et horodatés.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Harmoniser les pratiques</span>, notamment avec les obligations légales en France
+              Harmoniser les pratiques, notamment avec les obligations légales en France
               et en
               Europe qui généralisent progressivement la facture électronique.
             </li>
@@ -441,126 +439,152 @@
         <section id="statuts" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Cycle <span class="text-underline">de vie et statuts</span></h2>
           <p class="leading-relaxed text-gray-700 mb-8">
-            Dans le cadre de la réforme, chaque facture électronique suit un cycle de vie standardisé,
-            permettant de tracer toutes les étapes, de l’émission à l’archivage. Ce suivi comprend des
-            statuts obligatoires et facultatifs qui détaillent l’état d’avancement de la facture. Il est
-            essentiel pour garantir la conformité, simplifier les échanges entre entreprises et renforcer le
-            contrôle fiscal.
+            Dans le cadre de la réforme, chaque facture électronique suit un cycle de vie standardisé, permettant de
+            tracer toutes les étapes, de l’émission à l’archivage. Les statuts ci-dessous facilitent la conformité, la
+            gestion et la traçabilité.
           </p>
 
-          <div class="space-y-4 mb-12">
-            <h4 class="text-lg font-bold text-gray-700 mb-2">Statuts obligatoires :</h4>
-            <ul class="space-y-3 text-gray-700">
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Déposée :</span>
-                La facture est générée et transmise à une plateforme agréée.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Rejetée :</span>
-                Une facture pourra être automatiquement rejetée pour raison technique par
-                la plateforme de l’émetteur ou du destinataire en cas de non-conformité.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Refusée :</span>
-                Par le destinataire de la facture pour des raisons métiers.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Approuvée :</span>
-                La facture est intégralement traitée et approuvée par l&#39;acheteur.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Approuvée partiellement :</span>
-                La facture est traitée et approuvée partiellement par
-                l&#39;acheteur (statut pouvant donner lieu à un avoir).
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Paiement transmis :</span>
-                Le règlement (de la facture ou de l’avoir) a été effectué.
-              </li>
-            </ul>
-            <p class="leading-relaxed text-gray-700">Ils ne sont pas obligatoires mais fortement
-              recommandés
-              pour certains assurants un suivi
-              précis et une bonne gestion opérationnelle.</p>
+          <!-- Statuts obligatoires -->
+          <div class="mb-10">
+            <h4 class="text-lg font-bold text-orange mb-2">Statuts obligatoires</h4>
+            <p class="text-gray-700 mb-4">Voici les 4 statuts obligatoires à remonter à l’administration fiscale, tels
+              que définis dans le cadre de la réforme de la facturation électronique :</p>
+            <!-- Desktop -->
+            <div class="hidden md:block">
+              <table class="min-w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Statut</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Rôle</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Qui le déclenche ?
+                    </th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Utilité métier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(statut, i) in statutsObligatoires" :key="statut.nom"
+                    :class="i % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
+                    <td
+                      class="p-4 align-middle bg-orange-50 text-orange-700 font-bold rounded-l-lg border-b border-gray-200">
+                      {{ statut.nom }}
+                    </td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.role }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.declencheur }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200 rounded-r-lg">{{ statut.utilite
+                      }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Mobile -->
+            <div class="space-y-4 md:hidden">
+              <div v-for="statut in statutsObligatoires" :key="statut.nom"
+                class="bg-white rounded-lg shadow p-4 border-l-4 border-orange-400">
+                <div class="font-bold text-orange-700 mb-2">{{ statut.nom }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Rôle :</span> {{
+                  statut.role }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Qui le déclenche
+                    ?</span> {{ statut.declencheur }}</div>
+                <div class="text-sm text-gray-700"><span class="font-semibold text-gray-900">Utilité métier :</span> {{
+                  statut.utilite }}</div>
+              </div>
+            </div>
           </div>
 
-          <div class="space-y-4 mb-12">
-            <h4 class="text-lg font-bold text-gray-700 mb-2">Statuts recommandés :</h4>
-            <ul class="space-y-3 text-gray-700">
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Mise à disposition :</span>
-                La facture est mise à disposition de l&#39;acheteur.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Rejetée :</span>
-                Une facture pourra être automatiquement rejetée pour raison technique par
-                la plateforme de l’émetteur ou du destinataire en cas de non-conformité.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Prise en charge :</span>
-                La facture est prise en charge par l’acheteur.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Encaissée :</span>
-                Le fournisseur a réceptionné le paiement de la facture ou l&#39;acheteur a
-                reçu le paiement de l&#39;avoir. Le statut « encaissée » comprend les données de
-                paiement servant pour le pré-remplissage de la déclaration de la TVA. Ce statut n’est
-                obligatoire que dans le cadre de la TVA sur les encaissements.
-              </li>
-
-            </ul>
+          <!-- Statuts recommandés -->
+          <div class="mb-10">
+            <h4 class="text-lg font-bold text-orange mb-2">Statuts recommandés</h4>
+            <p class="text-gray-700 mb-4">Ces statuts ne sont pas obligatoires réglementairement, mais fortement
+              recommandés pour faciliter le suivi des factures, l’automatisation et la qualité des échanges entre
+              entreprises.</p>
+            <!-- Desktop -->
+            <div class="hidden md:block">
+              <table class="min-w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Statut</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Rôle</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Qui le déclenche ?
+                    </th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Utilité métier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(statut, i) in statutsRecommandes" :key="statut.nom"
+                    :class="i % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
+                    <td
+                      class="p-4 align-middle bg-orange-50 text-orange-700 font-bold rounded-l-lg border-b border-gray-200">
+                      {{ statut.nom }}
+                    </td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.role }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.declencheur }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200 rounded-r-lg">{{ statut.utilite
+                      }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Mobile -->
+            <div class="space-y-4 md:hidden">
+              <div v-for="statut in statutsRecommandes" :key="statut.nom"
+                class="bg-white rounded-lg shadow p-4 border-l-4 border-orange-400">
+                <div class="font-bold text-orange-700 mb-2">{{ statut.nom }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Rôle :</span> {{
+                  statut.role }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Qui le déclenche
+                    ?</span> {{ statut.declencheur }}</div>
+                <div class="text-sm text-gray-700"><span class="font-semibold text-gray-900">Utilité métier :</span> {{
+                  statut.utilite }}</div>
+              </div>
+            </div>
           </div>
 
-          <div class="space-y-4">
-            <h4 class="text-lg font-bold text-gray-700 mb-2">Les statuts libres :</h4>
-            <ul class="space-y-3 text-gray-700">
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Émise par la plateforme :</span>
-                Facture prise en charge par la plateforme du
-                fournisseur, puis émise à destination de l&#39;acheteur.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Reçue par la plateforme :</span>
-                Facture réceptionnée par le PPF, l’OD ou la PDP de
-                l&#39;acheteur mais pas encore mise à disposition de son client.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">En litige :</span>
-                Un différend est constaté sur la facture aboutissant soit à un refus ou
-                à une approbation de l&#39;acheteur ;
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Suspendue :</span>
-                Suspension du traitement s’il manque une ou plusieurs pièces
-                justificatives (bons de livraison, par exemple). Les données de la facture
-                restent identiques.
-              </li>
-              <li class="leading-relaxed text-gray-700">
-                <span class="text-orange mr-3 mt-1">•</span>
-                <span class="font-bold">Complétée :</span>
-                Le fournisseur a fourni les pièces justificatives relatives à une
-                facture qui avait le statut « suspendue ». Dès lors, elle peut donc à nouveau
-                être en statut « prise en charge ».
-              </li>
-            </ul>
-            <p class="leading-relaxed text-gray-700 my-8">
-              Ces statuts enrichissent le pilotage métier, améliorent les délais de traitement et facilitent la
-              relation client.
-            </p>
+          <!-- Statuts libres -->
+          <div>
+            <h4 class="text-lg font-bold text-orange mb-2">Statuts libres</h4>
+            <p class="text-gray-700 mb-4">Ces statuts sont laissés à l’appréciation des acteurs pour enrichir la
+              traçabilité. Ils ne sont pas remontés à la DGFiP, mais sont utiles pour les workflows internes et la
+              gestion client-fournisseur.</p>
+            <!-- Desktop -->
+            <div class="hidden md:block">
+              <table class="min-w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Statut</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Rôle</th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Qui le déclenche ?
+                    </th>
+                    <th class="bg-gray-100 p-4 text-xs text-gray-700 uppercase font-bold text-left">Utilité métier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(statut, i) in statutsLibres" :key="statut.nom"
+                    :class="i % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
+                    <td
+                      class="p-4 align-middle bg-orange-50 text-orange-700 font-bold rounded-l-lg border-b border-gray-200">
+                      {{ statut.nom }}
+                    </td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.role }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200">{{ statut.declencheur }}</td>
+                    <td class="p-4 align-middle text-gray-800 border-b border-gray-200 rounded-r-lg">{{ statut.utilite
+                      }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Mobile -->
+            <div class="space-y-4 md:hidden">
+              <div v-for="statut in statutsLibres" :key="statut.nom"
+                class="bg-white rounded-lg shadow p-4 border-l-4 border-orange-400">
+                <div class="font-bold text-orange-700 mb-2">{{ statut.nom }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Rôle :</span> {{
+                  statut.role }}</div>
+                <div class="text-sm text-gray-700 mb-1"><span class="font-semibold text-gray-900">Qui le déclenche
+                    ?</span> {{ statut.declencheur }}</div>
+                <div class="text-sm text-gray-700"><span class="font-semibold text-gray-900">Utilité métier :</span> {{
+                  statut.utilite }}</div>
+              </div>
+            </div>
           </div>
 
           <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mt-8">
@@ -606,6 +630,93 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+const statutsObligatoires = [
+  {
+    nom: "Déposée",
+    role: "Confirme que la facture a bien été transmise à la plateforme",
+    declencheur: "Automatique (système)",
+    utilite: "Démarre le suivi de la facture"
+  },
+  {
+    nom: "Rejetée",
+    role: "Signale une anomalie technique ou de format empêchant la réception",
+    declencheur: "Automatique (plateforme)",
+    utilite: "Nécessite correction : la facture n’est pas émise"
+  },
+  {
+    nom: "Refusée",
+    role: "Le client refuse la facture (ex : erreur de prix, référence, produit)",
+    declencheur: "Manuel (client ou émetteur)",
+    utilite: "Gère les litiges commerciaux"
+  },
+  {
+    nom: "Encaissée",
+    role: "Marque le paiement partiel ou total de la facture",
+    declencheur: "Manuel (émetteur ou automatisé depuis un ERP)",
+    utilite: "Permet le suivi du règlement et de la TVA due"
+  }
+];
+
+const statutsRecommandes = [
+  {
+    nom: "Mise à disposition",
+    role: "Indique que la facture est désormais disponible pour le client (via PDP ou portail PPF)",
+    declencheur: "Automatique (plateforme)",
+    utilite: "Permet au client de prendre connaissance de la facture"
+  },
+  {
+    nom: "Rejetée (technique)",
+    role: "Signalement automatique d’un rejet dû à une non-conformité technique (format, données manquantes)",
+    declencheur: "Automatique (plateforme)",
+    utilite: "Nécessite correction et nouvel envoi"
+  },
+  {
+    nom: "Prise en charge",
+    role: "Le client a pris en compte la facture, sans pour autant l’avoir encore validée ou réglée",
+    declencheur: "Manuel ou automatique (client)",
+    utilite: "Permet d’indiquer un début de traitement dans les systèmes clients"
+  },
+  {
+    nom: "Encaissée",
+    role: "Le paiement a été reçu (ou un avoir remboursé), et les données sont intégrées au suivi TVA",
+    declencheur: "Manuel ou automatique via ERP",
+    utilite: "Alimente la déclaration de TVA, surtout en régime sur les encaissements"
+  }
+];
+
+const statutsLibres = [
+  {
+    nom: "Émise par la plateforme",
+    role: "Indique que la plateforme du fournisseur a bien pris en charge la facture et l’a émise",
+    declencheur: "Automatique (plateforme fournisseur)",
+    utilite: "Confirme l'envoi effectif de la facture"
+  },
+  {
+    nom: "Reçue par la plateforme",
+    role: "La facture est bien parvenue à la plateforme du destinataire, mais pas encore visible par le client",
+    declencheur: "Automatique (plateforme destinataire)",
+    utilite: "Suivi logistique de la transmission"
+  },
+  {
+    nom: "En litige",
+    role: "Un différend est signalé sur le contenu de la facture (montant, référence, etc.)",
+    declencheur: "Manuel (client ou fournisseur)",
+    utilite: "Permet de suspendre ou annuler le processus de validation/paiement"
+  },
+  {
+    nom: "Suspendue",
+    role: "Traitement en pause dans l’attente de justificatifs (bons de livraison, commande, etc.)",
+    declencheur: "Manuel (client ou plateforme)",
+    utilite: "Évite de rejeter une facture en attente d’éléments complémentaires"
+  },
+  {
+    nom: "Complétée",
+    role: "Les pièces justificatives ont été ajoutées, la facture peut poursuivre son traitement",
+    declencheur: "Manuel (fournisseur)",
+    utilite: "Réactive le flux après un blocage temporaire"
+  }
+];
+
 export default {
   mounted() {
     const links = Array.from(document.querySelectorAll('.scroll-link'));
@@ -633,6 +744,13 @@ export default {
     });
 
     ScrollTrigger.refresh();
+  },
+  data() {
+    return {
+      statutsObligatoires,
+      statutsRecommandes,
+      statutsLibres
+    };
   }
 };
 </script>
