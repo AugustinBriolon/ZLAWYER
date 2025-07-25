@@ -104,7 +104,7 @@
             entreprises françaises.
 
             <br>
-            En effet, selon l’article 289 du Code général des impôts, la facture
+            Conformément à l’article 289 du Code général des impôts, la facture
             électronique est un document entièrement numérique, couvrant
             toutes les étapes de son cycle de vie, de l’émission à la réception.
             Elle doit respecter un format et un mode de transmission définis par
@@ -226,50 +226,53 @@
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
               Transactions <span class="font-bold">B2C</span> (avec des particuliers).
+              <br>
               Exemple : une entreprise française vend à un consommateur final en France ou à l’étranger.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Transactions <span class="font-bold">B2B internationales</span>
+              Transactions <span class="font-bold">B2B internationales.</span>
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Acquisitions intracommunautaires</span>
-              Exemple : une entreprise française vend ou achète à une entreprise en Allemagne, aux États-Unis, etc
+              <span class="font-bold">Acquisitions intracommunautaires.</span>
+              <br>
+              Exemple : une entreprise française vend ou achète à une entreprise en Allemagne, aux États-Unis, etc.
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              <span class="font-bold">Services rendus hors UE</span>
+              <span class="font-bold">Services rendus hors UE.</span>
             </li>
             <li class="leading-relaxed text-gray-700 space-y-4">
               <span class="text-orange mr-3 mt-1">•</span>
-              Et les <span class="font-bold">encaissements</span> soumis à TVA
-              <ul class="space-y-2 pl-4">
-                <li class="leading-relaxed text-gray-700"><span class="text-black mr-3 mt-1">•</span>L’entreprise envoie
-                  régulièrement (périodicité imposée : quotidien, hebdo ou mensuel selon les cas) des <span
-                    class="font-bold">données de transactions</span> à l’administration fiscale.</li>
-                <li class="leading-relaxed text-gray-700"><span class="text-black mr-3 mt-1">•</span>Cela peut passer
-                  par :
-                  <ul class="space-y-4 pl-4 pt-4">
-                    <li class="leading-relaxed text-gray-700"><span
-                        class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
-                      <span class="font-bold">Le Portail Public de Facturation (PPF)</span> ;
-                    </li>
-                    <li class="leading-relaxed text-gray-700"><span
-                        class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
-                      Ou une <span class="font-bold">Plateforme de Dématérialisation Partenaire (PDP)</span> connectée à
-                      zLawyer ou autre
-                      solution métier.</li>
-                  </ul>
-                </li>
-              </ul>
+              Les <span class="font-bold">encaissements</span> soumis à TVA.
             </li>
+
+            <p class="leading-relaxed text-gray-700">L’entreprise envoie
+              régulièrement (périodicité imposée : quotidien, hebdo ou mensuel selon les cas) des <span
+                class="font-bold">données de transactions</span> à l’administration fiscale.</p>
+            <div>
+              <p class="leading-relaxed text-gray-700">Cela peut passer par :</p>
+
+                <ul class="space-y-2 pl-4 pt-4">
+                  <li class="leading-relaxed text-gray-700"><span
+                      class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                    <span class="font-bold">Le Portail Public de Facturation (PPF)</span>;
+                  </li>
+                  <li class="leading-relaxed text-gray-700"><span
+                      class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                    Ou une <span class="font-bold">Plateforme de Dématérialisation Partenaire (PDP)</span> connectée à
+                    zLawyer ou autre
+                    solution métier.</li>
+                </ul>
+            </div>
           </ul>
+
           <p class="leading-relaxed text-gray-700 my-6">Pour les cabinets d’avocats, l’e-reporting via zLawyer permet de
             rester en conformité avec les nouvelles obligations fiscales tout en assurant la traçabilité et la
             transparence des opérations.</p>
           <p class="leading-relaxed text-gray-700 mb-6"><span class="font-bold">Le e-reporting suivra le même calendrier
-            </span> que celui de la facture électronique. électronique, via leur plateforme.</p>
+            </span> que celui de la facture électronique, via leur plateforme.</p>
         </section>
 
         <section id="calendrier" class="mb-16 scroll-mt-32">
@@ -289,7 +292,7 @@
                 <span>2026</span>
               </div>
               <div class="ml-6 flex-1">
-                <h4 class="font-semibold text-gray-800 mb-2">Phase 1 : Grandes entreprises et ETI</h4>
+                <h4 class="font-semibold text-gray-800 mb-2">Phase 1 :</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li class="leading-relaxed text-gray-700">
                     <span class="text-orange mr-2 mt-1">•</span>
@@ -298,7 +301,7 @@
                   </li>
                   <li class="leading-relaxed text-gray-700">
                     <span class="text-orange mr-2 mt-1">•</span>
-                    Obligation d'émettre des factures électroniques pour les grandes entreprises et les ETI
+                    <span class="font-bold">Grandes entreprises et ETI</span> : Obligation d'émettre des factures électroniques
                   </li>
                 </ul>
               </div>
@@ -339,7 +342,7 @@
           <div class="bg-orange-50 border-l-4 border-orange-400 p-6 rounded-lg mt-8">
             <p class="text-orange-800 font-medium">
               ⏰ Préparez-vous dès maintenant pour être conforme à l&#39;échéance qui vous concerne grâce
-              à zLawyer. <NuxtLink title="Page Contact" class="text-orange underline" to="/contact">En savoir +
+              à zLawyer. <br> <NuxtLink title="Page Contact" class="text-orange underline" to="/contact">En savoir +
               </NuxtLink>
             </p>
           </div>
@@ -350,15 +353,15 @@
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Utiliser une plateforme agréée (PDP) pour l'émission et la réception des factures
+              Utiliser une plateforme agréée (PDP) pour l'émission et la réception des factures,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Respecter les formats imposés (UBL, CII ou Factur-X)
+              Respecter les formats imposés (UBL, CII ou Factur-X),
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Assurer la traçabilité, le cycle de vie et le reporting des factures
+              Assurer la traçabilité, le cycle de vie et le reporting des factures.
             </li>
           </ul>
         </section>
@@ -369,27 +372,23 @@
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
               Réduction des délais de paiement, en facilitant le traitement et la validation des
-              factures.
+              factures,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Réduction des coûts liés au papier, à l’impression et à l’acheminement.
+              Réduction des coûts liés au papier, à l’impression et à l’acheminement,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Automatisation et fiabilisation des processus comptables
+              Automatisation et fiabilisation des processus comptables,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Lutte contre la fraude à la TVA, en permettant un meilleur contrôle par
-              l’administration
-              fiscale.
+              Lutte contre la fraude à la TVA, en permettant un meilleur contrôle par l’administration fiscale,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Renforcer la traçabilité et la transparence, grâce à des échanges
-              numériques
-              sécurisés et horodatés.
+              Renforcer la traçabilité et la transparence, grâce à des échanges numériques sécurisés et horodatés,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -405,15 +404,15 @@
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">1.</span>
-              Création de la facture dans un outil conforme.
+              Création de la facture dans un outil conforme,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">2.</span>
-              Transmission via une Plateforme de Dématérialisation Partenaire (PDP).
+              Transmission via une Plateforme de Dématérialisation Partenaire (PDP),
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">3.</span>
-              Réception et traitement automatisé de la facture par le client.
+              Réception et traitement automatisé de la facture par le client,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">4.</span>
@@ -605,9 +604,10 @@
             la réforme sur la facturation électronique tout en bénéficiant d&#39;une solution performante et
             sécurisée.
           </p>
-          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/facturation-electronique-et-zlawyer">
+          <NuxtLink title="Page Contact" class="text-orange underline" to="/facturation-electronique-et-zlawyer">
             Notre solution à la réforme
           </NuxtLink>
+
         </section>
 
         <div class="my-12">
