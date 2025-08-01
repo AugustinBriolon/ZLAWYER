@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   nitro: {
     output: {
       dir: '.output',
-      publicDir: 'static'
-    }
+      publicDir: 'static',
+    },
   },
 
   ssr: true,
@@ -141,12 +141,13 @@ export default defineNuxtConfig({
     },
   },
 
-  plugins: [],
+  plugins: ['~/plugins/google-recaptcha.ts'],
   components: true,
 
   runtimeConfig: {
     public: {
       gtagId: 'UA-7664894-1',
+      recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY || '',
     },
   },
 

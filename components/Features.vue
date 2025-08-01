@@ -277,7 +277,7 @@
             rester dans votre environnement de travail habituel tout en respectant les obligations légales.
             Vous bénéficiez ainsi d’une expérience fluide et continue, via une interface unique pour gérer
             à la fois vos dossiers juridiques et vos processus financiers.</p>
-          <div class="flex items-center justify-start gap-4">
+          <div class="flex flex-wrap items-center justify-start gap-4">
             <NuxtLink title="Page Facturation Électronique" class="button-orange w-fit whitespace-nowrap"
               to="/facturation-electronique-et-zlawyer">
               Notre solution à la réforme

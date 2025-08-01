@@ -31,7 +31,7 @@
               Contactez-nous !
             </h2>
             <p class="mt-6 text-blue text-bolder text-lg">
-              zLawyer, la solution de gestion de cabinets d’avocats simple,
+              zLawyer, la solution de gestion de cabinets d'avocats simple,
               ergonomique, sans engagement !
             </p>
             <div class="mt-14 flex items-center">
@@ -65,7 +65,7 @@
 
           <div class="flex flex-col p-2">
             <label for="country">Pays</label>
-            <select name="pays" id="pays">
+            <select name="pays" id="pays" v-model="pays">
               <option v-for="pays in allPays" :key="pays" :value="pays">
                 {{ pays }}
               </option>
@@ -101,8 +101,6 @@
             <textarea class="h-28" id="message" name="message" v-model="message" />
           </div>
 
-          <recaptcha />
-
           <button type="submit" class="button-orange mx-2 my-10 w-max">
             Envoyer
           </button>
@@ -135,15 +133,23 @@ export default {
   },
   async mounted() {
     this.allPays = json;
-    try {
-      await this.$recaptcha.init();
-    } catch (e) { }
   },
   methods: {
     async onSubmit() {
       try {
-        const token = await this.$recaptcha.getResponse();
-        await this.$recaptcha.reset();
+        if (!this.$recaptcha) {
+          console.error('reCAPTCHA n\'est pas initialisé');
+          this.response = 'Erreur: reCAPTCHA non disponible';
+          return;
+        }
+
+        const token = await this.$recaptcha('submit');
+
+        if (!token) {
+          console.error('Aucun token reCAPTCHA obtenu');
+          this.response = 'Erreur: Impossible d\'obtenir le token reCAPTCHA';
+          return;
+        }
 
         let data = {
           cabinet: this.cabinet,
@@ -153,7 +159,9 @@ export default {
           email: this.email,
           telephone: this.telephone,
           message: this.message,
+          recaptchaToken: token,
         };
+
         axios
           .post('https://zlawyercontact.azurewebsites.net/api/contact', data, {
             headers: {
@@ -166,11 +174,15 @@ export default {
               this.response = response.data;
               this.$router.push('/contact-success');
             },
-            (response) => {
-              this.response = response.response.data;
+            (error) => {
+              console.error('Erreur API:', error);
+              this.response = error.response?.data || 'Erreur lors de l\'envoi du formulaire';
             }
           );
-      } catch (e) { }
+      } catch (error) {
+        console.error('Erreur reCAPTCHA:', error);
+        this.response = 'Erreur: ' + (error.message || 'Problème avec reCAPTCHA');
+      }
     },
   },
 };
