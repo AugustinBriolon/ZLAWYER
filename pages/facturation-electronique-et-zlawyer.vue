@@ -41,6 +41,12 @@
               </a>
             </li>
             <li>
+              <a href="#mode-operatoire"
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Le mode opératoire
+              </a>
+            </li>
+            <li>
               <a href="#experience-utilisateur"
                 class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Une expérience pensée pour les cabinets
@@ -114,6 +120,38 @@
           </ul>
         </section>
 
+        <section class="p-6" id="mode-operatoire">
+          <h3 class="text-xl font-semibold mb-4 text-orange">Le mode opératoire via zLawyer</h3>
+          <ul class="mt-5 ml-4 space-y-3 text-gray-700">
+            <li class="flex items-start">
+              <span class="text-orange mr-2">1.</span>
+              <p>
+                Création de la facture électronique dans zLawyer,
+              </p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">2.</span>
+              <p>
+                Transmission de la facture électronique au client via notre PDP (Plateforme de Dématérialisation
+                Partenaire),
+              </p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">3.</span>
+              <p>
+                Réception et traitement automatisé de la facture par le client,
+              </p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">4.</span>
+              <p>
+                Suivi des statuts dans zLawyer : déposée, rejetée, acceptée, payée…
+              </p>
+            </li>
+
+          </ul>
+        </section>
+
         <section class="p-6 mb-6" id="experience-utilisateur">
           <h2 class="text-xl font-semibold mb-4 text-orange">Une expérience utilisateur pensée pour les
             cabinets d’avocats</h2>
@@ -168,12 +206,15 @@
           </p>
         </div>
 
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg">
-            <p class="text-blue-800 font-bold">
-              En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
-              d'une solution performante et sécurisée.
-            </p>
-          </div>
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mb-8">
+          <p class="text-blue-800 font-bold">
+            En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
+            d'une solution performante et sécurisée.
+          </p>
+        </div>
+        <NuxtLink title="Page Contact" class="text-orange underline" to="/facturation-electronique">
+          Comprendre la réforme
+        </NuxtLink>
 
 
         <hr class="my-12 border-gray-200">
@@ -332,11 +373,11 @@ export default {
         },
         {
           q: "9. Quelle est la différence entre e-invoicing et e-reporting ?",
-          a: "<ul class='list-disc ml-6'><li><strong>E-invoicing :</strong> factures électroniques B2B domestiques.</li><li><strong>E-reporting :</strong> transmission des données pour les opérations B2C, internationales, intracommunautaires, ou services hors UE.</li></ul>"
+          a: "<ul class='list-disc ml-6'><li><strong>E-invoicing :</strong> factures électroniques B2B domestiques.</li><li><strong>E-reporting :</strong> concerne les transactions hors champ du e-invoicing (B2C, internationales, intercommunautaires, ou services hors UE), mais pour lesquelles l'administration veut suivre la TVA et les flux économiques. On envoie un relevé de transaction, pas la facture.</li></ul>"
         },
         {
           q: "10. Quelles sont les échéances à respecter ?",
-          a: "<ul class='list-disc ml-6'><li><strong>1er septembre 2026 :</strong> grandes entreprises.</li><li><strong>1er septembre 2027 :</strong> PME, TPE, professions libérales.</li></ul>"
+          a: "<div class='space-y-4'><div><strong>Phase 1 : 1er septembre 2026 :</strong><ul class='list-disc ml-6 mt-2'><li>Obligation de recevoir des factures électroniques pour TOUTES les entreprises</li><li>Grandes entreprises et ETI : Obligation d'émettre des factures électroniques</li></ul></div><div><strong>Phase 2 : 1er Septembre 2027 :</strong><ul class='list-disc ml-6 mt-2'><li>Obligation d'émettre des factures électroniques pour les PME, TPE et microentreprises</li><li>Généralisation complète de la facturation électronique</li></ul></div></div>"
         },
         {
           q: "11. Comment zLawyer m'accompagne dans cette transition ?",

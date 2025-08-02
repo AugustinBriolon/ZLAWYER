@@ -208,7 +208,7 @@
           </div>
           <p class="leading-relaxed text-gray-700 my-6">Assurez votre conformité à la réforme fiscale sur la
             facturation électronique en optant pour la
-            solution de zLawyer.</p>
+            solution de zLawyer. <br> Ainsi, vous bénéficiez ainsi d’une solution fluide et continue grâce à une interface unique.</p>
         </section>
 
         <section id="e-reporting" class="mb-16 scroll-mt-32">

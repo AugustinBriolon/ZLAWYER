@@ -256,7 +256,7 @@
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
+      <div id="facturation-electronique" class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start scroll-mt-32">
         <img :src="'images/features/features10.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client"
           @click="imageModal('images/features/features10.webp')" />
@@ -264,9 +264,9 @@
           <h3 class="text-pretty">
             Assurez votre transition <span class="text-underline">vers la facture </span> <br> <span
               class="text-underline"> électronique</span> en toute sérénité
-            grâce à zLawyer
+            grâçe à zLawyer
           </h3>
-          <p>En optant pour zLawyer vous garantissez une totale conformité aux obligations découlant de
+          <p>En optant pour <span class="font-bold">zLawyer</span> vous garantissez une totale conformité aux obligations découlant de
             la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
             <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PDP</NuxtLink> (Plateforme de Dématérialisation Partenaire) et de <NuxtLink
               to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation.
@@ -275,7 +275,7 @@
 
           <p>La facturation électronique est entièrement intégrée à notre solution, ce qui vous permet de
             rester dans votre environnement de travail habituel tout en respectant les obligations légales.
-            Vous bénéficiez ainsi d’une expérience fluide et continue, via une interface unique pour gérer
+            Vous bénéficiez ainsi d’une expérience fluide et continue, grâçe à une interface unique pour gérer
             à la fois vos dossiers juridiques et vos processus financiers.</p>
           <div class="flex flex-wrap items-center justify-start gap-4">
             <NuxtLink title="Page Facturation Électronique" class="button-orange w-fit whitespace-nowrap"

@@ -13,6 +13,10 @@
           <a class="text-link" href="/#fonctionnalites">Fonctionnalités</a>
         </li>
         <li>
+          <a class="text-link" href="/#facturation-electronique">Facturation Électronique</a>
+        </li>
+        
+        <li>
           <a class="text-link" href="/#clients">Témoignages</a>
         </li>
         <li>
@@ -37,6 +41,10 @@
         <li>
           <a @click="isActive = !isActive" class="text-link text-xl" href="/#fonctionnalites">Fonctionnalités</a>
         </li>
+        <li>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#facturation-electronique">Facturation Électronique</a>
+        </li>
+
         <li>
           <a @click="isActive = !isActive" class="text-link text-xl" href="/#clients">Témoignages</a>
         </li>

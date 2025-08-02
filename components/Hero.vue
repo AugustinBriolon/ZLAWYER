@@ -2,7 +2,7 @@
   <div class="hero max-width-blue-section grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
     <div class="flex flex-col items-center lg:block row-start-2 lg:row-start-1 md:px-8">
       <h1 class="anim-hero text-center lg:text-left mb-14">
-        <span class="text-orange">zLawyer</span>: Le logiciel de facturation pour cabinet d'avocats <br /><span class="text-orange">simple,
+        <span class="text-orange">zLawyer</span>, Le logiciel de gestion et facturation pour cabinet d'avocats <br /><span class="text-orange">simple,
           <br />ergonomique,
           <br />sans
           engagement !</span>
