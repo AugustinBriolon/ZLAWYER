@@ -2,7 +2,8 @@
   <div class="backdrop-blur-lg fixed border-b border-b-white z-10 w-screen">
     <div class="header max-w—[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
       <NuxtLink title="Page Home" to="/">
-        <img src="/images/logos/zeleLogo.png" class="h-12 sm:h-16 cursor-pointer" alt="Logo zLawyer" />
+        <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/zeleLogo.png" class="h-12 sm:h-16 cursor-pointer"
+          alt="Logo zLawyer" />
       </NuxtLink>
 
       <ul class="items-center hidden lg:flex gap-8 header-nav">

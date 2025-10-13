@@ -10,7 +10,7 @@
           France : quels changements attendre et comment s’y préparer.
         </p>
       </div>
-      <img src="/images/features/features10.webp" alt="illustration du logiciel"
+      <img src="https://www.zlawyer.fr/logiciel-avocats/images/features/features10.webp" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
     </div>
 
@@ -424,7 +424,7 @@
                   Suivi des statuts : déposée, rejetée, acceptée, payée…
                 </li>
               </ul>
-              <img src="/images/pa/Visuel-PA.webp" alt="Visuel de la Plateforme Agrée"
+              <img src="https://www.zlawyer.fr/logiciel-avocats/images/pa/Visuel-PA.webp" alt="Visuel de la Plateforme Agrée"
                 class="w-full rounded-radius-current max-w-[500px]" />
               <p class="leading-relaxed text-gray-700">Pour cela, vous devez choisir une plateforme agrée comme
                 zLawyer pour accéder à un logiciel de facturation électronique accepté par l’administration
