@@ -256,8 +256,9 @@
           alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
       </div>
 
-      <div id="facturation-electronique" class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start scroll-mt-32">
-        <img :src="'images/features/features10.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
+      <div id="facturation-electronique"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start scroll-mt-32">
+        <img src="/images/features/features10.webp" class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client"
           @click="imageModal('images/features/features10.webp')" />
         <div class="flex flex-col gap-4">
@@ -266,10 +267,12 @@
               class="text-underline"> électronique</span> en toute sérénité
             grâçe à zLawyer
           </h3>
-          <p>En optant pour <span class="font-bold">zLawyer</span> vous garantissez une totale conformité aux obligations découlant de
+          <p>En optant pour <span class="font-bold">zLawyer</span> vous garantissez une totale conformité aux
+            obligations découlant de
             la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
-            <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PA</NuxtLink> (Plateforme Agrée) et de <NuxtLink
-              to="/facturation-electronique-et-zlawyer#faq" class="text-orange" target="_blank">l'e-facturation.
+            <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PA
+            </NuxtLink> (Plateforme Agrée) et de <NuxtLink to="/facturation-electronique-et-zlawyer#faq"
+              class="text-orange" target="_blank">l'e-facturation.
             </NuxtLink>
           </p>
 

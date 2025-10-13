@@ -19,7 +19,7 @@
           fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
           travail.</p>
       </div>
-      <img :src="'/images/features/features10.webp'" alt="illustration du logiciel"
+      <img src="/images/features/features10.webp" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
     </div>
 
