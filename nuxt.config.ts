@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   app: {
-    baseURL: '/logiciel-avocats/',
+    // baseURL: '/logiciel-avocats/',
     head: {
       title:
         ' Logiciel Facturation Avocat : Solution de gestion cabinets d’avocats',
