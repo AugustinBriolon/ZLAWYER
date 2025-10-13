@@ -12,8 +12,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   app: {
-    // baseURL: '/.output/public/',
-    // baseURL: '/logiciel-avocats/',
+    baseURL: '/logiciel-avocats/',
     head: {
       title:
         ' Logiciel Facturation Avocat : Solution de gestion cabinets d’avocats',
@@ -37,7 +36,6 @@ export default defineNuxtConfig({
           name: 'description',
           content:
             'Logiciel avocat intuitif, simple, et complet pour la gestion du cabinet | zLawyer aide les avocats, depuis 2006, à ne plus perdre de temps... à en saisir.',
-          // content: "Optimisez la facturation en tant qu'avocat avec notre logiciel dédié. Simplifiez la gestion financière de votre cabinet pour plus d'efficacité.",
         },
         { name: 'keywords', content: 'logicel avocat cabinet facturation' },
 
@@ -47,7 +45,6 @@ export default defineNuxtConfig({
           name: 'twitter:title',
           content:
             ' Logiciel Facturation Avocat : Solution de gestion cabinets d’avocats',
-          // content: "Optimisez la facturation en tant qu'avocat avec notre logiciel dédié. Simplifiez la gestion financière de votre cabinet pour plus d'efficacité.",
         },
         {
           name: 'twitter:description',

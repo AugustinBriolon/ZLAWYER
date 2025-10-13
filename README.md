@@ -1,76 +1,24 @@
-# Nuxt 3 Minimal Starter
+# ZLAWYER - Export du site
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Commandes pour exporter le site
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+### 1. Vérifier la configuration
+Assurez-vous que dans `nuxt.config.ts`, la ligne suivante est bien présente :
+```typescript
+baseURL: '/logiciel-avocats/',
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### 2. Générer le site statique
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+yarn generate
 ```
 
-## Production
+### 3. Résultat
+Le site sera généré dans le dossier `static/` et prêt à être déployé.
 
-Build the application for production:
+## Commandes utiles
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# fluffy-giggle
+- **Développement** : `yarn dev`
+- **Build** : `yarn build`
+- **Génération statique** : `yarn generate`
+- **Prévisualisation** : `yarn preview`

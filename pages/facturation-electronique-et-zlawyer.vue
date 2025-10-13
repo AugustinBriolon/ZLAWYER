@@ -11,7 +11,7 @@
         <p>
           La réforme de la facturation électronique, effective dès le 1er septembre 2026, impose à
           toutes les entreprises assujetties à la TVA en France d&#39;émettre et de recevoir des factures
-          électroniques via des plateformes agréées (PDP)
+          électroniques via des plateformes agréées (PA)
         </p>
         <p>Pour les cabinets d’avocats, cette transformation réglementaire peut représenter un enjeu
           complexe si elle n’est pas anticipée avec les bons outils.</p>
@@ -19,7 +19,7 @@
           fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
           travail.</p>
       </div>
-      <img :src="'images/features/features10.webp'" alt="illustration du logiciel"
+      <img :src="'/images/features/features10.webp'" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
     </div>
 
@@ -78,14 +78,14 @@
             zLawyer, éditeur de logiciel reconnu pour les cabinets d&#39;avocats, anticipe cette réforme avec
             des solutions spécifiques à votre activité.
           </p>
-          <p>Nous sommes <span class="font-bold">PDP compliant</span>, ce qui signifie que la solution zLawyer est
+          <p>Nous sommes <span class="font-bold">PA compliant</span>, ce qui signifie que la solution zLawyer est
             conçue pour
             répondre aux exigences légales de la facturation électronique.</p>
         </section>
 
         <section class="p-6" id="solution-tout-en-un">
           <h3 class="text-xl font-semibold mb-4 text-orange">Une solution tout-en-un, 100% conforme</h3>
-          <p><span class="font-bold">PDP compliant,</span> zLawyer intègre la facturation électronique directement dans
+          <p><span class="font-bold">PA compliant,</span> zLawyer intègre la facturation électronique directement dans
             votre interface métier.</p>
           <ul class="mt-5 space-y-3 text-gray-700">
             <p class="font-bold">Principaux atouts :</p>
@@ -93,7 +93,7 @@
               <span class="text-orange mr-3 mt-1">•</span>
               <p>
                 <span class="font-bold mr-1">Conformité intégrée :</span> respect total de la réforme (formats exigés,
-                transmission via PDP , obligations légales).
+                transmission via PA , obligations légales).
               </p>
             </li>
             <li class="flex items-start">
@@ -132,8 +132,7 @@
             <li class="flex items-start">
               <span class="text-orange mr-2">2.</span>
               <p>
-                Transmission de la facture électronique au client via notre PDP (Plateforme de Dématérialisation
-                Partenaire),
+                Transmission de la facture électronique au client via notre PA (Plateforme Agrée),
               </p>
             </li>
             <li class="flex items-start">
@@ -344,8 +343,8 @@ export default {
           a: "Une facture électronique est une facture créée, transmise et reçue au format structuré ou hybride, via une plateforme agréée. Un simple PDF envoyé par email ne sera plus conforme aux nouvelles règles."
         },
         {
-          q: "2. Qu'est-ce qu'une PDP ?",
-          a: "Une PDP (Plateforme de Dématérialisation Partenaire) est une plateforme privée agréée par l'administration fiscale, qui peut :<ul class='list-disc ml-6'><li>émettre et recevoir des factures électroniques,</li><li>transmettre les données à la DGFiP,</li><li>assurer le suivi des statuts.</li></ul><div class='bg-gray-50 border-l-4 border-orange p-4 rounded mt-2'><p class='text-orange font-medium'>zLawyer est PDP compliant : vous n'avez pas besoin de chercher une solution externe.</p></div>"
+          q: "2. Qu'est-ce qu'une PA ?",
+          a: "Une PA (Plateforme Agrée) est une plateforme privée agréée par l'administration fiscale, qui peut :<ul class='list-disc ml-6'><li>émettre et recevoir des factures électroniques,</li><li>transmettre les données à la DGFiP,</li><li>assurer le suivi des statuts.</li></ul><div class='bg-gray-50 border-l-4 border-orange p-4 rounded mt-2'><p class='text-orange font-medium'>zLawyer est PA compliant : vous n'avez pas besoin de chercher une solution externe.</p></div>"
         },
         {
           q: "3. Est-ce que mon cabinet d'avocats est concerné ?",
@@ -353,7 +352,7 @@ export default {
         },
         {
           q: "4. Toutes les entreprises devront elles s'équiper d'une solution informatique ?",
-          a: "Toutes les entreprises françaises assujetties à la TVA en France devront obligatoirement utiliser les services d'une PDP (prestataire de services de confiance pour la dématérialisation des factures) pour émettre et recevoir leurs factures, ainsi que pour transmettre les données requises à l'Administration fiscale.<br>Il est important de noter que l'obligation d'émettre des factures électroniques ne signifie pas nécessairement qu'une entreprise doit avoir une solution informatique. En effet, seule l'utilisation d'une PDP est actuellement rendue obligatoire dans ce contexte.<br>Dans le cas d'une entreprise avec un faible volume de factures, tel qu'une SCI ayant un bail professionnel trimestriel par exemple, il n'est pas obligatoire de se doter d'une solution informatique. Cette entreprise devrait pouvoir émettre ses factures \"en ligne\". Il est cependant à noter que l'usage du facturier papier ne sera plus possible."
+          a: "Toutes les entreprises françaises assujetties à la TVA en France devront obligatoirement utiliser les services d'une PA (prestataire de services de confiance pour la dématérialisation des factures) pour émettre et recevoir leurs factures, ainsi que pour transmettre les données requises à l'Administration fiscale.<br>Il est important de noter que l'obligation d'émettre des factures électroniques ne signifie pas nécessairement qu'une entreprise doit avoir une solution informatique. En effet, seule l'utilisation d'une PA est actuellement rendue obligatoire dans ce contexte.<br>Dans le cas d'une entreprise avec un faible volume de factures, tel qu'une SCI ayant un bail professionnel trimestriel par exemple, il n'est pas obligatoire de se doter d'une solution informatique. Cette entreprise devrait pouvoir émettre ses factures \"en ligne\". Il est cependant à noter que l'usage du facturier papier ne sera plus possible."
         },
         {
           q: "5. Puis-je refuser une facture envoyée par courriel (PDF) par un fournisseur qui n'est pas encore concerné par l'obligation ?",
@@ -365,7 +364,7 @@ export default {
         },
         {
           q: "7. Dois-je choisir une plateforme spécifique ?",
-          a: "Oui. Vous devrez passer par :<ul class='list-disc ml-6'><li>une PDP agréée,</li><li>ou un OD (Opérateur de Dématérialisation).</li></ul>"
+          a: "Oui. Vous devrez passer par :<ul class='list-disc ml-6'><li>une PA agréée,</li><li>ou un OD (Opérateur de Dématérialisation).</li></ul>"
         },
         {
           q: "8. Quels formats de factures seront autorisés ?",
@@ -381,7 +380,7 @@ export default {
         },
         {
           q: "11. Comment zLawyer m'accompagne dans cette transition ?",
-          a: "<ul class='list-disc ml-6'><li>Logiciel conforme à la réforme 2026 et PDP compliant.</li><li>Émission et réception des factures 100 % automatisées.</li><li>Suivi des statuts, alertes et tableaux de bord.</li><li>Formation et support dédiés aux cabinets d'avocats.</li></ul>"
+          a: "<ul class='list-disc ml-6'><li>Logiciel conforme à la réforme 2026 et PA compliant.</li><li>Émission et réception des factures 100 % automatisées.</li><li>Suivi des statuts, alertes et tableaux de bord.</li><li>Formation et support dédiés aux cabinets d'avocats.</li></ul>"
         },
         {
           q: "12. Je travaille pour des entreprises en Europe. Devrai-je émettre des factures électroniques pour ces clients ?",
@@ -395,7 +394,7 @@ export default {
         },
         {
           q: "2. Déposée",
-          a: "La facture est enregistrée sur la plateforme (PDP, OD ou PPF)."
+          a: "La facture est enregistrée sur la plateforme (PA, OD ou PPF)."
         },
         {
           q: "3. Transmise",

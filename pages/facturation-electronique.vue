@@ -193,11 +193,11 @@
           </p>
           <p class="leading-relaxed text-gray-700 mb-6">
             Les factures doivent être émises et reçues via une <span class="font-bold">Plateforme Agréée Partenaire
-              (PDP)</span>, dans un <span class="font-bold">format électronique
+              (PA)</span>, dans un <span class="font-bold">format électronique
               structuré ou hybride</span>.
           </p>
           <p class="leading-relaxed text-gray-700 mb-6">
-            Les Plateformes de Dématérialisation Partenaire (PDP) jouent donc un rôle central dans
+            Les Plateformes de Dématérialisation Partenaire (PA) jouent donc un rôle central dans
             cette réforme en assurant la conformité et la sécurisation des échanges de factures
             électroniques.
           </p>
@@ -208,7 +208,8 @@
           </div>
           <p class="leading-relaxed text-gray-700 my-6">Assurez votre conformité à la réforme fiscale sur la
             facturation électronique en optant pour la
-            solution de zLawyer. <br> Ainsi, vous bénéficiez ainsi d’une solution fluide et continue grâce à une interface unique.</p>
+            solution de zLawyer. <br> Ainsi, vous bénéficiez ainsi d’une solution fluide et continue grâce à une
+            interface unique.</p>
         </section>
 
         <section id="e-reporting" class="mb-16 scroll-mt-32">
@@ -254,17 +255,17 @@
             <div>
               <p class="leading-relaxed text-gray-700">Cela peut passer par :</p>
 
-                <ul class="space-y-2 pl-4 pt-4">
-                  <li class="leading-relaxed text-gray-700"><span
-                      class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
-                    <span class="font-bold">Le Portail Public de Facturation (PPF)</span>;
-                  </li>
-                  <li class="leading-relaxed text-gray-700"><span
-                      class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
-                    Ou une <span class="font-bold">Plateforme de Dématérialisation Partenaire (PDP)</span> connectée à
-                    zLawyer ou autre
-                    solution métier.</li>
-                </ul>
+              <ul class="space-y-2 pl-4 pt-4">
+                <li class="leading-relaxed text-gray-700"><span
+                    class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                  <span class="font-bold">Le Portail Public de Facturation (PPF)</span>;
+                </li>
+                <li class="leading-relaxed text-gray-700"><span
+                    class="text-white inline-block border border-black w-1.5 h-1.5 rounded-full mr-1 mt-1"></span>
+                  Ou une <span class="font-bold">Plateforme Agrée (PA)</span> connectée à
+                  zLawyer ou autre
+                  solution métier.</li>
+              </ul>
             </div>
           </ul>
 
@@ -301,7 +302,8 @@
                   </li>
                   <li class="leading-relaxed text-gray-700">
                     <span class="text-orange mr-2 mt-1">•</span>
-                    <span class="font-bold">Grandes entreprises et ETI</span> : Obligation d'émettre des factures électroniques
+                    <span class="font-bold">Grandes entreprises et ETI</span> : Obligation d'émettre des factures
+                    électroniques
                   </li>
                 </ul>
               </div>
@@ -342,7 +344,8 @@
           <div class="bg-orange-50 border-l-4 border-orange-400 p-6 rounded-lg mt-8">
             <p class="text-orange-800 font-medium">
               ⏰ Préparez-vous dès maintenant pour être conforme à l&#39;échéance qui vous concerne grâce
-              à zLawyer. <br> <NuxtLink title="Page Contact" class="text-orange underline" to="/contact">En savoir +
+              à zLawyer. <br>
+              <NuxtLink title="Page Contact" class="text-orange underline" to="/contact">En savoir +
               </NuxtLink>
             </p>
           </div>
@@ -353,7 +356,7 @@
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
-              Utiliser une plateforme agréée (PDP) pour l'émission et la réception des factures,
+              Utiliser une plateforme agréée (PA) pour l'émission et la réception des factures,
             </li>
             <li class="leading-relaxed text-gray-700">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -401,38 +404,38 @@
 
         <section id="mode-operatoire" class="mb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Le<span class="text-underline"> mode opératoire</span></h2>
-          <ul class="space-y-3 text-gray-700">
-            <li class="leading-relaxed text-gray-700">
-              <span class="text-orange mr-3 mt-1">1.</span>
-              Création de la facture dans un outil conforme,
-            </li>
-            <li class="leading-relaxed text-gray-700">
-              <span class="text-orange mr-3 mt-1">2.</span>
-              Transmission via une Plateforme de Dématérialisation Partenaire (PDP),
-            </li>
-            <li class="leading-relaxed text-gray-700">
-              <span class="text-orange mr-3 mt-1">3.</span>
-              Réception et traitement automatisé de la facture par le client,
-            </li>
-            <li class="leading-relaxed text-gray-700">
-              <span class="text-orange mr-3 mt-1">4.</span>
-              Suivi des statuts : déposée, rejetée, acceptée, payée…
-            </li>
-
-            <img src="" alt="">
-
-            <div class="flex flex-col gap-4">
-              <p class="leading-relaxed text-gray-700 ">Pour cela, vous devez choisir une plateforme de
-                dématérialisation partenaire comme
+          <div class="flex flex-col xl:flex-row gap-8">
+            <div class="text-gray-700 flex flex-col gap-4">
+              <ul class="space-y-3">
+                <li class="leading-relaxed text-gray-700">
+                  <span class="text-orange mr-3 mt-1">1.</span>
+                  Création de la facture dans un outil conforme,
+                </li>
+                <li class="leading-relaxed text-gray-700">
+                  <span class="text-orange mr-3 mt-1">2.</span>
+                  Transmission via une Plateforme Agrée (PA),
+                </li>
+                <li class="leading-relaxed text-gray-700">
+                  <span class="text-orange mr-3 mt-1">3.</span>
+                  Réception et traitement automatisé de la facture par le client,
+                </li>
+                <li class="leading-relaxed text-gray-700">
+                  <span class="text-orange mr-3 mt-1">4.</span>
+                  Suivi des statuts : déposée, rejetée, acceptée, payée…
+                </li>
+              </ul>
+              <img :src="'/images/pa/Visuel-PA.webp'" alt="Visuel de la Plateforme Agrée"
+                class="w-full rounded-radius-current max-w-[500px]" />
+              <p class="leading-relaxed text-gray-700">Pour cela, vous devez choisir une plateforme agrée comme
                 zLawyer pour accéder à un logiciel de facturation électronique accepté par l’administration
                 fiscale.</p>
 
               <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">
                 Je souhaite être contacté
               </NuxtLink>
-            </div>
 
-          </ul>
+            </div>
+          </div>
         </section>
 
         <section id="statuts" class="mb-16 scroll-mt-32">
@@ -660,7 +663,7 @@ const statutsObligatoires = [
 const statutsRecommandes = [
   {
     nom: "Mise à disposition",
-    role: "Indique que la facture est désormais disponible pour le client (via PDP ou portail PPF)",
+    role: "Indique que la facture est désormais disponible pour le client (via PA ou portail PPF)",
     declencheur: "Automatique (plateforme)",
     utilite: "Permet au client de prendre connaissance de la facture"
   },

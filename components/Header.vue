@@ -15,7 +15,7 @@
         <li>
           <a class="text-link" href="/#facturation-electronique">Facturation Électronique</a>
         </li>
-        
+
         <li>
           <a class="text-link" href="/#clients">Témoignages</a>
         </li>
@@ -29,7 +29,8 @@
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
         <li>
-          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez une démo</NuxtLink>
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez une démo
+          </NuxtLink>
         </li>
       </ul>
 
@@ -42,7 +43,8 @@
           <a @click="isActive = !isActive" class="text-link text-xl" href="/#fonctionnalites">Fonctionnalités</a>
         </li>
         <li>
-          <a @click="isActive = !isActive" class="text-link text-xl" href="/#facturation-electronique">Facturation Électronique</a>
+          <a @click="isActive = !isActive" class="text-link text-xl" href="/#facturation-electronique">Facturation
+            Électronique</a>
         </li>
 
         <li>
@@ -57,7 +59,8 @@
         </li>
         <li @click="isActive = !isActive" class="flex flex-col gap-4">
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
-          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez un démo</NuxtLink>
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez un démo
+          </NuxtLink>
         </li>
       </ul>
 
