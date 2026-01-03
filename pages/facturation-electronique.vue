@@ -44,6 +44,12 @@
               </a>
             </li>
             <li>
+              <a href="#plateforme-agre"
+                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Qu'est ce qu'une Plateforme Agrée ?
+              </a>
+            </li>
+            <li>
               <a href="#e-invoicing"
                 class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Qu'est ce que l'E-invoicing ?
@@ -97,7 +103,7 @@
       </aside>
 
       <div class="w-full">
-        <section id="contexte" class="mb-16 scroll-mt-32">
+        <section id="contexte" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Contexte</span></h2>
           <p class="leading-relaxed text-gray-700">
             Dès 2026, la réforme sur la facturation électronique entre en vigueur pour toutes les
@@ -117,7 +123,7 @@
           </p>
         </section>
 
-        <section id="definition" class="mb-16 scroll-mt-32">
+        <section id="definition" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">La facture électronique <span class="text-underline">c'est quoi au juste
               ?</span>
           </h2>
@@ -157,7 +163,7 @@
           </p>
         </section>
 
-        <section id="concernes" class="mb-16 scroll-mt-32">
+        <section id="concernes" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Qui est concerné</span> ?</h2>
           <p class="leading-relaxed text-gray-700">
             La réforme s'applique à toutes les entreprises assujetties à la TVA, sans distinction de taille ou de
@@ -166,7 +172,7 @@
           </p>
         </section>
 
-        <section id="reforme" class="mb-16 scroll-mt-32">
+        <section id="reforme" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Que prévoit la réforme</span> de la facture
             électronique ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
@@ -183,9 +189,47 @@
               E-reporting pour les opérations B2C ou internationales
             </li>
           </ul>
+          <p class="leading-relaxed text-gray-700 mt-6">
+            Les échanges de factures électronique se font via une Plateforme Agrée (PA) connectée à zLawyer ou autre solution métier.
+          </p>
         </section>
 
-        <section id="e-invoicing" class="mb-16 scroll-mt-32">
+        <section id="plateforme-agre" class="pb-16 scroll-mt-32">
+          <h2 class="text-3xl font-bold mb-6">Qu'est-ce qu'une <span class="text-underline">Plateforme Agrée</span> ?</h2>
+          <p class="leading-relaxed text-gray-700 mb-6">
+            La <span class="font-bold">Plateforme Agréée</span> (anciennement appelée PDP – Plateforme de Dématérialisation
+            Partenaire) constitue l’élément central du dispositif. Elle garantit la <span class="font-bold">conformité et la sécurité
+            des échanges</span> de factures, tout en facilitant la gestion quotidienne des entreprises.
+            Elle permet de :
+          </p>
+          <p class="leading-relaxed text-gray-700 mb-6">
+            Contrairement à un logiciel de facturation, la plateforme agréée est une infrastructure technique qui assure :
+          </p>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              Le respect des formats normalisés pour les factures électroniques (UBL, CII, Factur-X);
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              La circulation fluide et interopérable des factures entre toutes les plateformes agréées, afin que chaque destinataire puisse les recevoir quelle que soit sa solution ;
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              La transmission automatique à l’administration fiscale des données nécessaires au
+              suivi de la TVA et au e-reporting ;
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              L’archivage sécurisé des factures, garantissant leur intégrité et leur accessibilité dans le temps.
+            </li>
+          </ul>
+          <p class="leading-relaxed text-gray-700 mt-6">
+            Toutes les plateformes agréées sont immatriculées par la DGFiP, qui veille à ce que chaque facture électronique soit émise, reçue et transmise conformément aux normes légales en vigueur.
+          </p>
+        </section>
+
+        <section id="e-invoicing" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-invoicing</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
             L'<span class="font-bold">e-invoicing</span> s'applique aux <span class="font-bold">transactions B2B
@@ -212,7 +256,7 @@
             interface unique.</p>
         </section>
 
-        <section id="e-reporting" class="mb-16 scroll-mt-32">
+        <section id="e-reporting" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Qu'est-ce que l'<span class="text-underline">E-reporting</span> ?</h2>
           <p class="leading-relaxed text-gray-700 mb-6">
             <span class="font-bold">E-reporting</span> : concerne <span class="font-bold">les transactions hors
@@ -276,7 +320,7 @@
             </span> que celui de la facture électronique, via leur plateforme.</p>
         </section>
 
-        <section id="calendrier" class="mb-16 scroll-mt-32">
+        <section id="calendrier" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Calendrier</span> de mise en œuvre</h2>
           <p class="leading-relaxed text-gray-700 mb-8">
             La réforme de la facturation électronique prévoit une mise en place progressive avec des
@@ -351,7 +395,7 @@
           </div>
         </section>
 
-        <section id="obligations-des-entreprises" class="mb-16 scroll-mt-32">
+        <section id="obligations-des-entreprises" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Obligations</span> des entreprises</h2>
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
@@ -369,7 +413,7 @@
           </ul>
         </section>
 
-        <section id="avantages-de-la-reforme" class="mb-16 scroll-mt-32">
+        <section id="avantages-de-la-reforme" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6"><span class="text-underline">Avantages</span> de la réforme</h2>
           <ul class="space-y-3 text-gray-700">
             <li class="leading-relaxed text-gray-700">
@@ -402,7 +446,7 @@
           </ul>
         </section>
 
-        <section id="mode-operatoire" class="mb-16 scroll-mt-32">
+        <section id="mode-operatoire" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Le<span class="text-underline"> mode opératoire</span></h2>
           <div class="flex flex-col xl:flex-row gap-8">
             <div class="text-gray-700 flex flex-col gap-4">
@@ -438,7 +482,7 @@
           </div>
         </section>
 
-        <section id="statuts" class="mb-16 scroll-mt-32">
+        <section id="statuts" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">Cycle <span class="text-underline">de vie et statuts</span></h2>
           <p class="leading-relaxed text-gray-700 mb-8">
             Dans le cadre de la réforme, chaque facture électronique suit un cycle de vie standardisé, permettant de
@@ -596,7 +640,7 @@
           </div>
         </section>
 
-        <section id="votre-partenaire-de-confiance" class="mb-16 scroll-mt-32">
+        <section id="votre-partenaire-de-confiance" class="pb-16 scroll-mt-32">
           <h2 class="text-3xl font-bold mb-6">zLawyer : <span class="text-underline">Votre partenaire de
               confiance</span>
           </h2>
@@ -614,7 +658,7 @@
         </section>
 
         <div class="my-12">
-          <section class="mb-16">
+          <section class="pb-16">
             <div class="p-8 text-center">
               <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
               <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
@@ -730,8 +774,8 @@ export default {
     function setActive(id) {
       links.forEach(link => {
         const isActive = link.getAttribute('href') === `#${id}`;
-        link.classList.toggle('font-bold', isActive);
         link.classList.toggle('text-orange', isActive);
+        link.classList.toggle('font-bold', isActive);
         link.classList.toggle('text-gray-700', !isActive);
       });
     }
@@ -739,8 +783,9 @@ export default {
     sections.forEach(section => {
       ScrollTrigger.create({
         trigger: section,
-        start: 'top 130px',
+        start: 'top 250px',
         end: 'bottom center',
+        // markers: true,
         onEnter: () => setActive(section.id),
         onEnterBack: () => setActive(section.id),
       });

@@ -211,8 +211,8 @@
             d'une solution performante et sécurisée.
           </p>
         </div>
-        <NuxtLink title="Page Contact" class="text-orange underline" to="/facturation-electronique">
-          Comprendre la réforme
+        <NuxtLink title="Page Contact" class="button-transparent" to="/facturation-electronique">
+          Notre solution à la réforme
         </NuxtLink>
 
 
