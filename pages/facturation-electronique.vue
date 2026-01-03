@@ -200,7 +200,6 @@
             La <span class="font-bold">Plateforme Agréée</span> (anciennement appelée PDP – Plateforme de Dématérialisation
             Partenaire) constitue l’élément central du dispositif. Elle garantit la <span class="font-bold">conformité et la sécurité
             des échanges</span> de factures, tout en facilitant la gestion quotidienne des entreprises.
-            Elle permet de :
           </p>
           <p class="leading-relaxed text-gray-700 mb-6">
             Contrairement à un logiciel de facturation, la plateforme agréée est une infrastructure technique qui assure :
