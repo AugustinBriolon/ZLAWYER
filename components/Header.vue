@@ -26,11 +26,11 @@
         <li>
           <a class="text-link" href="https://client.zlawyer.fr/sign-in" target="_blank">Accès Client</a>
         </li>
-        <li class="hidden xl:block">
+        <li class="hidden 2xl:block">
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
         <li>
-          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full">Demandez une démo
+          <NuxtLink title="Page Contact" to="/contact" class="button-orange text-center w-full text-nowrap">Demandez une démo
           </NuxtLink>
         </li>
       </ul>
