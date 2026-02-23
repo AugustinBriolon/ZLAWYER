@@ -4,20 +4,19 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       <div class="flex flex-col gap-4">
         <h1 class="anim-hero text-left">
-          zLawyer : <span class="text-underline">Votre partenaire de</span> <br> <span class="text-underline">
-            confiance</span> pour la facturation électronique
+          zLawyer <span class="text-underline">anticipe la réforme</span> de la facturation électronique 2026 et <span
+            class="text-underline">structure la transition</span> des cabinets d'avocats
         </h1>
 
         <p>
-          La réforme de la facturation électronique, effective dès le 1er septembre 2026, impose à
-          toutes les entreprises assujetties à la TVA en France d&#39;émettre et de recevoir des factures
-          électroniques via des plateformes agréées (PA)
+          La réforme de la <span class="font-bold">facturation électronique</span>, applicable à compter de 2026, marque
+          une évolution profonde des obligations applicables aux cabinets d'avocats.
         </p>
-        <p>Pour les cabinets d’avocats, cette transformation réglementaire peut représenter un enjeu
-          complexe si elle n’est pas anticipée avec les bons outils.</p>
-        <p>zLawyer, conçu spécifiquement pour les cabinets d&#39;avocats, intègre cette
-          fonctionnalité, vous assurant une conformité totale sans perturber vos habitudes de
-          travail.</p>
+        <p>Au-delà d'une contrainte réglementaire, elle constitue une transformation structurelle des processus de
+          facturation et de transmission des données.</p>
+        <p>Fidèle à sa mission : proposer un <span class="font-bold">logiciel métier complet et sécurisé dédié aux
+            professionnels du droit</span>, zLawyer anticipe cette évolution en intégrant la <span
+            class="font-bold">facturation électronique</span> au cœur de sa solution.</p>
       </div>
       <img src="https://www.zlawyer.fr/logiciel-avocats/images/features/features10.webp" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
@@ -26,41 +25,40 @@
     <div class="mt-32 flex gap-8 w-full">
       <aside class="hidden lg:block">
         <div class="h-fit w-64 sticky top-32 left-0 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h3 class="font-semibold text-lg mb-4 text-orange">Sommaire</h3>
+          <h3 class="font-semibold  mb-4 text-orange">Sommaire</h3>
           <ul class="space-y-3">
             <li>
-              <a href="#pourquoi-choisir"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Pourquoi choisir zLawyer ?
+              <a href="#partenariat"
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Un partenariat stratégique
               </a>
             </li>
             <li>
-              <a href="#solution-tout-en-un"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Une solution tout-en-un
+              <a href="#continuite"
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Une continuité naturelle
               </a>
             </li>
             <li>
-              <a href="#mode-operatoire"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Le mode opératoire
+              <a href="#conformite"
+                class="scroll-link hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Anticiper la conformité, renforcer la performance
               </a>
             </li>
             <li>
-              <a href="#experience-utilisateur"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Une expérience pensée pour les cabinets
+              <a href="#preparation"
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Préparez votre cabinet à 2026
               </a>
             </li>
             <li>
-              <a href="#faq"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+              <a href="#faq" class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
                 FAQ - Questions fréquentes
               </a>
             </li>
             <li>
               <a href="#statuts-factures"
-                class="scroll-link text-gray-700 hover:text-orange transition-colors duration-200 text-sm block py-1">
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
                 Statuts des factures
               </a>
             </li>
@@ -70,98 +68,127 @@
 
       <div class="w-full">
 
-        <section class="mb-6" id="pourquoi-choisir">
+        <section class="mb-6" id="partenariat">
           <h2 class="text-3xl font-bold mb-6 ">
-            Pourquoi <span class="text-underline">choisir zLawyer comme solution</span> de facturation électronique ?
+            Un partenariat stratégique avec <span class="text-underline">Pennylane</span>
           </h2>
-          <p class="leading-relaxed text-gray-700">
-            zLawyer, éditeur de logiciel reconnu pour les cabinets d&#39;avocats, anticipe cette réforme avec
-            des solutions spécifiques à votre activité.
+          <p class="">
+            Pour accompagner durablement ses utilisateurs, zLawyer s'appuie sur un <span class="font-bold">partenariat
+              stratégique avec
+              Pennylane</span>, acteur reconnu dans le domaine de la facturation et de la conformité réglementaire.
           </p>
-          <p>Nous sommes <span class="font-bold">PA compliant</span>, ce qui signifie que la solution zLawyer est
-            conçue pour
-            répondre aux exigences légales de la facturation électronique.</p>
-        </section>
-
-        <section class="p-6" id="solution-tout-en-un">
-          <h3 class="text-xl font-semibold mb-4 text-orange">Une solution tout-en-un, 100% conforme</h3>
-          <p><span class="font-bold">PA compliant,</span> zLawyer intègre la facturation électronique directement dans
-            votre interface métier.</p>
-          <ul class="mt-5 space-y-3 text-gray-700">
-            <p class="font-bold">Principaux atouts :</p>
+          <p>Ce choix reflète une volonté claire : <span class="font-bold">proposer aux cabinets d'avocats une solution
+              robuste, évolutive et
+              conçue pour répondre aux exigences d'un cadre réglementaire en constante évolution</span>.</p>
+          <p class=" mt-4">La facturation électronique est ainsi intégrée de manière native
+            à zLawyer, permettant notamment :</p>
+          <ul class="mt-5 space-y-3  ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              <p>
-                <span class="font-bold mr-1">Conformité intégrée :</span> respect total de la réforme (formats exigés,
-                transmission via PA , obligations légales).
+              <p><span class="font-bold">L'émission et la réception</span> de factures électroniques conçues pour
+                répondre aux exigences réglementaires, notamment au format Factur-X,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">•</span>
+              <p><span class="font-bold">La transmission des données</span> selon les modalités prévues par la réforme,
               </p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              <p>
-                <span class="font-bold mr-1 whitespace-nowrap">Zéro rupture dans l’usage :</span> la facturation
-                électronique est intégrée à
-                notre solution,
-                vous permettant de gérer à la fois vos dossiers juridiques et le processus de
-                facturation depuis une interface unique, sans changer d’environnement.
-              </p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <p> <span class="font-bold mr-1">Aucune double saisie :</span> les données issues de vos dossiers sont
-                automatiquement reprises dans vos factures.</p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-3 mt-1">•</span>
-              <p>
-                <span class="font-bold mr-1">Un suivi temps réel </span> du cycle de vie de vos factures,
-              </p>
+              <p><span class="font-bold">Un suivi structuré</span> du cycle de vie des factures directement depuis
+                l'interface zLawyer.</p>
             </li>
           </ul>
+          <p class=" mt-4">La solution est conçue pour <span class="font-bold">évoluer en
+              fonction des adaptations
+              du cadre réglementaire</span>.</p>
         </section>
 
-        <section class="p-6" id="mode-operatoire">
-          <h3 class="text-xl font-semibold mb-4 text-orange">Le mode opératoire via zLawyer</h3>
-          <ul class="mt-5 ml-4 space-y-3 text-gray-700">
-            <li class="flex items-start">
-              <span class="text-orange mr-2">1.</span>
-              <p>
-                Création de la facture électronique dans zLawyer,
-              </p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-2">2.</span>
-              <p>
-                Transmission de la facture électronique au client via notre PA (Plateforme Agrée),
-              </p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-2">3.</span>
-              <p>
-                Réception et traitement automatisé de la facture par le client,
-              </p>
-            </li>
-            <li class="flex items-start">
-              <span class="text-orange mr-2">4.</span>
-              <p>
-                Suivi des statuts dans zLawyer : déposée, rejetée, acceptée, payée…
-              </p>
-            </li>
+        <section class="p-6" id="continuite">
+          <h3 class="text-xl font-semibold mb-4 text-orange">Une continuité naturelle de la solution métier zLawyer</h3>
+          <p>La facturation électronique ne constitue pas un module isolé. Elle s'inscrit dans la continuité de l'ADN de
+            zLawyer : <span class="font-bold">centraliser la gestion des dossiers, des temps, des
+              honoraires et des flux financiers </span> au sein d'un environnement unique.</p>
+          <p>Les cabinets conservent leurs habitudes de travail et bénéficient d'une <span class="font-bold">interface
+              unifiée</span>, conçue
+            spécifiquement pour les professionnels du droit.</p>
+          <p>La fonctionnalité est <span class="font-bold">incluse dans l'abonnement</span>, selon les conditions
+            contractuelles en vigueur.</p>
+        </section>
 
+        <section class="p-6" id="conformite">
+          <h3 class="text-xl font-semibold mb-4 text-orange">Anticiper la conformité, renforcer la performance</h3>
+          <p>
+            zLawyer n'est pas un logiciel générique. Il a été conçu spécifiquement pour les cabinets d'avocats, avec une
+            <span class="font-bold">approche métier</span>.
+          </p>
+          <p class="my-2">Choisir zLawyer, c'est :</p>
+          <ul class="mt-3 mb-6 space-y-2  ml-4">
+            <li class="flex items-start">
+              <span class="text-orange mr-2">•</span>
+              <p>Anticiper les exigences de la réforme de la facturation électronique 2026,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">•</span>
+              <p>Sécuriser les processus de facturation,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">•</span>
+              <p>Préserver la fluidité organisationnelle du cabinet,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-2">•</span>
+              <p>S'appuyer sur un <span class="font-bold">partenaire technologique engagé dans la durée</span>.</p>
+            </li>
           </ul>
+          <p class="mb-2">Mais c'est aussi :</p>
+          <ul class="mt-3 space-y-2  ml-4">
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Une <span class="font-bold">expertise dédiée</span> aux cabinets d'avocats,</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Une <span class="font-bold">intégration fluide</span> dans votre environnement existant,</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Une <span class="font-bold">interface intuitive</span>, pensée pour un usage quotidien,</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Une <span class="font-bold">gestion centralisée</span> des dossiers, temps, honoraires, factures et
+                règlements,</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Une <span class="font-bold">sécurisation des</span> échanges de données grâce à des protocoles
+                adaptés,</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <span>Un <span class="font-bold">accompagnement personnalisé</span> à chaque étape.</span>
+            </li>
+          </ul>
+          <p class=" mt-6">La facturation électronique s'inscrit pleinement dans
+            cette logique : <span class="font-bold">un outil métier unique, structurant et évolutif</span>.</p>
+          <p class=" mt-4">Vous vous concentrez sur votre cœur de métier pendant
+            que <span class="font-bold">zLawyer</span>, en partenariat avec <span class="font-bold">Pennylane</span>,
+            structure et accompagne votre transition réglementaire liée à la
+            facturation électronique.</p>
         </section>
 
-        <section class="p-6 mb-6" id="experience-utilisateur">
+        <!-- <section class="p-6 mb-6">
           <h2 class="text-xl font-semibold mb-4 text-orange">Une expérience utilisateur pensée pour les
             cabinets d’avocats</h2>
-          <p class="text-lg leading-relaxed text-gray-700 mb-6">
+          <p class=" mb-6">
             zLawyer n’est pas un logiciel de gestion générique. Il a été conçu sur mesure pour les
             professionnels du droit.
           </p>
 
           <div class="px-6 py-3">
             <h2 class="text-xl font-semibold mb-4">Vous bénéficiez d' :</h2>
-            <ul class="space-y-2 text-gray-700">
+            <ul class="space-y-2 ">
               <li class="flex items-start">
                 <span class="text-orange mr-3 mt-1">✓</span>
                 <span class="text-bolder">Une expertise dédiée aux cabinets d'avocats,</span>
@@ -193,27 +220,40 @@
               </li>
             </ul>
           </div>
+        </section> -->
+
+        <section class="p-6" id="preparation">
+          <h2 class="text-xl font-semibold mb-4 text-orange">Préparez votre cabinet à la réforme 2026</h2>
+          <p class="">
+            Chaque cabinet présente des spécificités organisationnelles.
+          </p>
+          <p class="mt-4">Nos équipes vous accompagnent pour :</p>
+          <ul class="mt-2 mb-6 space-y-2  ml-4">
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <p>Analyser votre organisation actuelle,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <p>Anticiper les impacts de la réforme,</p>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange mr-3 mt-1">✓</span>
+              <p>Préparer la mise en œuvre opérationnelle.</p>
+            </li>
+          </ul>
+
+
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mb-8">
+            <p class="text-blue-800 font-bold">
+              En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
+              d'une solution performante et sécurisée.
+            </p>
+          </div>
+          <NuxtLink title="Page Contact" class="button-transparent" to="/facturation-electronique">
+            Notre solution à la réforme
+          </NuxtLink>
         </section>
-
-        <div class="p-6">
-          <h2 class="text-xl font-semibold mb-4 text-orange">Prêt pour 2026, prêt pour demain</h2>
-          <p class="text-lg leading-relaxed text-gray-700 mb-6">
-            Choisir zLawyer, c’est anticiper la réforme sans stress, tout en renforçant l’efficacité de la
-            gestion de votre cabinet au quotidien. <br>
-            Vous vous concentrez sur votre cœur de métier pendant que nous assurons votre conformité
-            technique et réglementaire.
-          </p>
-        </div>
-
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mb-8">
-          <p class="text-blue-800 font-bold">
-            En choisissant zLawyer, vous garantissez la conformité de vos processus de facturation tout en bénéficiant
-            d'une solution performante et sécurisée.
-          </p>
-        </div>
-        <NuxtLink title="Page Contact" class="button-transparent" to="/facturation-electronique">
-          Notre solution à la réforme
-        </NuxtLink>
 
 
         <hr class="my-12 border-gray-200">
@@ -221,7 +261,7 @@
         <section class="mb-16">
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
-            <p class="text-lg text-gray-700 mb-6">
+            <p class="  mb-6">
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
@@ -235,7 +275,7 @@
         <section class="mb-16" id="faq">
           <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Questions fréquentes
           </h2>
-          <p class="text-lg text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
+          <p class=" text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
 
           <div class="space-y-3">
             <div v-for="(item, idx) in faqList" :key="idx"
@@ -243,7 +283,7 @@
               <button
                 class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
                 @click="toggleFaq(idx)">
-                <span class="font-semibold text-gray-800 text-lg pr-4">{{ item.q }}</span>
+                <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
                 <div class="flex-shrink-0">
                   <svg
                     :class="['transition-all duration-500 ease-in-out transform', openFaq === idx ? 'rotate-180 text-orange scale-110' : 'text-gray-400 group-hover:text-orange']"
@@ -255,8 +295,7 @@
               </button>
               <transition name="transition-div" appear>
                 <div v-show="openFaq === idx" class="overflow-hidden">
-                  <div
-                    class="px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
+                  <div class="px-6 pb-6 border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
                     <div v-html="item.a" class="pt-4"></div>
                   </div>
                 </div>
@@ -271,7 +310,7 @@
         <section class="mb-16" id="statuts-factures">
           <h2 class="text-3xl font-bold mb-8 text-gray-800">Les principaux statuts d'une facture qui seront mis en
             place</h2>
-          <p class="text-lg text-gray-700 mb-8">
+          <p class="  mb-8">
             Une facture peut passer par plusieurs statuts normalisés tout au long de son cycle :
           </p>
 
@@ -281,7 +320,7 @@
               <button
                 class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
                 @click="toggleStatuts(idx)">
-                <span class="font-semibold text-gray-800 text-lg pr-4">{{ item.q }}</span>
+                <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
                 <div class="flex-shrink-0">
                   <svg
                     :class="['transition-all duration-500 ease-in-out transform', openStatuts === idx ? 'rotate-180 text-orange scale-110' : 'text-gray-400 group-hover:text-orange']"
@@ -293,8 +332,7 @@
               </button>
               <transition name="transition-div" appear>
                 <div v-show="openStatuts === idx" class="overflow-hidden">
-                  <div
-                    class="px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
+                  <div class="px-6 pb-6 border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
                     <div v-html="item.a" class="pt-4"></div>
                   </div>
                 </div>
@@ -313,7 +351,7 @@
         <section class="mb-16">
           <div class="p-8 text-center">
             <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
-            <p class="text-lg text-gray-700 mb-6">
+            <p class="  mb-6">
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
@@ -439,10 +477,10 @@ export default {
 
     function setActive(id) {
       links.forEach(link => {
-        const isActive = link.getAttribute('href') === `#${id}`;
+        const href = link.getAttribute('href').trim();
+        const isActive = href === `#${id}`;
         link.classList.toggle('font-bold', isActive);
         link.classList.toggle('text-orange', isActive);
-        link.classList.toggle('text-gray-700', !isActive);
       });
     }
 

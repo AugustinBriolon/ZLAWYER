@@ -112,7 +112,10 @@
 
 <script>
 import axios from 'axios';
-import json from '../../assets/data/pays.json';
+import json from '../assets/data/pays.json';
+
+console.log(json);
+
 
 export default {
   data() {
