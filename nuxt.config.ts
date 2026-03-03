@@ -112,10 +112,6 @@ export default defineNuxtConfig({
           src: 'https://apps.elfsight.com/p/platform.js',
           defer: true,
         },
-        {
-          id: 'ze-snippet',
-          src: 'https://static.zdassets.com/ekr/snippet.js?key=e2d18a03-a4bd-4b4d-986b-292fec2fcd83',
-        },
       ],
     },
   },

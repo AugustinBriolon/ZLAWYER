@@ -42,7 +42,7 @@
             <li>
               <a href="#conformite"
                 class="scroll-link hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Anticiper la conformité, renforcer la performance
+                Anticiper la conformité, <br/> renforcer la performance
               </a>
             </li>
             <li>
@@ -68,11 +68,11 @@
 
       <div class="w-full">
 
-        <section class="mb-6" id="partenariat">
-          <h2 class="text-3xl font-bold mb-6 ">
+        <section class="pb-16" id="partenariat">
+          <h2 class="text-3xl font-bold mb-6">
             Un partenariat stratégique avec <span class="text-underline">Pennylane</span>
           </h2>
-          <p class="">
+          <p class="leading-relaxed">
             Pour accompagner durablement ses utilisateurs, zLawyer s'appuie sur un <span class="font-bold">partenariat
               stratégique avec
               Pennylane</span>, acteur reconnu dans le domaine de la facturation et de la conformité réglementaire.
@@ -85,8 +85,7 @@
           <ul class="mt-5 space-y-3  ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
-              <p><span class="font-bold">L'émission et la réception</span> de factures électroniques conçues pour
-                répondre aux exigences réglementaires, notamment au format Factur-X,</p>
+              <p><span class="font-bold">L'émission et la réception</span> de factures électroniques, notamment au format Factur-X,</p>
             </li>
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -104,8 +103,10 @@
               du cadre réglementaire</span>.</p>
         </section>
 
-        <section class="p-6" id="continuite">
-          <h3 class="text-xl font-semibold mb-4 text-orange">Une continuité naturelle de la solution métier zLawyer</h3>
+        <section class="pb-16" id="continuite">
+          <h2 class="text-2xl font-bold mb-6 ">
+            Une continuité naturelle de la solution métier zLawyer
+          </h2>
           <p>La facturation électronique ne constitue pas un module isolé. Elle s'inscrit dans la continuité de l'ADN de
             zLawyer : <span class="font-bold">centraliser la gestion des dossiers, des temps, des
               honoraires et des flux financiers </span> au sein d'un environnement unique.</p>
@@ -116,8 +117,10 @@
             contractuelles en vigueur.</p>
         </section>
 
-        <section class="p-6" id="conformite">
-          <h3 class="text-xl font-semibold mb-4 text-orange">Anticiper la conformité, renforcer la performance</h3>
+        <section class="pb-16" id="conformite">
+          <h2 class="text-2xl font-bold mb-6 ">
+            Anticiper la conformité, renforcer la performance
+          </h2>
           <p>
             zLawyer n'est pas un logiciel générique. Il a été conçu spécifiquement pour les cabinets d'avocats, avec une
             <span class="font-bold">approche métier</span>.
@@ -222,8 +225,10 @@
           </div>
         </section> -->
 
-        <section class="p-6" id="preparation">
-          <h2 class="text-xl font-semibold mb-4 text-orange">Préparez votre cabinet à la réforme 2026</h2>
+        <section class="pb-16" id="preparation">
+          <h2 class="text-2xl font-bold mb-6 ">
+            Préparez votre cabinet à la réforme 2026
+          </h2>
           <p class="">
             Chaque cabinet présente des spécificités organisationnelles.
           </p>
@@ -251,7 +256,7 @@
             </p>
           </div>
           <NuxtLink title="Page Contact" class="button-transparent" to="/facturation-electronique">
-            Notre solution à la réforme
+            Comprendre laréforme
           </NuxtLink>
         </section>
 

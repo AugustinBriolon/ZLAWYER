@@ -265,21 +265,17 @@
           <h3 class="text-pretty">
             Assurez votre transition <span class="text-underline">vers la facture </span> <br> <span
               class="text-underline"> électronique</span> en toute sérénité
-            grâçe à zLawyer
+            grâce à zLawyer
           </h3>
-          <p>En optant pour <span class="font-bold">zLawyer</span> vous garantissez une totale conformité aux
-            obligations découlant de
-            la réforme sur la facturation électronique. Notre plateforme répond aux exigences d&#39;une
-            <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="text-orange font-bold" target="_blank">PA
-            </NuxtLink> (Plateforme Agrée) et de <NuxtLink to="/facturation-electronique-et-zlawyer#faq"
-              class="text-orange" target="_blank">l'e-facturation.
-            </NuxtLink>
-          </p>
+          <p>En choisissant <span class="font-bold">zLawyer</span>, vous disposez d'une solution prête pour la réforme
+            de la facturation électronique 2026, intégrant l'émission et la transmission de factures électroniques au
+            format <span class="font-bold">Factur-X</span>.</p>
 
-          <p>La facturation électronique est entièrement intégrée à notre solution, ce qui vous permet de
-            rester dans votre environnement de travail habituel tout en respectant les obligations légales.
-            Vous bénéficiez ainsi d’une expérience fluide et continue, grâçe à une interface unique pour gérer
-            à la fois vos dossiers juridiques et vos processus financiers.</p>
+          <p>Grâce à notre <span class="font-bold">partenariat stratégique avec Pennylane</span>, <NuxtLink
+              to="/facturation-electronique-et-zlawyer#faq" class="underline text-orange" target="_blank">Plateforme Agrée</NuxtLink> et
+            acteur de référence de <NuxtLink to="/facturation-electronique-et-zlawyer#faq" class="underline text-orange" target="_blank">l'e-facturation
+            </NuxtLink>, la facturation électronique est entièrement intégrée à votre logiciel métier, sans surcoût et
+            sans rupture dans vos processus de facturation.</p>
           <div class="flex flex-wrap items-center justify-start gap-4">
             <NuxtLink title="Page Facturation Électronique" class="button-orange w-fit whitespace-nowrap"
               to="/facturation-electronique-et-zlawyer">
