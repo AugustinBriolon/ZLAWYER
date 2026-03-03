@@ -69,7 +69,7 @@
       <div class="w-full">
 
         <section class="pb-16" id="partenariat">
-          <h2 class="text-3xl font-bold mb-6">
+          <h2 class="text-2xl font-bold mb-6">
             Facturation électronique 2026 pour les avocats : <span class="text-underline">zLawyer</span> s’impose comme
             partenaire stratégique des cabinets
           </h2>
@@ -117,7 +117,7 @@
             </li>
           </ul>
           <p>La facturation électronique est intégrée nativement dans l’environnement zLawyer afin de garantir :</p>
-          <ul class="mt-4 mb-6 space-y-2 ml-4">
+          <ul class="mt-4 space-y-2 ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
               <p>La continuité organisationnelle du cabinet,</p>
@@ -242,7 +242,7 @@
             Chaque cabinet présente des spécificités.
           </p>
           <p class="mt-4">Nos équipes vous accompagnent pour :</p>
-          <ul class="mt-4 mb-6 space-y-2 ml-4">
+          <ul class="mt-4 space-y-2 ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">✓</span>
               <p>Analyser votre organisation actuelle,</p>
