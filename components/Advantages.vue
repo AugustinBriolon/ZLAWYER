@@ -3,7 +3,8 @@
     <div class="w-full flex flex-col items-start gap-2">
       <h2>Avantages de notre logiciel de facturation conçu pour les avocats</h2>
       <p class="">
-        La puissance de zLawyer réside dans son parfait équilibre entre simplicité d’utilisation, richesse fonctionnelle et la qualité approuvée du service support. 
+        La puissance de zLawyer réside dans son parfait équilibre entre simplicité d’utilisation, richesse fonctionnelle
+        et la qualité approuvée du service support.
       </p>
     </div>
 
@@ -193,23 +194,18 @@ export default {
             end: 'bottom 50%',
           },
         })
-        .to(item, {
-          opacity: 1,
-          y: 0,
-          duration: 0.5,
+        .from(item, {
+          opacity: 0,
+          y: -10,
+          duration: 0.8,
+          stagger: 0.1,
         })
-        .delay(index * 0.1);
     });
   },
 };
 </script>
 
 <style scoped>
-.anim-advantages {
-  opacity: 0;
-  transform: translateY(-50px);
-}
-
 .card-shadow {
   box-shadow: 0px 0px 20px var(--color-blue);
   background-color: var(--color-white);

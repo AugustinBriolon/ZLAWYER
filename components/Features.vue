@@ -436,6 +436,6 @@ export default {
 
 <style scoped>
 .border-img {
-  border-radius: 15px;
+  border-radius: var(--radius-current);
 }
 </style>

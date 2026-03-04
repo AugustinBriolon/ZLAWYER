@@ -12,15 +12,8 @@
       </NuxtLink>
     </div>
     <div class="container-img">
-      <img
-        src="/images/hero/illustrationHero.webp"
-        alt="illustration du logiciel"
-        width="939"
-        height="648"
-        fetchpriority="high"
-        decoding="async"
-        class="w-full img-hero anim-hero"
-      />
+      <img src="/images/hero/illustrationHero.webp" alt="illustration du logiciel" width="939" height="648"
+        fetchpriority="high" decoding="async" class="w-full img-hero anim-hero" />
       <p class="text-center text-lg hidden lg:block">
         Expérimentez le logiciel de facturation le plus intuitif et performant du marché !
       </p>
@@ -46,22 +39,18 @@ export default {
     let animHero = gsap.utils.toArray('.anim-hero');
     animHero.forEach((item, index) => {
       let tl = gsap.timeline();
-      tl.to(item, {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-      }).delay(index * 0.1);
+      tl.from(item, {
+        opacity: 0,
+        y: -10,
+        duration: 0.8,
+        stagger: 0.1,
+      });
     });
   },
 };
 </script>
 
 <style scoped>
-.anim-hero {
-  opacity: 0;
-  transform: translateY(-50px);
-}
-
 .hero {
   perspective: 1500px;
 }

@@ -96,9 +96,9 @@ export default {
         .from(item, {
           opacity: 0,
           y: -10,
-          duration: 0.5,
+          duration: 0.8,
+          stagger: 0.1,
         })
-        .delay(index * 0.1);
     });
   },
 };

@@ -34,13 +34,13 @@
             <li>
               <a href="#partenariat"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Facturation électronique avec zLawyer
+                Facturation électronique pour les avocats
               </a>
             </li>
             <li>
               <a href="#continuite"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Une continuité naturelle
+                zLawyer prêt pour la réforme
               </a>
             </li>
             <li>
@@ -52,19 +52,19 @@
             <li>
               <a href="#approche-metier"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Une approche métier
+                Une solution métier pour les cabinets
               </a>
             </li>
             <li>
               <a href="#performance-cabinet"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Renforcer la performance
+                Conformité et performance
               </a>
             </li>
             <li>
               <a href="#preparation"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Préparez votre cabinet
+                Préparer votre cabinet dès maintenant
               </a>
             </li>
             <li>
@@ -184,7 +184,7 @@
           </p>
         </section>
 
-        <section class="pb-8" id="approche-metier">
+        <section class="pb-16" id="approche-metier">
           <h2 class="text-2xl! font-bold mb-6 ">
             Facturation électronique cabinet d’avocats : une approche métier, pas générique
           </h2>
@@ -219,8 +219,8 @@
           </p>
         </section>
 
-        <section class="pb-8" id="performance-cabinet">
-          <h2 class="text-2xl! font-bold mb-6 mt-16 ">
+        <section class="pb-16" id="performance-cabinet">
+          <h2 class="text-2xl! font-bold mb-6  ">
             Anticiper la conformité, renforcer la performance du cabinet
           </h2>
           <p class="my-2">
@@ -254,8 +254,8 @@
           </p>
         </section>
 
-        <section class="pb-8" id="preparation">
-          <h2 class="text-2xl! font-bold mb-6 mt-16">
+        <section class="pb-16" id="preparation">
+          <h2 class="text-2xl! font-bold mb-6">
             Préparez dès maintenant votre cabinet à la facturation électronique obligatoire
           </h2>
           <p class="">
@@ -295,15 +295,15 @@
         <hr class="my-12 border-gray-200">
 
         <section class="mb-16" id="faq">
-          <h2 class="text-3xl font-bold mb-8"><span class="text-underline">FAQ</span> – Questions fréquentes
+          <h2 class="text-2xl! font-bold mb-8"><span class="text-underline">FAQ</span> – Questions fréquentes
           </h2>
           <p class=" text-gray-600 mb-8">Voici le Forum des Questions (FAQ) sur la facturation électronique</p>
 
           <div class="space-y-3">
             <div v-for="(item, idx) in faqList" :key="idx"
-              class="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
+              class="group bg-white rounded-radius-current border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
               <button
-                class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
+                class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none transition-all duration-200 hover:bg-gray-50"
                 @click="toggleFaq(idx)">
                 <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
                 <div class="shrink-0">
@@ -337,9 +337,9 @@
 
           <div class="space-y-3">
             <div v-for="(item, idx) in statutsList" :key="idx"
-              class="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
+              class="group bg-white rounded-radius-current border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
               <button
-                class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
+                class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none  transition-all duration-200 hover:bg-gray-50"
                 @click="toggleStatuts(idx)">
                 <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
                 <div class="shrink-0">

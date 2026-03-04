@@ -8,14 +8,8 @@
       <div class="md:px-8 grid grid-rows-2 md:grid-cols-2 gap-8 items-center">
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img
-              :src="'images/logos/infoIcon.svg'"
-              class="h-6 w-fit"
-              loading="lazy"
-              width="24"
-              height="24"
-              alt="iconInfo"
-            />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" width="24" height="24"
+              alt="iconInfo" />
             <h3>Y a t-il un engagement ?</h3>
           </div>
 
@@ -29,14 +23,8 @@
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img
-              :src="'images/logos/infoIcon.svg'"
-              class="h-6 w-fit"
-              loading="lazy"
-              width="24"
-              height="24"
-              alt="iconInfo"
-            />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" width="24" height="24"
+              alt="iconInfo" />
             <h3>Y a t-il des frais cachés ?</h3>
           </div>
 
@@ -49,35 +37,24 @@
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img
-              :src="'images/logos/infoIcon.svg'"
-              class="h-6 w-fit"
-              loading="lazy"
-              width="24"
-              height="24"
-              alt="iconInfo"
-            />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" width="24" height="24"
+              alt="iconInfo" />
             <h3>Comment j’importe mes données ?</h3>
           </div>
 
           <p>
             Que vos données proviennent d’un autre éditeur ou directement depuis
             Excel,
-            <span class="text-bolder">nous vous offrons l’import de vos données</span>. C’est quand même plus facile quand
+            <span class="text-bolder">nous vous offrons l’import de vos données</span>. C’est quand même plus facile
+            quand
             on ne recommence pas à zéro.
           </p>
         </div>
 
         <div class="anim-infos h-full flex flex-col gap-4">
           <div class="flex items-center gap-4 justify-start max-h-14">
-            <img
-              :src="'images/logos/infoIcon.svg'"
-              class="h-6 w-fit"
-              loading="lazy"
-              width="24"
-              height="24"
-              alt="iconInfo"
-            />
+            <img :src="'images/logos/infoIcon.svg'" class="h-6 w-fit" loading="lazy" width="24" height="24"
+              alt="iconInfo" />
             <h3>Puis-je adapter mon abonnement ?</h3>
           </div>
 
@@ -114,9 +91,9 @@ export default {
         .from(item, {
           opacity: 0,
           y: -10,
-          duration: 0.5,
+          duration: 0.8,
+          stagger: 0.1,
         })
-        .delay(index * 0.1);
     });
   },
 };
