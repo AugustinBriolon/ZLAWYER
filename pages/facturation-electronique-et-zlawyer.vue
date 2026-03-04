@@ -74,7 +74,7 @@
             partenaire stratégique des cabinets
           </h2>
           <p class="leading-relaxed">
-            La <span class="font-bold">réforme de la facturation électronique obligatoire à compter de 2026</span>
+            La réforme de la <span class="font-bold"> facturation électronique obligatoire à compter de 2026</span>
             transforme durablement l’environnement réglementaire des cabinets d’avocats.
           </p>
           <p class="mt-4">
@@ -116,7 +116,7 @@
               </p>
             </li>
           </ul>
-          <p>La facturation électronique est intégrée nativement dans l’environnement zLawyer afin de garantir :</p>
+          <p>La facturation électronique est intégrée nativement <span class="font-bold"> et sans surcoût</span> dans l’environnement zLawyer afin de garantir :</p>
           <ul class="mt-4 space-y-2 ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">•</span>
@@ -140,8 +140,7 @@
           <p>
             Pour accompagner cette transformation réglementaire, zLawyer a noué un
             <span class="font-bold">partenariat stratégique avec Pennylane</span>,
-            <span class="font-bold">Plateforme Agréé (PA)</span> reconnue dans le domaine de la facturation
-            électronique et de la conformité réglementaire.
+            plateforme agréée de référence, gage de conformité et de fiabilité.
           </p>
           <p class="my-2">Ce partenariat permet d’intégrer directement dans zLawyer :</p>
           <ul class="mt-4 mb-6 space-y-2 ml-4">
@@ -199,7 +198,7 @@
             </li>
           </ul>
           <p>
-            La fonctionnalité de facturation électronique est incluse dans l’abonnement et donc sans surcoût.
+            La fonctionnalité de facturation électronique est incluse dans l’abonnement et donc <span class="font-bold">sans surcoût.</span>
           </p>
 
           <h2 class="text-2xl font-bold mb-6 mt-10 ">
@@ -228,10 +227,10 @@
           </ul>
           <p>
             Au-delà de la conformité, zLawyer transforme la réforme en opportunité d’optimiser et de structurer
-            durablement la gestion du cabinet.
+            durablement la gestion de votre cabinet.
           </p>
 
-          <p class="mt-4 text-sm">
+          <p class="mt-4 text-sm italic">
             *Vos données sont protégées par une infrastructure certifiée ISO 27001, déployée sur serveur SecNumCloud.
           </p>
 
@@ -239,9 +238,8 @@
             Préparez dès maintenant votre cabinet à la facturation électronique obligatoire
           </h2>
           <p class="">
-            Chaque cabinet présente des spécificités.
+            Chaque cabinet présente des spécificités, nos équipes vous accompagnent pour :
           </p>
-          <p class="mt-4">Nos équipes vous accompagnent pour :</p>
           <ul class="mt-4 space-y-2 ml-4">
             <li class="flex items-start">
               <span class="text-orange mr-3 mt-1">✓</span>
