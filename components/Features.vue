@@ -31,28 +31,70 @@
           </p>
           <div class="flex flex-col gap-1">
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Facturez au temps passé ou au forfait</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Saisissez et facturez vos frais et débours</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Personnalisez le tarif horaire comme vous le souhaitez</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Gérez les majorations ou minorations</p>
             </div>
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Accédez facilement à toutes vos données financières</p>
             </div>
 
             <div class="flex items-center gap-2 w-full">
-              <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4 w-fit" />
+              <img
+                :src="'images/logos/checkIcon.svg'"
+                alt="icone de validation"
+                width="16"
+                height="16"
+                loading="lazy"
+                class="h-4 w-fit"
+              />
               <p class="w-full text-clip">Relancez les impayés</p>
             </div>
             <div class="flex items-center gap-2 w-full">
@@ -64,15 +106,29 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features9.webp'" alt="illustration de la fonctionnalitée facturation"
+        <img
+          :src="'images/features/features9.webp'"
+          alt="illustration de la fonctionnalitée facturation"
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features9.webp')"
-          class="hover:scale-[1.02] transition-transform w-full border-img" />
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+        />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features1.webp'" alt="illustration de la fonctionnalitée facturation"
+        <img
+          :src="'images/features/features1.webp'"
+          alt="illustration de la fonctionnalitée facturation"
+          width="863"
+          height="539"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features1.webp')"
-          class="hover:scale-[1.02] transition-transform w-full border-img" />
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+        />
         <div class="flex flex-col gap-2 md:gap-4">
           <h3>
             <span class="text-underline">Suivi des performances</span> <br>
@@ -123,15 +179,29 @@
             </a>
           </div>
         </div>
-        <img :src="'images/features/features2.webp'" alt="illustration de l'application mobile"
+        <img
+          :src="'images/features/features2.webp'"
+          alt="illustration de l'application mobile"
+          width="863"
+          height="647"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features2.webp')"
-          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain" />
+          class="hover:scale-[1.02] transition-transform md:h-96 w-full lg:w-fit object-contain"
+        />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features3.webp'" alt="illustration de la fonctionnalitée gestion"
+        <img
+          :src="'images/features/features3.webp'"
+          alt="illustration de la fonctionnalitée gestion"
+          width="863"
+          height="481"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features3.webp')"
-          class="hover:scale-[1.02] transition-transform w-full border-img" />
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+        />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Une gestion</span> documentaire sans
@@ -164,14 +234,29 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features4.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
-          alt="illustration de la fonctionnalitée dossiers" @click="imageModal('images/features/features4.webp')" />
+        <img
+          :src="'images/features/features4.webp'"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+          alt="illustration de la fonctionnalitée dossiers"
+          width="863"
+          height="539"
+          loading="lazy"
+          decoding="async"
+          @click="imageModal('images/features/features4.webp')"
+        />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features5.webp'" alt="illustration de la fonctionnalitée essentiel de l'application"
+        <img
+          :src="'images/features/features5.webp'"
+          alt="illustration de la fonctionnalitée essentiel de l'application"
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features5.webp')"
-          class="hover:scale-[1.02] transition-transform w-full border-img" />
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+        />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">L’essentiel</span> en un coup d’oeil
@@ -202,14 +287,29 @@
           <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/contact">Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features6.webp'" alt="illustration de la fonctionnalitée timer"
+        <img
+          :src="'images/features/features6.webp'"
+          alt="illustration de la fonctionnalitée timer"
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
           @click="imageModal('images/features/features6.webp')"
-          class="hover:scale-[1.02] transition-transform w-full border-img" />
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+        />
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start">
-        <img :src="'images/features/features7.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
-          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features7.webp')" />
+        <img
+          :src="'images/features/features7.webp'"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+          alt="illustration de la fonctionnalitée accès client"
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
+          @click="imageModal('images/features/features7.webp')"
+        />
         <div class="flex flex-col gap-4">
           <h3>
             <span class="text-underline">Redéfinissez vos pratiques</span> métiers grâce à notre
@@ -252,15 +352,30 @@
             Je souhaite une démonstration
           </NuxtLink>
         </div>
-        <img :src="'images/features/features8.webp'" class="hover:scale-[1.02] transition-transform w-full border-img"
-          alt="illustration de la fonctionnalitée accès client" @click="imageModal('images/features/features8.webp')" />
+        <img
+          :src="'images/features/features8.webp'"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
+          alt="illustration de la fonctionnalitée accès client"
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
+          @click="imageModal('images/features/features8.webp')"
+        />
       </div>
 
       <div id="facturation-electronique"
         class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 items-center justify-items-start scroll-mt-32">
-        <img src="/images/features/features10.webp" class="hover:scale-[1.02] transition-transform w-full border-img"
+        <img
+          src="/images/features/features10.webp"
+          class="hover:scale-[1.02] transition-transform w-full border-img"
           alt="illustration de la fonctionnalitée accès client"
-          @click="imageModal('images/features/features10.webp')" />
+          width="863"
+          height="519"
+          loading="lazy"
+          decoding="async"
+          @click="imageModal('images/features/features10.webp')"
+        />
         <div class="flex flex-col gap-4">
           <h3 class="text-pretty">
             Assurez votre transition <span class="text-underline">vers la facture </span> <br> <span

@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /logiciel-avocats//1000
+Disallow:
+
+Sitemap: https://zlawyer-new.vercel.app/sitemap.xml

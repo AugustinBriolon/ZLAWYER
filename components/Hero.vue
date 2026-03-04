@@ -12,7 +12,15 @@
       </NuxtLink>
     </div>
     <div class="container-img">
-      <img src="/images/hero/illustrationHero.webp" alt="illustration du logiciel" class="w-full img-hero anim-hero" />
+      <img
+        src="/images/hero/illustrationHero.webp"
+        alt="illustration du logiciel"
+        width="939"
+        height="648"
+        fetchpriority="high"
+        decoding="async"
+        class="w-full img-hero anim-hero"
+      />
       <p class="text-center text-lg hidden lg:block">
         Expérimentez le logiciel de facturation le plus intuitif et performant du marché !
       </p>

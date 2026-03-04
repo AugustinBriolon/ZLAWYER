@@ -18,10 +18,21 @@
 <script>
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import { useHead } from "#imports";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
   mounted() {
+    useHead({
+      script: [
+        {
+          id: 'elfsight',
+          src: 'https://apps.elfsight.com/p/platform.js',
+          defer: true,
+        },
+      ],
+    });
+
     let animFromTop = gsap.utils.toArray('.anim-from-top')
     animFromTop.forEach((item, index) => {
 

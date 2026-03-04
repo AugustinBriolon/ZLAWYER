@@ -4,8 +4,22 @@
 
     <div class="overflow-x-scroll no-scrollbar slider-padding flex gap-10" ref="sliderContainer" :style="slider">
       <div class="card-testimonial" v-for="(item, i) in items" :key="i" ref="sliderCard">
-        <img :src="'images/logos/quoteLogo.svg'" class="quote" alt="checkIcon" />
-        <img :src="item.logo" class="logo-client test" alt="logo des clients" />
+        <img
+          :src="'images/logos/quoteLogo.svg'"
+          class="quote"
+          alt="guillemet de citation"
+          width="60"
+          height="60"
+          loading="lazy"
+        />
+        <img
+          :src="item.logo"
+          class="logo-client test"
+          alt="logo des clients"
+          width="160"
+          height="80"
+          loading="lazy"
+        />
         <div class="pl-2 border-l-2 border-blue">
           <p>{{ item.decription }}</p>
         </div>
@@ -16,10 +30,24 @@
     </div>
 
     <div class="flex justify-center gap-20 mt-10">
-      <img :src="'images/logos/arrowLeftIcon.svg'" @click="scrollLeft()" class="cursor-pointer h-6 w-fit"
-        alt="fleche de direction slider" />
-      <img :src="'images/logos/arrowRightIcon.svg'" @click="scrollRight()" class="cursor-pointer h-6 w-fit"
-        alt="fleche de direction slider" />
+      <img
+        :src="'images/logos/arrowLeftIcon.svg'"
+        @click="scrollLeft()"
+        class="cursor-pointer h-6 w-fit"
+        alt="fleche de direction slider"
+        width="24"
+        height="24"
+        loading="lazy"
+      />
+      <img
+        :src="'images/logos/arrowRightIcon.svg'"
+        @click="scrollRight()"
+        class="cursor-pointer h-6 w-fit"
+        alt="fleche de direction slider"
+        width="24"
+        height="24"
+        loading="lazy"
+      />
     </div>
   </div>
 </template>
