@@ -36,13 +36,13 @@
             </p>
             <div class="mt-14 flex items-center">
               <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/phoneLogo.svg" alt="logo de telephone" />
-              <p class="ml-4 flex-shrink-0">
+              <p class="ml-4 shrink-0">
                 <a class="text-blue" href="tel:330184257027">01 84 25 70 27</a>
               </p>
             </div>
             <div class="mt-14 flex items-center">
               <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/locaLogo.svg" class="ml-2" alt="logo de localisation" />
-              <p class="ml-4 text-blue flex-shrink-0">
+              <p class="ml-4 text-blue shrink-0">
                 Zele Solutions <br />
                 9, rue Angélique Verien, <br />
                 92200, Neuilly-sur-Seine

@@ -10,18 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^3.2.2",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "nuxt": "^3.8.2",
-    "sass": "^1.69.5",
-    "sass-loader": "^13.3.2",
-    "tailwindcss": "^3.4.4",
-    "vue": "^3.3.10",
-    "vue-router": "^4.2.5"
+    "nuxt": "^4.3.1",
+    "sass": "^1.97.3",
+    "sass-loader": "^16.0.7",
+    "tailwindcss": "^4.2.1",
+    "vue": "^3.5.29",
+    "vue-router": "^5.0.3"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "gsap": "^3.12.3",
+    "@tailwindcss/vite": "^4.2.1",
+    "gsap": "^3.14.2",
     "vue-recaptcha-v3": "^2.0.1"
   }
 }

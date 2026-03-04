@@ -2,7 +2,7 @@
   <div class="max-width-white-section">
     <div class="max-width-white-section-content text-center flex flex-col items-center gap-8 container-adaptative">
       <div class="w-full flex flex-col items-center gap-2">
-        <h2 class="anim-adaptative text-orange">
+        <h2 class="anim-adaptative text-orange!">
           zLawyer s’adapte à votre organisation
         </h2>
         <p class="anim-adaptative w-full md:w-3/4">
@@ -45,9 +45,9 @@ export default {
             end: 'bottom 50%',
           },
         })
-        .to(item, {
-          opacity: 1,
-          y: 0,
+        .from(item, {
+          opacity: 0,
+          y: -10,
           duration: 0.5,
         })
         .delay(index * 0.1);
@@ -55,10 +55,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.anim-adaptative {
-  opacity: 0;
-  transform: translateY(-50px);
-}
-</style>

@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
@@ -26,13 +28,11 @@ export default defineNuxtConfig({
         { name: 'msapplication-config', content: '/favicon/browserconfig.xml' },
         { name: 'theme-color', content: '#ffffff' },
         {
-          hid: 'title',
           name: 'title',
           content:
             ' Logiciel Facturation Avocat : Solution de gestion cabinets d’avocats',
         },
         {
-          hid: 'description',
           name: 'description',
           content:
             'Logiciel avocat intuitif, simple, et complet pour la gestion du cabinet | zLawyer aide les avocats, depuis 2006, à ne plus perdre de temps... à en saisir.',
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'logicel avocat cabinet facturation' },
 
         // Twitter
-        { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
           content:
@@ -56,25 +56,22 @@ export default defineNuxtConfig({
         { name: 'format-detection', content: 'telephone=no' },
 
         // Open Graph
-        { hid: 'og-type', property: 'og:type', content: 'website' },
+        { property: 'og:type', content: 'website' },
         {
-          hid: 'og-url',
           property: 'og:url',
           content: 'https://www.zlawyer.fr/logiciel-avocats/',
         },
         {
-          hid: 'og-title',
           property: 'og:title',
           content:
             'Logiciel facturation avocat : Solution de gestion cabinets d’avocats',
         },
         {
-          hid: 'og-desc',
           property: 'og:description',
           content:
             'Logiciel avocat intuitif, simple, et complet pour la gestion du cabinet | zLawyer aide les avocats, depuis 2006, à ne plus perdre de temps... à en saisir.',
         },
-        { hid: 'og-image', property: 'og:image', content: '/ogImage.webp' },
+        { property: 'og:image', content: '/ogImage.webp' },
 
         //
       ],
@@ -116,21 +113,17 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['@/css/main.css'],
+  css: ['@/scss/main.scss', '@/css/main.css'],
 
   vite: {
+    plugins: [
+      tailwindcss() as any,
+    ],
     resolve: {
       alias: {
         '~': '/public',
         '@': '/assets',
       },
-    },
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
     },
   },
 

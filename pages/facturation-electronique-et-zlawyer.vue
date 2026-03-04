@@ -285,7 +285,7 @@
                 class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
                 @click="toggleFaq(idx)">
                 <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
-                <div class="flex-shrink-0">
+                <div class="shrink-0">
                   <svg
                     :class="['transition-all duration-500 ease-in-out transform', openFaq === idx ? 'rotate-180 text-orange scale-110' : 'text-gray-400 group-hover:text-orange']"
                     width="20" height="20" fill="none" viewBox="0 0 24 24">
@@ -296,7 +296,7 @@
               </button>
               <transition name="transition-div" appear>
                 <div v-show="openFaq === idx" class="overflow-hidden">
-                  <div class="px-6 pb-6 border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
+                  <div class="px-6 pb-6 border-t border-gray-100 bg-linear-to-b from-gray-50/50 to-white">
                     <div v-html="item.a" class="pt-4"></div>
                   </div>
                 </div>
@@ -322,7 +322,7 @@
                 class="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none rounded-xl transition-all duration-200 hover:bg-gray-50"
                 @click="toggleStatuts(idx)">
                 <span class="font-semibold text-gray-800  pr-4">{{ item.q }}</span>
-                <div class="flex-shrink-0">
+                <div class="shrink-0">
                   <svg
                     :class="['transition-all duration-500 ease-in-out transform', openStatuts === idx ? 'rotate-180 text-orange scale-110' : 'text-gray-400 group-hover:text-orange']"
                     width="20" height="20" fill="none" viewBox="0 0 24 24">
@@ -333,7 +333,7 @@
               </button>
               <transition name="transition-div" appear>
                 <div v-show="openStatuts === idx" class="overflow-hidden">
-                  <div class="px-6 pb-6 border-t border-gray-100 bg-gradient-to-b from-gray-50/50 to-white">
+                  <div class="px-6 pb-6 border-t border-gray-100 bg-linear-to-b from-gray-50/50 to-white">
                     <div v-html="item.a" class="pt-4"></div>
                   </div>
                 </div>
@@ -480,8 +480,8 @@ export default {
       links.forEach(link => {
         const href = link.getAttribute('href').trim();
         const isActive = href === `#${id}`;
-        link.classList.toggle('font-bold', isActive);
-        link.classList.toggle('text-orange', isActive);
+        link.classList.toggle('font-bold!', isActive);
+        link.classList.toggle('text-orange!', isActive);
       });
     }
 

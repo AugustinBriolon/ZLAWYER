@@ -22,7 +22,7 @@
           <!-- <p class="text-orange font-bold text-6xl text-center">49€</p>
           <p class="text-orange font-bold text-2xl">/mois</p>
           <p class="text-orange font-bold text-2xl">/utilisateur</p> -->
-          <p class="text-orange text-sm">et sans engagement</p>
+          <p class="text-orange! text-sm!">et sans engagement</p>
         </div>
 
         <NuxtLink title="Page Contact" to="/contact" class="button-orange mt-6 text-center w-full md:w-1/2">Demandez un
@@ -89,7 +89,7 @@
           </div>
           <div class="flex items-center gap-2 w-full">
             <img :src="'images/logos/checkIcon.svg'" alt="icone de validation" class="h-4" />
-            <p class="w-full text-clip font-bold"><span class="text-orange">(New)</span> Intelligence artificielle
+            <p class="w-full text-clip font-bold!"><span class="text-orange!">(New)</span> Intelligence artificielle
               Zéphyr</p>
           </div>
         </div>

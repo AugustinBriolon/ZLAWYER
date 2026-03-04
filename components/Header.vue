@@ -1,6 +1,6 @@
 <template>
   <div class="backdrop-blur-lg fixed border-b border-b-white/20 w-screen" style="z-index: 60;">
-    <div class="max-w-[1920px] mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
+    <div class="max-w-max-width-screen mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
 
       <NuxtLink title="Page Home" to="/">
         <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/zeleLogo.png" class="h-12 sm:h-16 cursor-pointer"
@@ -24,15 +24,12 @@
         </li>
       </ul>
 
-      <!-- Placeholder visuel pour réserver l'espace dans le header -->
       <div class="block lg:hidden w-10 h-10" />
     </div>
   </div>
 
-  <!-- Tout ce qui concerne le mobile est téléporté dans body -->
   <Teleport to="body">
 
-    <!-- Burger : fixed, totalement libre -->
     <button class="fixed lg:hidden w-10 h-10 flex items-center justify-center"
       style="top: 1.8rem; right: 2rem; z-index: 300;" @click="isActive = !isActive" aria-label="Menu">
       <span class="burger-icon">

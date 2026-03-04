@@ -1,7 +1,7 @@
 <template>
   <div class="max-width-white-section">
     <div class="max-width-white-section-content flex flex-col items-center gap-8 container-infos">
-      <h2 class="anim-infos text-orange text-center">
+      <h2 class="anim-infos text-orange! text-center">
         Une réponse simple à vos questions
       </h2>
 
@@ -83,9 +83,9 @@ export default {
             end: 'bottom 50%',
           },
         })
-        .to(item, {
-          opacity: 1,
-          y: 0,
+        .from(item, {
+          opacity: 0,
+          y: -10,
           duration: 0.5,
         })
         .delay(index * 0.1);
@@ -93,10 +93,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.anim-infos {
-  opacity: 0;
-  transform: translateY(-50px);
-}
-</style>

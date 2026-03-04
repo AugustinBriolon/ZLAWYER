@@ -23,7 +23,7 @@
     <h3>3a. Le type de cookies utilisés et leurs objectifs</h3>
     <p>Nous utilisons les cookies suivants :</p>
     <br>
-    <p>
+
     <ul class="cgu-list-disc ml-8">
       <li>Cookies fonctionnels : ils nous permettent d'améliorer le fonctionnement du site internet et de le rendre plus
         convivial pour le visiteur. Par exemple, nous stockons vos données de connexion.</li>
@@ -41,7 +41,7 @@
       <li>combien de temps les utilisateurs consultent une page particulière</li>
       <li>la page à partir de laquelle les visiteurs quittent le site</li>
     </ul>
-    </p>
+
 
     <hr class="my-10">
 
@@ -81,7 +81,7 @@
       consultez la fonction d'aide de votre navigateur, ou rendez-vous sur l’un des liens ci-dessous pour accéder
       directement au manuel de votre navigateur.</p>
     <br>
-    <p>
+
     <ul class="cgu-list-disc ml-8">
       <li>Firefox : <a class="text-link"
           href="https://support.mozilla.org/fr/kb/effacer-les-cookies-pour-supprimer-les-information"
@@ -96,7 +96,7 @@
       <li>Safari : <a class="text-link" href="https://support.apple.com/kb/ph31411?locale=fr_FR"
           target="_blank">https://support.apple.com/kb/ph31411?locale=fr_FR</a></li>
     </ul>
-    </p>
+
 
     <hr class="my-10">
 
