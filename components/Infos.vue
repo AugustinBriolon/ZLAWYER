@@ -73,28 +73,26 @@
 <script>
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 export default {
   mounted() {
     let animInfos = gsap.utils.toArray('.anim-infos');
-    animInfos.forEach((item, index) => {
-      gsap
-        .timeline({
-          scrollTrigger: {
-            trigger: '.container-infos',
-            start: 'top 50%',
-            toggleActions: 'restart none none reverse',
-            end: 'bottom 50%',
-          },
-        })
-        .from(item, {
-          opacity: 0,
-          y: -10,
-          duration: 0.8,
-          stagger: 0.1,
-        })
-    });
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: '.container-infos',
+          start: 'top 50%',
+          toggleActions: 'restart none none reverse',
+          end: 'bottom 50%',
+        },
+      })
+      .from(animInfos, {
+        opacity: 0,
+        y: -10,
+        duration: 0.8,
+        stagger: 0.05,
+      })
   },
 };
 </script>

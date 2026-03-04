@@ -37,14 +37,12 @@ export default {
   },
   mounted() {
     let animHero = gsap.utils.toArray('.anim-hero');
-    animHero.forEach((item, index) => {
-      let tl = gsap.timeline();
-      tl.from(item, {
-        opacity: 0,
-        y: -10,
-        duration: 0.8,
-        stagger: 0.1,
-      });
+    let tl = gsap.timeline();
+    tl.from(animHero, {
+      opacity: 0,
+      y: -10,
+      duration: 0.8,
+      stagger: 0.05,
     });
   },
 };
