@@ -329,7 +329,7 @@
         <hr class="my-12 border-gray-200">
 
         <section class="mb-16" id="statuts-factures">
-          <h2 class="text-3xl font-bold mb-8 text-gray-800">Les principaux statuts d'une facture qui seront mis en
+          <h2 class="text-2xl! font-bold mb-8 text-gray-800">Les principaux statuts d'une facture qui seront mis en
             place</h2>
           <p class="  mb-8">
             Une facture peut passer par plusieurs statuts normalisés tout au long de son cycle :
