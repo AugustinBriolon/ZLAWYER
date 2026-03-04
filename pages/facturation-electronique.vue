@@ -774,7 +774,7 @@ export default {
       links.forEach(link => {
         const isActive = link.getAttribute('href') === `#${id}`;
         link.classList.toggle('text-orange!', isActive);
-        link.classList.toggle('font-bold!', isActive);
+        link.classList.toggle('font-bold! ', isActive);
         link.classList.toggle('', !isActive);
       });
     }

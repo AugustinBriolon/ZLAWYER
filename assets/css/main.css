@@ -10,6 +10,8 @@
   --color-orange: #ED630F;
   --color-black: #0A0A0A;
 
+  --breakpoint-header: 1100px;
+
   /* Rayon de bordure -> rounded-radius-current */
   --radius-radius-current: 15px;
 

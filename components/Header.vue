@@ -3,17 +3,17 @@
     <div class="max-w-max-width-screen mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
 
       <NuxtLink title="Page Home" to="/">
-        <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/zeleLogo.png" class="h-12 sm:h-16 cursor-pointer"
+        <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/zeleLogo.png" class="h-12 cursor-pointer"
           alt="Logo zLawyer" />
       </NuxtLink>
 
-      <ul class="items-center hidden lg:flex gap-8 header-nav">
-        <li><a class="text-link" href="/#solutions">Avantages</a></li>
-        <li><a class="text-link" href="/#fonctionnalites">Fonctionnalités</a></li>
-        <li><a class="text-link" href="/#facturation-electronique">Facturation Électronique</a></li>
-        <li><a class="text-link" href="/#clients">Témoignages</a></li>
-        <li><a class="text-link" href="/#tarif">Tarif</a></li>
-        <li><a class="text-link" href="https://client.zlawyer.fr/sign-in" target="_blank">Accès Client</a></li>
+      <ul class="items-center hidden header:flex gap-8 header-nav">
+        <li><a class="text-link whitespace-nowrap" href="/#solutions">Avantages</a></li>
+        <li><a class="text-link whitespace-nowrap" href="/#fonctionnalites">Fonctionnalités</a></li>
+        <li><a class="text-link whitespace-nowrap" href="/#facturation-electronique">Facturation Électronique</a></li>
+        <li><a class="text-link whitespace-nowrap" href="/#clients">Témoignages</a></li>
+        <li><a class="text-link whitespace-nowrap" href="/#tarif">Tarif</a></li>
+        <li><a class="text-link whitespace-nowrap" href="https://client.zlawyer.fr/sign-in" target="_blank">Accès Client</a></li>
         <li class="hidden 2xl:block">
           <a href="tel:330184257027" class="button-transparent text-link font-normal">01 84 25 70 27</a>
         </li>
@@ -24,13 +24,13 @@
         </li>
       </ul>
 
-      <div class="block lg:hidden w-10 h-10" />
+      <div class="block header:hidden w-10 h-10" />
     </div>
   </div>
 
   <Teleport to="body">
 
-    <button class="fixed lg:hidden w-10 h-10 flex items-center justify-center"
+    <button class="fixed header:hidden w-10 h-10 flex items-center justify-center"
       style="top: 1.8rem; right: 2rem; z-index: 300;" @click="isActive = !isActive" aria-label="Menu">
       <span class="burger-icon">
         <span :class="['bar bar-top', isActive && 'active']"></span>

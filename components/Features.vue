@@ -383,7 +383,7 @@
             grâce à zLawyer
           </h3>
           <p>En choisissant <span class="font-bold">zLawyer</span>, vous disposez d'une solution prête pour la réforme
-            de la facturation électronique 2026, intégrant l'émission et la transmission de factures électroniques au
+            de la facturation électronique, intégrant l'émission et la transmission de factures électroniques au
             format <span class="font-bold">Factur-X</span>.</p>
 
           <p>Grâce à notre <span class="font-bold">partenariat stratégique avec Pennylane</span>, <NuxtLink

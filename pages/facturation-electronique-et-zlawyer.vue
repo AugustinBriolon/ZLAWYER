@@ -3,8 +3,8 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       <div class="flex flex-col gap-4">
-        <h1 class="anim-hero text-left">
-          zLawyer <span class="text-underline">anticipe la réforme</span> de la facturation électronique 2026 et <span
+        <h1 class="anim-hero text-left text-3xl!">
+          zLawyer <span class="text-underline">anticipe la réforme</span> de la facturation électronique et <span
             class="text-underline">structure la transition</span> des cabinets d'avocats
         </h1>
 
@@ -15,8 +15,12 @@
         <p>Au-delà d'une contrainte réglementaire, elle constitue une transformation structurelle des processus de
           facturation et de transmission des données.</p>
         <p>Fidèle à sa mission : proposer un <span class="font-bold">logiciel métier complet et sécurisé dédié aux
-            professionnels du droit</span>, zLawyer anticipe cette évolution en intégrant la <span
-            class="font-bold">facturation électronique</span> au cœur de sa solution.</p>
+            professionnels du droit</span>, zLawyer anticipe cette évolution en intégrant la facturation électronique <span
+            class="font-bold"> sans surcoût</span> au cœur de sa solution.</p>
+
+        <NuxtLink title="Page Contact" to="/contact" class="button-transparent w-fit mt-4">
+          Je souhaite être contacté
+        </NuxtLink>
       </div>
       <img src="https://www.zlawyer.fr/logiciel-avocats/images/features/features10.webp" alt="illustration du logiciel"
         class="w-full rounded-radius-current" />
@@ -48,7 +52,7 @@
             <li>
               <a href="#preparation"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Préparez votre cabinet à 2026
+                Préparez votre cabinet
               </a>
             </li>
             <li>
@@ -69,8 +73,8 @@
       <div class="w-full">
 
         <section class="pb-16" id="partenariat">
-          <h2 class="text-2xl font-bold mb-6">
-            Facturation électronique 2026 pour les avocats : <span class="text-underline">zLawyer</span> s’impose comme
+          <h2 class="text-2xl! font-bold mb-6">
+            Facturation électronique pour les avocats : <span class="text-underline">zLawyer</span> s’impose comme
             partenaire stratégique des cabinets
           </h2>
           <p class="leading-relaxed">
@@ -90,7 +94,7 @@
         </section>
 
         <section class="pb-16" id="continuite">
-          <h2 class="text-2xl font-bold mb-6 ">
+          <h2 class="text-2xl! font-bold mb-6 ">
             zLawyer, logiciel avocat prêt pour la réforme 2026
           </h2>
           <p>
@@ -134,12 +138,12 @@
         </section>
 
         <section class="pb-16" id="conformite">
-          <h2 class="text-2xl font-bold mb-6 ">
+          <h2 class="text-2xl! font-bold mb-6 ">
             Un partenariat stratégique avec Pennylane au service des cabinets d’avocats
           </h2>
           <p>
-            Pour accompagner cette transformation réglementaire, zLawyer a noué un
-            <span class="font-bold">partenariat stratégique avec Pennylane</span>,
+            Pour accompagner cette transformation réglementaire, zLawyer a noué un partenariat stratégique avec
+             <a href="https://www.pennylane.com/fr/logiciel-facturation-electronique" target="_blank" class="underline! text-orange!">Pennylane</a>,
             plateforme agréée de référence, gage de conformité et de fiabilité.
           </p>
           <p class="my-2">Ce partenariat permet d’intégrer directement dans zLawyer :</p>
@@ -168,8 +172,8 @@
           </p>
         </section>
 
-        <section class="pb-16" id="preparation">
-          <h2 class="text-2xl font-bold mb-6 ">
+        <section class="pb-8" id="preparation">
+          <h2 class="text-2xl! font-bold mb-6 ">
             Facturation électronique cabinet d’avocats : une approche métier, pas générique
           </h2>
           <p>
@@ -201,11 +205,11 @@
             La fonctionnalité de facturation électronique est incluse dans l’abonnement et donc <span class="font-bold">sans surcoût.</span>
           </p>
 
-          <h2 class="text-2xl font-bold mb-6 mt-10 ">
+          <h2 class="text-2xl! font-bold mb-6 mt-16 ">
             Anticiper la conformité, renforcer la performance du cabinet
           </h2>
           <p class="my-2">
-            <span class="font-bold">Choisir zLawyer pour la facturation électronique 2026, c’est :</span>
+            <span class="font-bold">Choisir zLawyer pour la facturation électronique, c’est :</span>
           </p>
           <ul class="mt-4 mb-6 space-y-2 ml-4">
             <li class="flex items-start">
@@ -234,7 +238,7 @@
             *Vos données sont protégées par une infrastructure certifiée ISO 27001, déployée sur serveur SecNumCloud.
           </p>
 
-          <h2 class="text-2xl font-bold mb-6 mt-10 ">
+          <h2 class="text-2xl! font-bold mb-6 mt-16">
             Préparez dès maintenant votre cabinet à la facturation électronique obligatoire
           </h2>
           <p class="">
@@ -260,8 +264,8 @@
         <hr class="mb-12 border-gray-200">
 
         <section class="mb-16">
-          <div class="p-8 text-center">
-            <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
+          <div class="px-8 py-4 text-center">
+            <h2 class="text-2xl! font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="  mb-6">
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
@@ -307,7 +311,6 @@
 
         <hr class="my-12 border-gray-200">
 
-
         <section class="mb-16" id="statuts-factures">
           <h2 class="text-3xl font-bold mb-8 text-gray-800">Les principaux statuts d'une facture qui seront mis en
             place</h2>
@@ -351,7 +354,7 @@
 
         <section class="mb-16">
           <div class="p-8 text-center">
-            <h2 class="text-2xl font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
+            <h2 class="text-2xl! font-bold mb-4"><span class="text-underline">Besoin</span> d'en savoir plus ?</h2>
             <p class="  mb-6">
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
@@ -419,7 +422,7 @@ export default {
         },
         {
           q: "11. Comment zLawyer m'accompagne dans cette transition ?",
-          a: "<ul class='list-disc ml-6'><li>Logiciel conforme à la réforme 2026 et PA compliant.</li><li>Émission et réception des factures 100 % automatisées.</li><li>Suivi des statuts, alertes et tableaux de bord.</li><li>Formation et support dédiés aux cabinets d'avocats.</li></ul>"
+          a: "<ul class='list-disc ml-6'><li>Logiciel conforme à la réforme et PA compliant.</li><li>Émission et réception des factures 100 % automatisées.</li><li>Suivi des statuts, alertes et tableaux de bord.</li><li>Formation et support dédiés aux cabinets d'avocats.</li></ul>"
         },
         {
           q: "12. Je travaille pour des entreprises en Europe. Devrai-je émettre des factures électroniques pour ces clients ?",
