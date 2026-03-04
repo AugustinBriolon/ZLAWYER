@@ -25,24 +25,24 @@
 
           <div class="z-10 relative w-full max-w-2xl">
             <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/zeleLogo.svg" class="h-16" alt="logo zele solutions" />
-            <h2 class="mt-6 text-4xl text-white">
+            <h2 class="mt-6 text-4xl! text-white!">
               Un Renseignement ? <br />
               Une Démo ? <br />
               Contactez-nous !
             </h2>
-            <p class="mt-6 text-blue text-bolder text-lg">
+            <p class="mt-6 text-blue! text-bolder! text-lg!">
               zLawyer, la solution de gestion de cabinets d'avocats simple,
               ergonomique, sans engagement !
             </p>
             <div class="mt-14 flex items-center">
               <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/phoneLogo.svg" alt="logo de telephone" />
               <p class="ml-4 shrink-0">
-                <a class="text-blue" href="tel:330184257027">01 84 25 70 27</a>
+                <a class="text-blue!" href="tel:330184257027">01 84 25 70 27</a>
               </p>
             </div>
             <div class="mt-14 flex items-center">
               <img src="https://www.zlawyer.fr/logiciel-avocats/images/logos/locaLogo.svg" class="ml-2" alt="logo de localisation" />
-              <p class="ml-4 text-blue shrink-0">
+              <p class="ml-4 text-blue! shrink-0">
                 Zele Solutions <br />
                 9, rue Angélique Verien, <br />
                 92200, Neuilly-sur-Seine
@@ -54,12 +54,12 @@
 
       <div class="p-10">
         <h2 class="p-2">Contact</h2>
-        <p class="text-response" :class="[isSuccess ? 'text-green-600' : 'text-red-600']">
+        <p class="text-response" :class="[isSuccess ? 'text-green-600!' : 'text-red-600!']">
           {{ response }}
         </p>
         <form v-on:submit.prevent="onSubmit()" method="POST" class="contact-card-form">
           <div class="flex flex-col p-2">
-            <label for="cabinetName">Cabinet <span class="text-red-600">*</span></label>
+            <label for="cabinetName">Cabinet <span class="text-red-600!">*</span></label>
             <input type="text" id="cabinetName" name="cabinetName" v-model="cabinet" />
           </div>
 
@@ -74,12 +74,12 @@
 
           <div class="grid grid-cols-2">
             <div class="flex flex-col p-2">
-              <label for="name">Nom <span class="text-red-600">*</span></label>
+              <label for="name">Nom <span class="text-red-600!">*</span></label>
               <input type="text" id="name" name="name" v-model="nom" />
             </div>
 
             <div class="flex flex-col p-2">
-              <label for="firstName">Prénom <span class="text-red-600">*</span></label>
+              <label for="firstName">Prénom <span class="text-red-600!">*</span></label>
               <input type="text" id="firstName" name="firstName" v-model="prenom" />
             </div>
           </div>
