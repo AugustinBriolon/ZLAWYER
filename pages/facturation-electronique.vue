@@ -650,7 +650,7 @@
             la réforme sur la facturation électronique tout en bénéficiant d&#39;une solution performante et
             sécurisée.
           </p>
-          <NuxtLink title="Page Contact" class="text-orange underline" to="/facturation-electronique-et-zlawyer">
+          <NuxtLink title="Page Contact" class="button-transparent w-fit" to="/facturation-electronique-et-zlawyer">
             Notre solution à la réforme
           </NuxtLink>
 
@@ -772,10 +772,11 @@ export default {
 
     function setActive(id) {
       links.forEach(link => {
-        const isActive = link.getAttribute('href') === `#${id}`;
+        const href = link.getAttribute('href').trim();
+        const isActive = href === `#${id}`;
         link.classList.toggle('text-orange!', isActive);
-        link.classList.toggle('font-bold! ', isActive);
-        link.classList.toggle('', !isActive);
+        link.classList.toggle('font-bold!', isActive);
+        // link.classList.toggle('', !isActive);
       });
     }
 
@@ -784,7 +785,6 @@ export default {
         trigger: section,
         start: 'top 250px',
         end: 'bottom center',
-        // markers: true,
         onEnter: () => setActive(section.id),
         onEnterBack: () => setActive(section.id),
       });

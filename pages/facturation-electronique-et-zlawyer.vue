@@ -34,7 +34,7 @@
             <li>
               <a href="#partenariat"
                 class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Un partenariat stratégique
+                Facturation électronique avec zLawyer
               </a>
             </li>
             <li>
@@ -46,7 +46,19 @@
             <li>
               <a href="#conformite"
                 class="scroll-link hover:text-orange transition-colors duration-200 text-sm block py-1">
-                Anticiper la conformité, <br/> renforcer la performance
+                Partenariat avec Pennylane
+              </a>
+            </li>
+            <li>
+              <a href="#approche-metier"
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Une approche métier
+              </a>
+            </li>
+            <li>
+              <a href="#performance-cabinet"
+                class="scroll-link  hover:text-orange transition-colors duration-200 text-sm block py-1">
+                Renforcer la performance
               </a>
             </li>
             <li>
@@ -172,7 +184,7 @@
           </p>
         </section>
 
-        <section class="pb-8" id="preparation">
+        <section class="pb-8" id="approche-metier">
           <h2 class="text-2xl! font-bold mb-6 ">
             Facturation électronique cabinet d’avocats : une approche métier, pas générique
           </h2>
@@ -202,9 +214,12 @@
             </li>
           </ul>
           <p>
-            La fonctionnalité de facturation électronique est incluse dans l’abonnement et donc <span class="font-bold">sans surcoût.</span>
+            La fonctionnalité de facturation électronique est incluse dans l’abonnement et donc
+            <span class="font-bold">sans surcoût.</span>
           </p>
+        </section>
 
+        <section class="pb-8" id="performance-cabinet">
           <h2 class="text-2xl! font-bold mb-6 mt-16 ">
             Anticiper la conformité, renforcer la performance du cabinet
           </h2>
@@ -237,7 +252,9 @@
           <p class="mt-4 text-sm italic">
             *Vos données sont protégées par une infrastructure certifiée ISO 27001, déployée sur serveur SecNumCloud.
           </p>
+        </section>
 
+        <section class="pb-8" id="preparation">
           <h2 class="text-2xl! font-bold mb-6 mt-16">
             Préparez dès maintenant votre cabinet à la facturation électronique obligatoire
           </h2>
@@ -359,7 +376,7 @@
               Contactez-nous dès maintenant pour une démonstration personnalisée de zLawyer
             </p>
             <NuxtLink title="Page Contact" class="button-transparent" to="/contact">
-              Demander à être contacté
+              Je souhaite être contacté
             </NuxtLink>
           </div>
         </section>
@@ -386,7 +403,7 @@ export default {
         },
         {
           q: "2. Qu'est-ce qu'une PA ?",
-          a: "Une PA (Plateforme Agrée) est une plateforme privée agréée par l'administration fiscale, qui peut :<ul class='list-disc ml-6'><li>émettre et recevoir des factures électroniques,</li><li>transmettre les données à la DGFiP,</li><li>assurer le suivi des statuts.</li></ul><div class='bg-gray-50 border-l-4 border-orange p-4 rounded mt-2'><p class='text-orange font-medium'>zLawyer est PA compliant : vous n'avez pas besoin de chercher une solution externe.</p></div>"
+          a: "Une PA (Plateforme Agrée) est une plateforme privée agréée par l'administration fiscale, qui peut :<ul class='list-disc! mt-2 ml-12'><li>émettre et recevoir des factures électroniques,</li><li>transmettre les données à la DGFiP,</li><li>assurer le suivi des statuts.</li></ul><div class='bg-gray-50 border-l-4 border-orange p-4 rounded mt-2'><p class='text-orange font-medium'>zLawyer est PA compliant : vous n'avez pas besoin de chercher une solution externe.</p></div>"
         },
         {
           q: "3. Est-ce que mon cabinet d'avocats est concerné ?",
@@ -410,7 +427,7 @@ export default {
         },
         {
           q: "8. Quels formats de factures seront autorisés ?",
-          a: "<ul class='list-disc ml-6'><li>Factur-X (hybride PDF/XML),</li><li>UBL et CII (formats structurés XML).</li></ul><div class='bg-blue-50 border-l-4 border-blue-400 p-4 rounded mt-2'><p class='text-blue-800 font-medium'>Tous lisibles automatiquement par les logiciels comptables.</p></div>"
+          a: "<ul class='list-disc ml-6'><li>Factur-X (hybride PDF/XML),</li><li>UBL et CII (formats structurés XML).</li></ul><div class='bg-gray-50 border-l-4 border-orange p-4 rounded mt-2'><p class='text-orange-800 font-medium'>Tous lisibles automatiquement par les logiciels comptables.</p></div>"
         },
         {
           q: "9. Quelle est la différence entre e-invoicing et e-reporting ?",
