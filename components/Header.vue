@@ -1,5 +1,5 @@
 <template>
-  <div class="backdrop-blur-lg fixed border-b border-b-white/20 w-screen" style="z-index: 60;">
+  <div class="backdrop-blur-lg fixed border-b border-b-white/80 w-screen" style="z-index: 60;">
     <div class="max-w-max-width-screen mx-auto h-24 flex items-center justify-between px-8 py-6 w-full">
 
       <NuxtLink title="Page Home" to="/">

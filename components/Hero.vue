@@ -11,7 +11,7 @@
       <NuxtLink title="Page Contact" to="/contact" class="anim-hero button-orange w-max">Je souhaite une démonstration
       </NuxtLink>
     </div>
-    <div class="container-img">
+    <div class="container-img space-y-4">
       <img src="/images/hero/illustrationHero.webp" alt="illustration du logiciel" width="939" height="648"
         fetchpriority="high" decoding="async" class="w-full img-hero anim-hero" />
       <p class="text-center text-lg hidden lg:block">
